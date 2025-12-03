@@ -103,6 +103,9 @@ body {
 .sub-pages01{
   padding-bottom: 70px;
 }
+.new-cson{
+  padding-top: 70px;
+}
 .crad-list-menu p strong{
   color: var(--primarycolor);
 }
@@ -197,7 +200,7 @@ body {
   height: 100%;
 }
 .mains-dates{
-  margin-top: 150px;
+  margin-top: 0;
 }
 .datea-list{
   border: solid 1px #f2f2f2;

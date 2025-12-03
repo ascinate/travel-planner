@@ -447,24 +447,31 @@ export default function TravelPlanner() {
               {!result && (
                 <>
 
-                    <div className="right-coloms">
+                            
+
+                    <section className='float-left w-full new-cson'>
+                        <div className='container'>
+                              <div className="right-coloms">
                                   <div className='banners-text01'>
-                                    <div className='grid grid-cols-2'>
-                                      <div className='flex items-center mt-5'>
-                                         <div className='flex items-center'>
-                                          <figure className='user-img01'>
-                                            <Image width={143} height={23} src="/user01.jpg" alt='user'/>
-                                          </figure>
-                                          <figure className='user-img01'>
-                                            <Image width={143} height={23} src="/user01.jpg" alt='user'/>
-                                          </figure>
-                                          <figure className='user-img01'>
-                                            <Image width={143} height={23} src="/user01.jpg" alt='user'/>
-                                          </figure>
-                                         </div>
-                                          <h5 className='ml-5'> <Image width={143} height={23} src="/ratings.svg" alt="sm"/> 
-                                            <span className='d-block'> 5k+ Reviews </span>
-                                          </h5>
+                                    <div className='grid grid-cols-2 items-center'>
+                                      <div className='txerat'>
+                                        <h2> Build a trip with your saves or use AI to get </h2>
+                                        <div className='flex items-center mt-5'>
+                                          <div className='flex items-center'>
+                                            <figure className='user-img01'>
+                                              <Image width={143} height={23} src="/user01.jpg" alt='user'/>
+                                            </figure>
+                                            <figure className='user-img01'>
+                                              <Image width={143} height={23} src="/user01.jpg" alt='user'/>
+                                            </figure>
+                                            <figure className='user-img01'>
+                                              <Image width={143} height={23} src="/user01.jpg" alt='user'/>
+                                            </figure>
+                                          </div>
+                                            <h5 className='ml-5'> <Image width={143} height={23} src="/ratings.svg" alt="sm"/> 
+                                              <span className='d-block'> 5k+ Reviews </span>
+                                            </h5>
+                                        </div>
                                       </div>
                                       <div className='grid grid-cols-2 gap-4 mains-dates'>
                                           <div className='datea-list flex items-center'>
@@ -489,29 +496,6 @@ export default function TravelPlanner() {
                                     </div>
                                   </div>
                               </div>
-
-                    <section className='float-left w-full'>
-                        <div className='container'>
-                                       <div className='grid grid-cols-2 gap-4 mains-dates'>
-                                          <div className='datea-list flex items-center'>
-                                              <div className='cions'>
-                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(194,157,89,1)"><path d="M21.7267 2.95694L16.2734 22.0432C16.1225 22.5716 15.7979 22.5956 15.5563 22.1126L11 13L1.9229 9.36919C1.41322 9.16532 1.41953 8.86022 1.95695 8.68108L21.0432 2.31901C21.5716 2.14285 21.8747 2.43866 21.7267 2.95694ZM19.0353 5.09647L6.81221 9.17085L12.4488 11.4255L15.4895 17.5068L19.0353 5.09647Z"></path></svg>
-                                              </div>
-                                              <h3> 
-                                                 12,05510
-                                                <span className='block'> Trips Planned </span>
-                                              </h3>
-                                          </div>
-                                          <div className='datea-list dark-bg flex items-center'>
-                                              <div className='cions'>
-                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(194,157,89,1)"><path d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"></path></svg>
-                                              </div>
-                                              <h3 className='text-white'> 
-                                                 25,05510
-                                                <span className='block'> Messages Processed </span>
-                                              </h3>
-                                          </div>
-                                      </div>
                         </div>
                     </section>
                     <section className='float-left w-full explores-div'>
