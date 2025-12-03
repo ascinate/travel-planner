@@ -108,13 +108,13 @@ export default function Footer() {
              <div className="container">
                  <div className="grid grid-cols-2 justify-between items-start">
                     <div className="copyrs01">
-                         <p> &copy; 2019-2025 Niche. All Rights Reserved. </p>
+                         <p> &copy; 2025 Niche. All Rights Reserved. </p>
                     </div>
                     <div className="last-list01">
                          <ul className="flex items-center ml-auto table">
                             <li>
                                 <Link href="/" className="text-white"> Privacy Policy </Link>
-                                <Link href="/" className="text-white ml-4"> Terms & Conditions </Link>
+                                <Link href="/" className="text-white ml-4"> Terms and Conditions </Link>
                             </li>
                          </ul>
                     </div>
