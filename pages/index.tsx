@@ -1,5 +1,5 @@
 "use client";
-import { Inter, Be_Vietnam_Pro, Big_Shoulders } from 'next/font/google';
+import { Inter, Big_Shoulders } from 'next/font/google';
 import React, { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -16,11 +16,6 @@ import Link from 'next/link';
 
 const inter = Inter({
   variable: "--font-inter-sans",
-  weight: ['300', '400', '500', '600', '700'],
-  subsets: ['latin'],
-});
-const beVietnamPro = Be_Vietnam_Pro({
-  variable: "--font-beVietnamPro-sans",
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
 });
