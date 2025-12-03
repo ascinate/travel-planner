@@ -108,7 +108,7 @@ export default function Footer() {
              <div className="container">
                  <div className="grid grid-cols-2 justify-between items-start">
                     <div className="copyrs01">
-                         <p> © 2019-2025 Niche. All Rights Reserved. </p>
+                         <p> &copy; 2019-2025 Niche. All Rights Reserved. </p>
                     </div>
                     <div className="last-list01">
                          <ul className="flex items-center ml-auto table">
