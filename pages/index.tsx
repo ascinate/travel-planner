@@ -1,5 +1,5 @@
 "use client";
-import { Inter, DM_Sans, Open_Sans, Be_Vietnam_Pro, Big_Shoulders } from 'next/font/google';
+import { Inter, Be_Vietnam_Pro, Big_Shoulders } from 'next/font/google';
 import React, { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -494,7 +494,7 @@ export default function TravelPlanner() {
                              <div className='grid grid-cols-2 gap-4 justify-between items-center'>
                               <div className='headings-div'>
                                   <h2 className='main-headings'> Where to go next </h2>
-                                  <p className='mt-2'> We’ve updated our Trips product to help. </p>
+                                  <p className='mt-2'> We've updated our Trips product to help. </p>
                               </div>
 
                               <Link href="/" className='b-dsicover-btn ml-auto'>Discover More</Link>
