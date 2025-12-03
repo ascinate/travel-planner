@@ -437,7 +437,7 @@ export default function TravelPlanner() {
                               </div>
                               <div className="right-coloms">
                                   <div className='banners-text01'>
-                                      <h1 className='text-white mt-5'> Hey I’m Layla,
+                                      <h1 className='text-white mt-5'> Hey Im Layla,
                                         
                                         <span className='block'> your AI trip planner </span> </h1>
                                       <p className='text-white'> Build a trip with your saves or use AI to get custom recommendations </p>
@@ -489,7 +489,7 @@ export default function TravelPlanner() {
                              <div className='grid grid-cols-2 gap-4 justify-between items-center'>
                               <div className='headings-div'>
                                   <h2 className='main-headings'> Where to go next </h2>
-                                  <p className='mt-2'> We've updated our Trips product to help. </p>
+                                  <p className='mt-2'> Weve updated our Trips product to help. </p>
                               </div>
 
                               <Link href="/" className='b-dsicover-btn ml-auto'>Discover More</Link>
