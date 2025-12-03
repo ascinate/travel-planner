@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primarycolor:#dcaf5d;
+  --textcolor:#1b1b1b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navications-div{
+  padding: 12px 0;
+}
+
+.navications-div {
+    padding: 12px 0;
+    background: #00000069;
+    position: absolute;
+    z-index: 2;
+}
+.menu-sections01{
+  width:79%;
+}
+.menu-sections01 .nav-link ,
+.login-ins{
+  color: var(--background);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 15px;
+
+}
+.right-logins{
+  width: 21%;
+  justify-content: flex-end;
+}
+.signup-btn{
+  background: var(--primarycolor);
+  padding: 12px 30px;
+  border-radius: 15px;
+  color: var(--background) !important;
+}
+/* banner part */
+
+.banner-slider-parts{
+  height: 650px;
+}
+.mains-forms014{
+  border-radius: 20px;
+  padding: 42px;
+  width: 85%;
+}
+.forms-seraclist{
+  margin-top: -480px;
+  position: relative;
+  z-index: 2;
+}
+.forms-seraclist::before{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+}
+.crm-groups{
+  margin-bottom: 20px;
+}
+.crm-groups label{
+  color: var(--textcolor);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.suend-butons{
+  width: 100%;
+  background: var(--primarycolor);
+      padding: 17px 32px;
+    margin-top: 20px;
+    border-radius: 17px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.suend-butons:hover{
+  background: var(--foreground);
+  color: var(--background) !important;
+}
+.suend-butons:hover svg{
+  fill: var(--background) !important;
+}
+.crm-groups label span{
+  margin-right: 5px;
+}
+.crm-groups input,
+.crm-groups select{
+  background-color: #f2f2f2;
+  height: 55px;
+  color: var(--textcolor);
+  border-radius: 13px;
+  text-indent: 15px;
+  border: none;
+}
+.crm-groups textarea{
+  background-color: #f2f2f2;
+  height: 100px;
+  resize: none;
+  color: var(--textcolor);
+  border-radius: 13px;
+  border: none;
+}
+.crm-groups input:focus,
+.crm-groups select:focus{
+  box-shadow: none !important;
+}
+.inside-scrolls-div{
+  height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
+}
+.banners-text01 h1{
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 110px;
+}
+.banners-text01 h1 span{
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.banners-text01 p{
+  margin: 0;
+  font-size: 19px;
+  font-weight: 500;
+}
+.user-img01{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 5px #fff;
+  margin: 0 -10px;
+}
+.user-img01 img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.mains-dates{
+  margin-top: 150px;
+}
+.datea-list{
+  border: solid 1px #f2f2f2;
+  border-radius: 15px;
+  overflow: hidden;
+      height: 140px;
+    padding: 0 30px;
+}
+.datea-list .cions{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fffaf0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #dcaf5d;
+    margin-right: 15px;
+}
+.datea-list h3{
+  font-size: 35px;
+  font-weight: 800;
+  color: var(--foreground);
+}
+.datea-list h3 span{
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+}
+.dark-bg{
+  background: var(--primarycolor);
+}
+.dark-bg h3,
+.dark-bg h3 span{
+  color: var(--background) !important;
+}
+.plans015 span{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--foreground);
+}
+.explores-div{
+  padding: 100px 0;
+}
+@media(min-width:1008px){
+  .container{
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .banners-text01 p{
+  width: 90%;
+  margin: 0;
+}
+}
