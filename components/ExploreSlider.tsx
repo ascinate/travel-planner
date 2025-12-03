@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function ExploreSlider() {
   const settings = {
     dots: true,
     infinite: true,
@@ -26,6 +25,9 @@ export default function ExploreSlider() {
       }
     ]
   };
+
+export default function ExploreSlider() {
+
 
     const items = [
     { title: "Paris", img: "/images/paris.jpg", link: "/destinations/paris" },
