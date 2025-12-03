@@ -138,12 +138,12 @@ body {
   overflow-x: hidden;
   padding-right: 10px;
 }
-.banners-text01 h1{
+.banners-text01 h2{
   font-size: 100px;
   font-weight: 800;
   line-height: 110px;
 }
-.banners-text01 h1 span{
+.banners-text01 h2 span{
   font-size: 70px;
   font-weight: 600;
   text-transform: capitalize;

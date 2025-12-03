@@ -437,9 +437,9 @@ export default function TravelPlanner() {
                               </div>
                               <div className="right-coloms">
                                   <div className='banners-text01'>
-                                      <h1 className='text-white mt-5'> Hey Im Layla,
+                                      <h2 className='text-white mt-5'> Hey Im Layla,
                                         
-                                        <span className='block'> your AI trip planner </span> </h1>
+                                        <span className='block'> your AI trip planner </span> </h2>
                                       <p className='text-white'> Build a trip with your saves or use AI to get custom recommendations </p>
                                       <div className='flex items-center mt-5'>
                                          <div className='flex items-center'>
