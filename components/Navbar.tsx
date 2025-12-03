@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-
-
 export default function Navbar() {
     const menulist = [{ id: 1, title: 'Discover' , link: '/discover'}, { id: 2, title: 'Trips' , link: '/trips'},{ id: 3, title: 'Review' , link: '/review'}, {id:4, title: 'Contact' , link: '/pricing'} ]; 
     const pathname = usePathname();

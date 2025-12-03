@@ -7,11 +7,7 @@ import Navbar from "@/components/Navbar";
 import BannerSlider from '@/components/BannerSlider';
 import ExploreSlider from '@/components/ExploreSlider';
 import Image from 'next/image';
-
-import { useRouter } from "next/router";
 import Link from 'next/link';
-
-
 
 
 const inter = Inter({
@@ -26,7 +22,6 @@ const BigShoulders = Big_Shoulders({
 });
 
 export default function TravelPlanner() {
- const router = useRouter();
   
   const [destination, setDestination] = useState("");
   const [travelPersona, setTravelPersona] = useState("Single Woman");
@@ -52,8 +47,8 @@ export default function TravelPlanner() {
   const resultRef = useRef<HTMLDivElement>(null);
 
   const travelPersonaOptions = [
-    "Single Woman 1",
-    "Single Man 2",
+    "Single Woman",
+    "Single Man",
     "Couple",
     "Elderly-Friendly",
     "Family-Friendly",
@@ -87,7 +82,7 @@ export default function TravelPlanner() {
   // --- Monthly usage logic ---
   const checkUsageLimit = () => {
     if (typeof window === "undefined") return true;
-    const limit = 100;
+    const limit = 300;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -117,7 +112,7 @@ export default function TravelPlanner() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const limit = 100;
+    const limit = 300;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -189,10 +184,7 @@ export default function TravelPlanner() {
 
       const data = await response.json();
       const cleaned = cleanText(data.text);
-       localStorage.setItem("tripResult", cleaned);
-
-    // 👉 Redirect to another page
-    router.push("/result");
+      setResult(cleaned);
     } catch (err) {
       console.error(err);
       setResult("There was an error generating your itinerary.");
@@ -221,7 +213,7 @@ export default function TravelPlanner() {
     <>
     <style>
       {`
-       h1,
+       h2,
        .plans015 span{
         font-family: ${BigShoulders.style.fontFamily};
        }
