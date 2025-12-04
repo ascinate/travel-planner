@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 
 export default function BannerCarousel() {
   const slides = [
-    "/pexels-aprakarsh-2412443.jpg",
-    "/pexels-chaitaastic-2031753.jpg",
+    "/banner1.jpg",
+    "/banner2.jpg",
   ];
 
   const [index, setIndex] = useState(0);
@@ -25,7 +25,7 @@ export default function BannerCarousel() {
           key={i}
           src={src}
           alt=""
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+          className={`absolute inset-0 w-full object-cover transition-opacity duration-1000 ${
             i === index ? "opacity-100" : "opacity-0"
           }`}
         />

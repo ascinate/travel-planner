@@ -5,6 +5,7 @@
   --foreground: #171717;
   --primarycolor:#dcaf5d;
   --textcolor:#1b1b1b;
+  --darkcolor:#0d0d0d;
 }
 
 @theme inline {
@@ -32,44 +33,70 @@ body {
 }
 
 .navications-div {
-    padding: 12px 0;
-    background: #00000069;
-    position: absolute;
+    padding: 0 0 15px 0;
+    background: #fff;
     z-index: 2;
 }
+.tops-sec-head{
+  background: var(--darkcolor);
+  padding: 12px 0;
+}
+.mainmenus{
+  padding: 10px 0 0 0;
+}
 .menu-sections01{
-  width:79%;
+  width:60%;
+}
+.logos-mains{
+  width: 20%;
 }
 .menu-sections01 .nav-link ,
 .login-ins{
-  color: var(--background);
+  color: var(--foreground);
   font-size: 18px;
   font-weight: 500;
-  padding: 0 15px;
+  padding: 0 14px;
 
 }
+.bt-links01{
+  text-decoration: underline;
+  color: var(--background);
+  font-size: 14px;
+}
 .right-logins{
-  width: 21%;
+  width: 20%;
   justify-content: flex-end;
 }
 .signup-btn{
   background: var(--primarycolor);
-  padding: 12px 30px;
+  padding:12px 24px;
   border-radius: 15px;
   color: var(--background) !important;
+}
+.soclins{
+  padding: 0 8px;
+  display: inline-block;
+}
+.forms-seraclist .suba-text{
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.list-gh01{
+  color: var(--primarycolor);
 }
 /* banner part */
 
 .banner-slider-parts{
-  height: 650px;
+  height: 610px;
 }
 .mains-forms014{
   border-radius: 20px;
   padding: 28px;
   width: 100%;
+  margin-top: 40px;
 }
 .forms-seraclist{
-  margin-top: -480px;
+  margin-top: -460px;
   position: relative;
   z-index: 2;
 }
@@ -77,12 +104,39 @@ body {
   position: relative;
 }
 .mains-forms014::before{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  content: "";
-      border-radius: 0px 0px 20px 0px;
-    box-shadow: 10px 10px 0px 0px #FFFFFF;
+    position: absolute;
+    left: -50px;
+    bottom: 117px;
+    content: "";
+    border-radius: 0px 0px 20px 0px;
+    box-shadow: 10px 10px 0px 0px var(--background);
+    /* top: 0; */
+    width: 50px;
+    height: 50px;
+}
+.mains-forms014::after{
+    position: absolute;
+    right:-50px;
+    bottom: 117px;
+    content: "";
+    border-radius: 0px 0px 0px 20px;
+    box-shadow: -10px 10px 0px 0px var(--background);
+    width: 50px;
+    height: 50px;
+}
+.advance-btn{
+  text-transform: capitalize;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-left: -50px;
+}
+.advance-btn:hover{
+  color: var(--primarycolor);
+}
+.advance-btn svg{
+  width: 18px;
+  height: 18px;
 }
 .crm-groups{
   margin-bottom: 17px;
@@ -118,12 +172,11 @@ body {
   align-items: center;
 }
 .suend-butons{
-  width: 100%;
   background: var(--primarycolor);
-      padding: 17px 32px;
+      padding: 16px 30px;
     margin-top: 0;
     position: relative;
-    top:-25px;
+    top:0;
     border-radius: 17px;
     font-size: 17px;
     font-weight: 500;
@@ -159,6 +212,12 @@ body {
   border-radius: 13px;
   border: none;
 }
+.ns-text{
+  font-size: 30px;
+  color: var(--primarycolor);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
 .crm-groups input:focus,
 .crm-groups select:focus{
   box-shadow: none !important;
@@ -169,14 +228,17 @@ body {
   overflow-x: hidden; */
   padding-right: 10px;
 }
+.ab-pics01 img{
+  width: 90%;
+}
 .banners-text01 h2{
-  font-size: 55px;
+  font-size: 75px;
   font-weight: 800;
-  line-height: 63px;
+  line-height: 75px;
   margin-bottom: 7px;
 }
 .banners-text01 h2 span{
-  font-size: 40px;
+  font-size: 54px;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -208,6 +270,7 @@ body {
   overflow: hidden;
       height: 140px;
     padding: 0 30px;
+        width: 90%;
 }
 .datea-list .cions{
     width: 70px;
@@ -221,6 +284,20 @@ body {
     border: solid 1px #dcaf5d;
     margin-right: 15px;
 }
+.darks-amb-texm{
+  background: #f1efea;
+  padding: 100px 0;
+  margin: 60px 0 0 0;
+}
+.body-heading{
+  
+}
+.plans-btn{
+  background: var(--primarycolor);
+  border-radius: 12px;
+  color: var(--background);
+  padding: 12px 25px;
+}
 .datea-list h3{
   font-size: 35px;
   font-weight: 800;
@@ -230,6 +307,9 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: #555;
+}
+.new-cson{
+  padding: 90px 0;
 }
 .dark-bg{
   background: var(--primarycolor);

@@ -6,20 +6,7 @@ export default function Footer() {
     <>
     <footer className="relative w-full float-left">
       
-         <div className="top-sections block w-full">
-             <div className="container">
-                <div className="grid grid-cols-2 justify-between items-center">
-                     <div className="left-footer">
-                         <h5> Newsletter </h5>
-                         <h3 className="text-white"> Sign up to get the latest catch sent to your inbox. </h3>
-                     </div>
-                     <div className="forms-div flex items-center">
-                         <input type="email" placeholder="enter your email" className="form-files"/>
-                         <button className="btn btn-secobcibe"> Subscribe Now </button>
-                     </div>
-                </div>
-             </div>
-         </div>
+     
 
          <div className="bootems-div block w-full">
               <div className="container">
