@@ -1,4 +1,4 @@
-"use client";
+
 import { Inter, Big_Shoulders, Satisfy, Archivo } from 'next/font/google';
 import React, { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
