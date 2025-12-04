@@ -260,7 +260,7 @@ export default function TravelPlanner() {
                         <div className='container'>
                                <div className="right-coloms">
                                   <div className='banners-text01'>
-                                    <h5 className='suba-text text-white'> Let's Guide a Your Trip </h5>
+                                    <h5 className='suba-text text-white'> Let&rsquo;s Guide a Your Trip </h5>
                                       <h2 className='text-white mt-2'> Hey Im Layla,
                                         
                                         <span className='block'> your AI trip planner </span> </h2>
@@ -598,7 +598,7 @@ export default function TravelPlanner() {
                                         <h5 className='suba-text ns-text'> About story </h5>
                                         <h2> Build a trip with your saves or use AI to get </h2>
 
-                                        <p className='py-4'> The Niche Group connects people to experiences worth sharing, and aims to be the worlds most trusted source for travel and experiences. We leverage our brands, technology, and capabilities to connect our global audience with partners through rich content, travel guidance, and two-sided marketplaces for experiences, accommodations, restaurants, and other travel categories. The subsidiaries of Niche, Inc. (Nasdaq: TRIP), include a portfolio of travel brands and businesses,
+                                        <p className='py-4'> The Niche Group connects people to experiences worth sharing, and aims to be the worlds most trusted source for travel and experiences. We leverage our brands, technology, and capabilities to connect our global audience with partners through rich content, travel guidance, and two-sided marketplaces for experiences, accommodations, restaurants, and other travel categories. The subsidiaries of Niche, Inc. include a portfolio of travel brands and businesses,
                                            including Niche, Viator, and TheFork.</p>
 
                                         <Link href="/" className='b-dsicover-btn mb-5'> Plan My Trip </Link>
