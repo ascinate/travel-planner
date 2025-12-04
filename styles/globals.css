@@ -341,8 +341,9 @@ font-size: 60px;
   margin: 60px 0 0 0;
   position: relative;
 }
-.body-heading{
-
+.testimonials-div{
+  background: #f1efea;
+  padding: 70px 0;
 }
 .usert01{
   width: 40px;

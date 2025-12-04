@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Link from "next/link";
 import Image from "next/image";
 
   const settings = {
@@ -31,10 +30,10 @@ export default function TestmoliasSlider() {
 
 
     const items = [
-    { title: "Discover Mount Paris", location:"Japna", img: "/crad015.jpg", descr:"Absolute perfection! Egens Labs web development services left me completely satisfied and eager to recommend them to others.", },
-    { title: "Fuji Tokyo", location:"Fransh", img: "/paris.jpg", descr:"Absolute perfection! Egens Labs web development services left me completely satisfied and eager to recommend them to others.", },
-    { title: "Explore New York", location:"China", img: "/pexels-jcosta-13800608.jpg", descr:"Absolute perfection! Egens Labs web development services left me completely satisfied and eager to recommend them to others.", },
-    { title: "13 best places to travel", location:"Canda", img: "/crade015.jpg", descr:"Absolute perfection! Egens Labs web development services left me completely satisfied and eager to recommend them to others.", },
+    { title: "Discover Mount Paris", location:"Japna", img: "/crad015.jpg", descr:"Absolute perfection Egens Labs web development services left me completely satisfied and eager to recommend them to others.", },
+    { title: "Fuji Tokyo", location:"Fransh", img: "/paris.jpg", descr:"Absolute perfection Egens Labs web development services left me completely satisfied and eager to recommend them to others.", },
+    { title: "Explore New York", location:"China", img: "/pexels-jcosta-13800608.jpg", descr:"Absolute perfection Egens Labs web development services left me completely satisfied and eager to recommend them to others.", },
+    { title: "13 best places to travel", location:"Canda", img: "/crade015.jpg", descr:"Absolute perfection Egens Labs web development services left me completely satisfied and eager to recommend them to others.", },
   ];
 
   return (
