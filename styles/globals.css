@@ -142,10 +142,15 @@ body {
   margin-bottom: 17px;
 }
 .crad-list-menu{
-  border: solid 1px #bbb;
+  border: 1px solid #e5e5e5;
 }
 .crad-list-menu h1{
-
+  font-size: 30px;
+  font-weight: 700;
+}
+.crad-list-menu h2{
+  font-size: 25px;
+  font-weight: 700;
 }
 .crad-list-menu p{
   margin-bottom: 10px;
@@ -156,6 +161,22 @@ body {
 }
 .sub-pages01{
   padding-bottom: 70px;
+}
+.share-btn{
+  background: var(--primarycolor);
+  padding: 12px 25px;
+  border-radius: 12px;
+  color: var(--background);
+  font-size: 18px;
+}
+.disclers-div{
+  border: 1px solid #e5e5e5;
+  padding: 30px;
+  background: var(--primarycolor);
+}
+.disclers-div h2{
+  font-size: 25px;
+  font-weight: 700;
 }
 .new-cson{
   padding-top: 70px;
