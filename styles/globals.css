@@ -344,6 +344,7 @@ font-size: 60px;
 .testimonials-div{
   background: #f1efea;
   padding: 70px 0;
+  position: relative;
 }
 .usert01{
   width: 40px;
@@ -358,6 +359,14 @@ font-size: 60px;
 }
 .card-sections-testimolias{
   width: 90%;
+}
+.card-sections-testimolias h4{
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-sections-testimolias h4 span{
+  font-size: 14px;
+  font-weight: 200;
 }
 .plans-btn{
   background: var(--primarycolor);
@@ -377,6 +386,11 @@ font-size: 60px;
 }
 .new-cson{
   padding: 90px 0;
+}
+.spco01{
+  position: absolute;
+  top:0;
+  left: 0;
 }
 .dark-bg{
   background: var(--primarycolor);

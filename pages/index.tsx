@@ -721,8 +721,9 @@ export default function TravelPlanner() {
                     </section>
 
                     <section className='float-left w-full testimonials-div'>
+                         <Image width={251} height={416} className='spco01' src="/section-vector5.png" alt="nam"/>
                         <div className='container'>
-                                  <h5 className='text-center'> Testimonials </h5>
+                                  <h5 className='text-center suba-text ns-text'> Testimonials </h5>
                                   <h2 className='body-heading text-center'> Regards From Travelers </h2>
 
                                   <TestmoliasSlider/>
