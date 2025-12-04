@@ -272,6 +272,12 @@ body {
     padding: 0 30px;
         width: 90%;
 }
+.body-heading{
+font-size: 60px;
+    font-weight: 800;
+    line-height: 69px;
+    margin-bottom: 7px;
+}
 .datea-list .cions{
     width: 70px;
     height: 70px;
@@ -284,13 +290,73 @@ body {
     border: solid 1px #dcaf5d;
     margin-right: 15px;
 }
+.comoun-card-grid{
+  width: 100%;
+  height: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.comoun-card-grid .text-grid015{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+      padding-left: 15px;
+    padding-bottom: 30px;
+    bottom: 0;
+    z-index: 2;
+        background: #000000;
+    background: linear-gradient(358deg, rgba(0, 0, 0, 0.81) 30%, rgba(0, 0, 0, 0.06) 91%);
+}
+.comoun-card-grid .text-grid015 h5{
+  color: var(--background);
+  font-size: 22px;
+  font-weight: 700;
+}
+.comoun-card-grid .text-grid015 p{
+  color: var(--background);
+  font-size: 15px;
+  font-weight: 200;
+}
+.comoun-card-grid figure{
+  width: 100%;
+  height: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+  display: inline-block;
+}
+.darks-amb-texm .b-dsicover-btn{
+  margin-top: 9px;
+  display: inline-block;
+}
+.comoun-card-grid img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 .darks-amb-texm{
   background: #f1efea;
   padding: 100px 0;
   margin: 60px 0 0 0;
+  position: relative;
 }
 .body-heading{
-  
+
+}
+.usert01{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.usert01 img{
+  width: 100%;
+  height: 100%;
+}
+.card-sections-testimolias{
+  width: 90%;
 }
 .plans-btn{
   background: var(--primarycolor);

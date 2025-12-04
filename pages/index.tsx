@@ -9,6 +9,7 @@ import ExploreSlider from '@/components/ExploreSlider';
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
+import TestmoliasSlider from '@/components/TestmoliasSlider';
 
 
 const inter = Inter({
@@ -662,12 +663,45 @@ export default function TravelPlanner() {
 
                     <section className='float-left w-full darks-amb-texm'>
                         <div className='container'>
-                            <div className='grid gap-4 justify-between items-center'>
-                                <div className='left-darkstext'>
+                            <div className='grid gap-4 gap-xl-5 grid-cols-12 justify-between items-center'>
+                                <div className='left-darkstext col-span-4'>
                                     <h5 className='suba-text ns-text'> Your Most Trusted Guides </h5>
                                     <h2 className='body-heading'> People Who Make Travel Enchanting </h2>
-                                    <p> </p>
+                                    <p className='py-4'> The Niche Group connects people to experiences worth sharing, and aims to be the worlds most 
+                                      trusted source for travel and experiences. </p>
+                                    <Link href="/" className='b-dsicover-btn'> Plan My Trip </Link>
                                 </div>
+                                 <div className='rightys-darkstext  grid grid-cols-3 gap-5 col-span-8 justify-between'>
+                                     <Link href="/" className='comoun-card-grid w-full'>
+                                         <figure>
+                                           <Image width={600} height={600} src="/bidri-ambience.jpg" alt="nam"/>
+                                         </figure>
+                                         <div className='text-grid015'>
+                                            <h5> Go for Restaurants </h5>
+                                            <p> our experiences decided by travelers </p>
+                                         </div>
+                                     </Link>
+
+                                     <Link href="/" className='comoun-card-grid w-full'>
+                                         <figure>
+                                           <Image width={600} height={600} src="/pexels-jcosta-13800608.jpg" alt="nam"/>
+                                         </figure>
+                                         <div className='text-grid015'>
+                                            <h5> Go for Accommodations </h5>
+                                            <p> our experiences decided by travelers </p>
+                                         </div>
+                                     </Link>
+
+                                     <Link href="/" className='comoun-card-grid w-full'>
+                                         <figure>
+                                           <Image width={600} height={600} src="/pexels-chaitaastic-2031753.jpg" alt="nam"/>
+                                         </figure>
+                                         <div className='text-grid015'>
+                                            <h5> Go for Attractions </h5>
+                                            <p> our experiences decided by travelers </p>
+                                         </div>
+                                     </Link>
+                                 </div>
                             </div>
                         </div>
                     </section>
@@ -675,7 +709,7 @@ export default function TravelPlanner() {
                         <div className='container'>
                              <div className='grid grid-cols-2 gap-4 justify-between items-center'>
                               <div className='headings-div'>
-                                  <h2 className='main-headings'> Where to go next </h2>
+                                  <h2 className='body-heading'> Where to go next </h2>
                                   <p className='mt-2'> Weve updated our Trips product to help. </p>
                               </div>
 
@@ -683,6 +717,15 @@ export default function TravelPlanner() {
                                  
                              </div>
                              <ExploreSlider/>
+                        </div>
+                    </section>
+
+                    <section className='float-left w-full testimonials-div'>
+                        <div className='container'>
+                                  <h5 className='text-center'> Testimonials </h5>
+                                  <h2 className='body-heading text-center'> Regards From Travelers </h2>
+
+                                  <TestmoliasSlider/>
                         </div>
                     </section>
 
