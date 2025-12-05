@@ -106,7 +106,7 @@ export default function TravelPlanner() {
   // --- Monthly usage logic ---
   const checkUsageLimit = () => {
     if (typeof window === "undefined") return true;
-    const limit = 300;
+    const limit = 3;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -136,7 +136,7 @@ export default function TravelPlanner() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const limit = 300;
+    const limit = 3;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
