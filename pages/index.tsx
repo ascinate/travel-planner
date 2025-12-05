@@ -10,7 +10,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import TestmoliasSlider from '@/components/TestmoliasSlider';
-import Spinner from '@/components/Spinner';
 
 
 const inter = Inter({
