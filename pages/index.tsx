@@ -10,6 +10,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import TestmoliasSlider from '@/components/TestmoliasSlider';
+import Spinner from '@/components/Spinner';
 
 
 const inter = Inter({
@@ -106,7 +107,7 @@ export default function TravelPlanner() {
   // --- Monthly usage logic ---
   const checkUsageLimit = () => {
     if (typeof window === "undefined") return true;
-    const limit = 3;
+    const limit = 300;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -136,7 +137,7 @@ export default function TravelPlanner() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const limit = 3;
+    const limit = 300;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -177,45 +178,46 @@ export default function TravelPlanner() {
       .replace(/[ ]{2,}/g, " ") // collapse multiple spaces
       .trim();
 
-  const generatePlan = async () => {
-    if (!checkUsageLimit()) return;
+const generatePlan = async () => {
+  if (!checkUsageLimit()) return;
 
-    setLoading(true);
-    setResult("");
+  setLoading(true);
+  setResult(""); // clears old result
 
-    try {
-      const response = await fetch("/api/ai", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          destination,
-          travelPersona,
-          foodPersona,
-          startDate,
-          endDate,
-          wakeUpTime,
-          sleepTime,
-          workStartTime,
-          workEndTime,
-          arrivalTime,
-          departureTime,
-          interests,
-          additionalNotes,
-        }),
-      });
+  try {
+    const response = await fetch("/api/ai", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        destination,
+        travelPersona,
+        foodPersona,
+        startDate,
+        endDate,
+        wakeUpTime,
+        sleepTime,
+        workStartTime,
+        workEndTime,
+        arrivalTime,
+        departureTime,
+        interests,
+        additionalNotes,
+      }),
+    });
 
-      if (!response.ok) throw new Error(`API Error: ${response.status}`);
+    if (!response.ok) throw new Error(`API Error: ${response.status}`);
 
-      const data = await response.json();
-      const cleaned = cleanText(data.text);
-      setResult(cleaned);
-    } catch (err) {
-      console.error(err);
-      setResult("There was an error generating your itinerary.");
-    } finally {
-      setLoading(false);
-    }
-  };
+    const data = await response.json();
+    const cleaned = cleanText(data.text);
+    setResult(cleaned);       // 👈 result now appears
+  } catch (err) {
+    console.error(err);
+    setResult("There was an error generating your itinerary.");
+  } finally {
+    setLoading(false);       // 👈 loader stops, Answer appears
+  }
+};
+
 
   const downloadPDF = async () => {
     if (!resultRef.current) return;
@@ -555,12 +557,12 @@ export default function TravelPlanner() {
                                             >
                                               <svg viewBox="0 0 24 24" width="24px" height="24px" className="d Vb UmNoP" aria-hidden="true"><path d="M16.895 3A4.86 4.86 0 0 0 21 7.105a4.86 4.86 0 0 0-4.105 4.106 4.86 4.86 0 0 0-4.105-4.106A4.86 4.86 0 0 0 16.895 3M9.947 7.105a8.22 8.22 0 0 0 6.947 6.947A8.22 8.22 0 0 0 9.947 21 8.22 8.22 0 0 0 3 14.052a8.22 8.22 0 0 0 6.947-6.947"></path></svg>
                                               {loading ? <Spinner /> : "Generate Itinerary"}
+                                              
                                             </button>
 
                                             
                                         </div>
-                                        <button
-                                                    onClick={() => setOpen(!open)}
+                                        <button onClick={() => setOpen(!open)}
                                                     className="advance-btn flex items-center col-span-4 xl:col-span-1"
                                                   >
                                                     Advanced Search <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path></svg>
@@ -584,199 +586,211 @@ export default function TravelPlanner() {
                             </div>
                         </div>
                     </section>
-              {!result && (
-                <>
+      
 
-                            
+                 {loading ? (
+                    <>
+                      <div className="w-full flex justify-center items-center py-20">
+                        <Image
+                          width={300}
+                          height={300}
+                          src="/QNF78Uk4YE.gif" // your custom big image
+                          alt="Loading"
+                            className="animate-pulse"
+                        />
+                      </div>
+                   </>
+                    ) : !result ? (
+                      // Show Homepage
+                      <>
+                        <section className='float-left w-full new-cson'>
+                            <div className='container'>
+                                  <div className="right-coloms">
+                                      <div className='banners-text01'>
+                                        <div className='grid grid-cols-1 xl:grid-cols-2 gap-xl-5 items-center'>
+                                          <div className='mains-dates'>
 
-                    <section className='float-left w-full new-cson'>
-                        <div className='container'>
-                              <div className="right-coloms">
-                                  <div className='banners-text01'>
-                                    <div className='grid grid-cols-1 xl:grid-cols-2 gap-xl-5 items-center'>
-                                      <div className='mains-dates'>
-
-                                           <figure className='w-full ab-pics01'>
-                                              <Image width={783} height={716} src="/abouts015.png" alt='ms'/>
-                                           </figure>
-                                         
-                                      </div>
-                                      <div className='txerat'>
-                                        <h5 className='suba-text ns-text'> About story </h5>
-                                        <h2> Build a trip with your saves or use AI to get </h2>
-
-                                        <p className='py-4'> The Niche Group connects people to experiences worth sharing, and aims to be the worlds most trusted source for travel and experiences. We leverage our brands, technology, and capabilities to connect our global audience with partners through rich content, travel guidance, and two-sided marketplaces for experiences, accommodations, restaurants, and other travel categories. The subsidiaries of Niche, Inc. include a portfolio of travel brands and businesses,
-                                           including Niche, Viator, and TheFork.</p>
-
-                                        <Link href="/" className='b-dsicover-btn mb-5'> Plan My Trip </Link>
-                                        <div className='flex items-center mt-5 py-4'>
-                                          <div className='flex items-center'>
-                                            <figure className='user-img01'>
-                                              <Image width={143} height={23} src="/user01.jpg" alt='user'/>
-                                            </figure>
-                                            <figure className='user-img01'>
-                                              <Image width={143} height={23} src="/vecteezy_a-man-sitting-on-a-dock-with-yellow-nets_71135147.jpg" alt='user'/>
-                                            </figure>
-                                            <figure className='user-img01'>
-                                              <Image width={143} height={23} src="/pexels-chaitaastic-2031753.jpg" alt='user'/>
-                                            </figure>
+                                              <figure className='w-full ab-pics01'>
+                                                  <Image width={783} height={716} src="/abouts015.png" alt='ms'/>
+                                              </figure>
+                                            
                                           </div>
-                                            <h5 className='ml-5'> <Image width={143} height={23} src="/ratings.svg" alt="sm"/> 
-                                              <span className='d-block'> 5k+ Reviews </span>
-                                            </h5>
+                                          <div className='txerat'>
+                                            <h5 className='suba-text ns-text'> About story </h5>
+                                            <h2> Build a trip with your saves or use AI to get </h2>
+
+                                            <p className='py-4'> The Niche Group connects people to experiences worth sharing, and aims to be the worlds most trusted source for travel and experiences. We leverage our brands, technology, and capabilities to connect our global audience with partners through rich content, travel guidance, and two-sided marketplaces for experiences, accommodations, restaurants, and other travel categories. The subsidiaries of Niche, Inc. include a portfolio of travel brands and businesses,
+                                              including Niche, Viator, and TheFork.</p>
+
+                                            <Link href="/" className='b-dsicover-btn mb-5'> Plan My Trip </Link>
+                                            <div className='flex items-center mt-5 py-4'>
+                                              <div className='flex items-center'>
+                                                <figure className='user-img01'>
+                                                  <Image width={143} height={23} src="/user01.jpg" alt='user'/>
+                                                </figure>
+                                                <figure className='user-img01'>
+                                                  <Image width={143} height={23} src="/vecteezy_a-man-sitting-on-a-dock-with-yellow-nets_71135147.jpg" alt='user'/>
+                                                </figure>
+                                                <figure className='user-img01'>
+                                                  <Image width={143} height={23} src="/pexels-chaitaastic-2031753.jpg" alt='user'/>
+                                                </figure>
+                                              </div>
+                                                <h5 className='ml-5'> <Image width={143} height={23} src="/ratings.svg" alt="sm"/> 
+                                                  <span className='d-block'> 5k+ Reviews </span>
+                                                </h5>
+                                            </div>
+                                          </div>
+                                          
                                         </div>
                                       </div>
-                                      
-                                    </div>
                                   </div>
-                              </div>
-                        </div>
-                    </section>
-                    <section className='float-left w-full sm-grid01'>
-                        <div className='container'>
-                           <div className='grid grid-cols-1 xl:grid-cols-3 gap-4 gap-xl-5'>
-                                <div className='datea-list flex items-center'>
-                                  <div className='cions'>
-                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(194,157,89,1)"><path d="M21.7267 2.95694L16.2734 22.0432C16.1225 22.5716 15.7979 22.5956 15.5563 22.1126L11 13L1.9229 9.36919C1.41322 9.16532 1.41953 8.86022 1.95695 8.68108L21.0432 2.31901C21.5716 2.14285 21.8747 2.43866 21.7267 2.95694ZM19.0353 5.09647L6.81221 9.17085L12.4488 11.4255L15.4895 17.5068L19.0353 5.09647Z"></path></svg>
-                                  </div>
-                                  <h3> 
-                                      12,05510
-                                    <span className='block'> Trips Planned </span>
-                                  </h3>
-                                </div>
-                                <div className='datea-list dark-bg flex items-center'>
-                                    <div className='cions'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(194,157,89,1)"><path d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"></path></svg>
-                                    </div>
-                                    <h3 className='text-white'> 
-                                        25,05510
-                                      <span className='block'> Messages Processed </span>
-                                    </h3>
-                                </div>
-                                <div className='datea-list flex items-center'>
-                                    <div className='cions'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(220,175,93,1)"><path d="M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"></path></svg>
-                                    </div>
-                                    <h3 className='text-white'> 
-                                        100+
-                                      <span className='block'> Client Globally </span>
-                                    </h3>
-                                </div>
-                           </div>
-                            
-                        </div>
-                    </section>
-
-                    <section className='float-left w-full darks-amb-texm'>
-                        <div className='container'>
-                            <div className='grid gap-4 grid-cols-1 xl:grid-cols-12 gap-xl-5 justify-between items-center'>
-                                <div className='left-darkstext col-span-4 xl:col-span-3'>
-                                    <h5 className='suba-text ns-text'> Your Most Trusted Guides </h5>
-                                    <h2 className='body-heading'> People Who Make Travel Enchanting </h2>
-                                    <p className='py-4'> The Niche Group connects people to experiences worth sharing, and aims to be the worlds most 
-                                      trusted source for travel and experiences. </p>
-                                    <Link href="/" className='b-dsicover-btn'> Plan My Trip </Link>
-                                </div>
-                                 <div className='rightys-darkstext grid grid-cols-1 xl:grid-cols-3 col-span-4 xl:col-span-8 gap-5 justify-between'>
-                                     <Link href="/" className='comoun-card-grid w-full'>
-                                         <figure>
-                                           <Image width={600} height={600} src="/bidri-ambience.jpg" alt="nam"/>
-                                         </figure>
-                                         <div className='text-grid015'>
-                                            <h5> Go for Restaurants </h5>
-                                            <p> our experiences decided by travelers </p>
-                                         </div>
-                                     </Link>
-
-                                     <Link href="/" className='comoun-card-grid w-full'>
-                                         <figure>
-                                           <Image width={600} height={600} src="/pexels-jcosta-13800608.jpg" alt="nam"/>
-                                         </figure>
-                                         <div className='text-grid015'>
-                                            <h5> Go for Accommodations </h5>
-                                            <p> our experiences decided by travelers </p>
-                                         </div>
-                                     </Link>
-
-                                     <Link href="/" className='comoun-card-grid w-full'>
-                                         <figure>
-                                           <Image width={600} height={600} src="/pexels-chaitaastic-2031753.jpg" alt="nam"/>
-                                         </figure>
-                                         <div className='text-grid015'>
-                                            <h5> Go for Attractions </h5>
-                                            <p> our experiences decided by travelers </p>
-                                         </div>
-                                     </Link>
-                                 </div>
                             </div>
-                        </div>
-                    </section>
-                    <section className='float-left w-full explores-div'>
-                        <div className='container'>
-                             <div className='grid grid-cols-1 grid-cols-xl-2 gap-4 justify-between items-center'>
-                              <div className='headings-div'>
-                                  <h2 className='body-heading'> Where to go next </h2>
-                                  <p className='mt-2'> Weve updated our Trips product to help. </p>
+                        </section>
+                        <section className='float-left w-full sm-grid01'>
+                            <div className='container'>
+                              <div className='grid grid-cols-1 xl:grid-cols-3 gap-4 gap-xl-5'>
+                                    <div className='datea-list flex items-center'>
+                                      <div className='cions'>
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(194,157,89,1)"><path d="M21.7267 2.95694L16.2734 22.0432C16.1225 22.5716 15.7979 22.5956 15.5563 22.1126L11 13L1.9229 9.36919C1.41322 9.16532 1.41953 8.86022 1.95695 8.68108L21.0432 2.31901C21.5716 2.14285 21.8747 2.43866 21.7267 2.95694ZM19.0353 5.09647L6.81221 9.17085L12.4488 11.4255L15.4895 17.5068L19.0353 5.09647Z"></path></svg>
+                                      </div>
+                                      <h3> 
+                                          12,05510
+                                        <span className='block'> Trips Planned </span>
+                                      </h3>
+                                    </div>
+                                    <div className='datea-list dark-bg flex items-center'>
+                                        <div className='cions'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(194,157,89,1)"><path d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"></path></svg>
+                                        </div>
+                                        <h3 className='text-white'> 
+                                            25,05510
+                                          <span className='block'> Messages Processed </span>
+                                        </h3>
+                                    </div>
+                                    <div className='datea-list flex items-center'>
+                                        <div className='cions'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(220,175,93,1)"><path d="M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"></path></svg>
+                                        </div>
+                                        <h3 className='text-white'> 
+                                            100+
+                                          <span className='block'> Client Globally </span>
+                                        </h3>
+                                    </div>
                               </div>
+                                
+                            </div>
+                        </section>
 
-                              <Link href="/" className='b-dsicover-btn mr-auto ml-xl-auto flex items-center'>Discover More <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="rgba(255,255,255,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg> </Link>
-                                 
-                             </div>
-                             <ExploreSlider/>
+                        <section className='float-left w-full darks-amb-texm'>
+                            <div className='container'>
+                                <div className='grid gap-4 grid-cols-1 xl:grid-cols-12 gap-xl-5 justify-between items-center'>
+                                    <div className='left-darkstext col-span-4 xl:col-span-3'>
+                                        <h5 className='suba-text ns-text'> Your Most Trusted Guides </h5>
+                                        <h2 className='body-heading'> People Who Make Travel Enchanting </h2>
+                                        <p className='py-4'> The Niche Group connects people to experiences worth sharing, and aims to be the worlds most 
+                                          trusted source for travel and experiences. </p>
+                                        <Link href="/" className='b-dsicover-btn'> Plan My Trip </Link>
+                                    </div>
+                                    <div className='rightys-darkstext grid grid-cols-1 xl:grid-cols-3 col-span-4 xl:col-span-8 gap-5 justify-between'>
+                                        <Link href="/" className='comoun-card-grid w-full'>
+                                            <figure>
+                                              <Image width={600} height={600} src="/bidri-ambience.jpg" alt="nam"/>
+                                            </figure>
+                                            <div className='text-grid015'>
+                                                <h5> Go for Restaurants </h5>
+                                                <p> our experiences decided by travelers </p>
+                                            </div>
+                                        </Link>
+
+                                        <Link href="/" className='comoun-card-grid w-full'>
+                                            <figure>
+                                              <Image width={600} height={600} src="/pexels-jcosta-13800608.jpg" alt="nam"/>
+                                            </figure>
+                                            <div className='text-grid015'>
+                                                <h5> Go for Accommodations </h5>
+                                                <p> our experiences decided by travelers </p>
+                                            </div>
+                                        </Link>
+
+                                        <Link href="/" className='comoun-card-grid w-full'>
+                                            <figure>
+                                              <Image width={600} height={600} src="/pexels-chaitaastic-2031753.jpg" alt="nam"/>
+                                            </figure>
+                                            <div className='text-grid015'>
+                                                <h5> Go for Attractions </h5>
+                                                <p> our experiences decided by travelers </p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section className='float-left w-full explores-div'>
+                            <div className='container'>
+                                <div className='grid grid-cols-1 grid-cols-xl-2 gap-4 justify-between items-center'>
+                                  <div className='headings-div'>
+                                      <h2 className='body-heading'> Where to go next </h2>
+                                      <p className='mt-2'> Weve updated our Trips product to help. </p>
+                                  </div>
+
+                                  <Link href="/" className='b-dsicover-btn mr-auto ml-xl-auto flex items-center'>Discover More <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="rgba(255,255,255,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg> </Link>
+                                    
+                                </div>
+                                <ExploreSlider/>
+                            </div>
+                        </section>
+
+                        <section className='float-left w-full testimonials-div'>
+                            <Image width={251} height={416} className='spco01' src="/section-vector5.png" alt="nam"/>
+                            <div className='container'>
+                                      <h5 className='text-center suba-text ns-text'> Testimonials </h5>
+                                      <h2 className='body-heading text-center'> Regards From Travelers </h2>
+
+                                      <TestmoliasSlider/>
+                            </div>
+                        </section>
+                      </>
+                    ) : (
+                      // Show Result Content
+                      <>
+                        {/* Result Screen */}
+                        <div className='float-left w-full'>
+                          <div className='container sub-pages01 position-relative'>
+                            <div className="flex justify-end mt-4">
+
+                              <button
+                                className="share-btn text-white px-4 py-2 mr-3 rounded hover:bg-green-700"
+                              >
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(0,0,0,1)"><path d="M13.1202 17.0228L8.92129 14.7324C8.19135 15.5125 7.15261 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8C7.15255 8 8.19125 8.48746 8.92118 9.26746L13.1202 6.97713C13.0417 6.66441 13 6.33707 13 6C13 3.79086 14.7909 2 17 2C19.2091 2 21 3.79086 21 6C21 8.20914 19.2091 10 17 10C15.8474 10 14.8087 9.51251 14.0787 8.73246L9.87977 11.0228C9.9583 11.3355 10 11.6629 10 12C10 12.3371 9.95831 12.6644 9.87981 12.9771L14.0788 15.2675C14.8087 14.4875 15.8474 14 17 14C19.2091 14 21 15.7909 21 18C21 20.2091 19.2091 22 17 22C14.7909 22 13 20.2091 13 18C13 17.6629 13.0417 17.3355 13.1202 17.0228ZM6 14C7.10457 14 8 13.1046 8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14ZM17 8C18.1046 8 19 7.10457 19 6C19 4.89543 18.1046 4 17 4C15.8954 4 15 4.89543 15 6C15 7.10457 15.8954 8 17 8ZM17 20C18.1046 20 19 19.1046 19 18C19 16.8954 18.1046 16 17 16C15.8954 16 15 16.8954 15 18C15 19.1046 15.8954 20 17 20Z"></path></svg>
+                              
+                              </button>
+
+                              <button
+                                onClick={downloadPDF}
+                                className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+                              >
+                                Download as PDF
+                              </button>
+                            </div>
+                            <div
+                              ref={resultRef}
+                              className="mt-4 border p-4 crad-list-menu rounded prose dark:prose-invert max-w-none overflow-auto"
+                            >
+                              <ReactMarkdown rehypePlugins={[rehypeRaw]}>{result}</ReactMarkdown>
+                            </div>
+
+                            <div className='disclers-div'>
+                                <h3 className='text-white'> Disclaimers </h3>
+                                <p className='text-white'> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a 
+                                  reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </div>
+                          </div>
                         </div>
-                    </section>
+                      </>
+                  )}
 
-                    <section className='float-left w-full testimonials-div'>
-                         <Image width={251} height={416} className='spco01' src="/section-vector5.png" alt="nam"/>
-                        <div className='container'>
-                                  <h5 className='text-center suba-text ns-text'> Testimonials </h5>
-                                  <h2 className='body-heading text-center'> Regards From Travelers </h2>
 
-                                  <TestmoliasSlider/>
-                        </div>
-                    </section>
-
-                    
-       
-                </>
-              )}
-              {/* Result */}
-              {result && (
-                <>
-                <div className='float-left w-full'>
-                 <div className='container sub-pages01 position-relative'>
-                  <div className="flex justify-end mt-4">
-
-                    <button
-                      className="share-btn text-white px-4 py-2 mr-3 rounded hover:bg-green-700"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(0,0,0,1)"><path d="M13.1202 17.0228L8.92129 14.7324C8.19135 15.5125 7.15261 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8C7.15255 8 8.19125 8.48746 8.92118 9.26746L13.1202 6.97713C13.0417 6.66441 13 6.33707 13 6C13 3.79086 14.7909 2 17 2C19.2091 2 21 3.79086 21 6C21 8.20914 19.2091 10 17 10C15.8474 10 14.8087 9.51251 14.0787 8.73246L9.87977 11.0228C9.9583 11.3355 10 11.6629 10 12C10 12.3371 9.95831 12.6644 9.87981 12.9771L14.0788 15.2675C14.8087 14.4875 15.8474 14 17 14C19.2091 14 21 15.7909 21 18C21 20.2091 19.2091 22 17 22C14.7909 22 13 20.2091 13 18C13 17.6629 13.0417 17.3355 13.1202 17.0228ZM6 14C7.10457 14 8 13.1046 8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14ZM17 8C18.1046 8 19 7.10457 19 6C19 4.89543 18.1046 4 17 4C15.8954 4 15 4.89543 15 6C15 7.10457 15.8954 8 17 8ZM17 20C18.1046 20 19 19.1046 19 18C19 16.8954 18.1046 16 17 16C15.8954 16 15 16.8954 15 18C15 19.1046 15.8954 20 17 20Z"></path></svg>
-                      share
-                    </button>
-
-                    <button
-                      onClick={downloadPDF}
-                      className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
-                    >
-                      Download as PDF
-                    </button>
-                  </div>
-                  <div
-                    ref={resultRef}
-                    className="mt-4 border p-4 crad-list-menu rounded prose dark:prose-invert max-w-none overflow-auto"
-                  >
-                    <ReactMarkdown rehypePlugins={[rehypeRaw]}>{result}</ReactMarkdown>
-                  </div>
-
-                  <div className='disclers-div'>
-                      <h3 className='text-white'> Disclaimers </h3>
-                      <p className='text-white'> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a 
-                        reader will be distracted by the readable content of a page when looking at its layout.</p>
-                  </div>
-                </div>
-                </div>
-                </>
-              )}
+              
         </div>
 
         <Footer/>

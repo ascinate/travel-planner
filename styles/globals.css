@@ -585,6 +585,15 @@ footer p{
 .position-relative{
   position: relative;
 }
+.spo-div01{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: var(--darkcolor);
+  left: 0;
+  right: 0;
+  top:0;
+}
 
 @media(min-width:1200px){
   .container{
