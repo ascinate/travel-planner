@@ -106,7 +106,7 @@ export default function TravelPlanner() {
   // --- Monthly usage logic ---
   const checkUsageLimit = () => {
     if (typeof window === "undefined") return true;
-    const limit = 3;
+    const limit = 300;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -136,7 +136,7 @@ export default function TravelPlanner() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const limit = 3;
+    const limit = 300;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -743,7 +743,8 @@ export default function TravelPlanner() {
               {/* Result */}
               {result && (
                 <>
-                 <div className='container sub-pages01'>
+                <div className='float-left w-full'>
+                 <div className='container sub-pages01 position-relative'>
                   <div className="flex justify-end mt-4">
 
                     <button
@@ -772,6 +773,7 @@ export default function TravelPlanner() {
                       <p className='text-white'> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a 
                         reader will be distracted by the readable content of a page when looking at its layout.</p>
                   </div>
+                </div>
                 </div>
                 </>
               )}

@@ -582,7 +582,9 @@ footer p{
   text-align: right;
 
 }
-
+.position-relative{
+  position: relative;
+}
 
 @media(min-width:1200px){
   .container{
@@ -722,6 +724,7 @@ footer p{
     margin: 0 auto;
     padding: 0 10px;
   }
+  .sub-pages01 .share-btn{ display: flex !important;}
   .signup-btn,
   .menu-sections01 .nav-link, .login-ins{
     font-size: 15px;
