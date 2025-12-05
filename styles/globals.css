@@ -759,6 +759,19 @@ footer p{
     padding: 10px;
    font-size: 13px !important;
   }
+
+  .crad-list-menu h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 12px 12px 0 13px;
+  }
+  .crad-list-menu h2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
 }
 
 
@@ -775,6 +788,7 @@ footer p{
 .disclers-div h3{
   font-size: 18px;
   text-decoration: underline;
+  padding: 0 15px 15px 15px;
 }
 
 .crad-list-menu h1{
@@ -788,8 +802,10 @@ footer p{
 }
 .crad-list-menu ul{
   background: #fff !important;
+  padding: 0 15px 15px 15px;
 }
-.crad-list-menu hr{
-  background: #f8f8f8;
-  margin: 15px 0;
+.crad-list-menu hr {
+    background: #f8f8f8;
+    margin: 15px 0;
+    border-color: #dcdcdc !important;
 }
