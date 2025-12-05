@@ -107,7 +107,7 @@ export default function TravelPlanner() {
   // --- Monthly usage logic ---
   const checkUsageLimit = () => {
     if (typeof window === "undefined") return true;
-    const limit = 300;
+    const limit = 3;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -137,7 +137,7 @@ export default function TravelPlanner() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const limit = 300;
+    const limit = 3;
     const now = new Date();
     const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
     const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -590,6 +590,7 @@ const generatePlan = async () => {
 
                  {loading ? (
                     <>
+                    <div className='spo-div01'>
                       <div className="w-full flex justify-center items-center py-20">
                         <Image
                           width={300}
@@ -599,6 +600,7 @@ const generatePlan = async () => {
                             className="animate-pulse"
                         />
                       </div>
+                    </div>
                    </>
                     ) : !result ? (
                       // Show Homepage
