@@ -31,19 +31,19 @@ export default function Footer() {
                          
                          <ul className="mt-5 c-list01">
                             <li>
-                              <Link href="/"> Home </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                             <li>
-                              <Link href="/"> About </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                             <li>
-                              <Link href="/"> Contact </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                             <li>
-                              <Link href="/"> FAQ </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                             <li>
-                              <Link href="/">  Blog </Link>
+                              <Link href="/">  Lorem Ipsum </Link>
                             </li>
                            
                            
@@ -55,13 +55,13 @@ export default function Footer() {
                          <ul className="mt-5 c-list01">
                            
                             <li>
-                              <Link href="/"> Malaysia </Link>
+                              <Link href="/"> Lorem Ipsum</Link>
                             </li>
                             <li>
-                              <Link href="/"> Maldives </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                             <li>
-                              <Link href="/"> Belgium </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                            
                          </ul>
@@ -71,16 +71,16 @@ export default function Footer() {
                          
                          <ul className="mt-5 c-list01">
                             <li>
-                              <Link href="/"> Hotels </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                             <li>
-                              <Link href="/"> Roam Around </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                             <li>
-                              <Link href="/"> Contact </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                             <li>
-                              <Link href="/"> FAQ </Link>
+                              <Link href="/"> Lorem Ipsum </Link>
                             </li>
                            
                          </ul>

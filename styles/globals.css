@@ -580,7 +580,21 @@ footer p{
   text-align: right;
 
 }
-@media(min-width:1008px){
+
+
+@media(min-width:1200px){
+  .container{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+}
+@media(min-width:1400px){
+   .container{
+        max-width: 1400px;
+   }
+}
+@media(min-width:1360px){
   .container{
     max-width: 1400px;
     margin: 0 auto;
@@ -589,4 +603,179 @@ footer p{
   width: 90%;
   margin: 0;
 }
+}
+@media(max-width:1208px){
+
+  .signup-btn,
+  .menu-sections01 .nav-link, .login-ins{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 8px;
+  }
+  .signup-btn{
+    padding:9px 15px;
+     font-size: 14px;
+    font-weight: 500;
+  }
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .lefts-top-head01 p,
+  .lefts-top-head01 .list-gh01,
+  .bt-links01{
+    font-size: 12px;
+  }
+  .soclins svg{
+    width: 15px;
+    height: 15px;
+  }
+  .banners-text01 h2{
+    font-size: 65px;
+  }
+  .banners-text01 h2 span{
+    font-size: 45px;
+  }
+  .suend-butons{
+    padding: 15px 23px;
+    font-size: 16px;
+  }
+  .advance-btn{
+    margin-left: 0;
+  }
+  .crm-groups label{
+    font-size: 14px;
+  }
+  .new-cson .banners-text01 h2{
+    font-size: 43px;
+    line-height: 51px;
+  }
+  .banners-text01 p{
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .user-img01{
+    width: 50px;
+    height: 50px;
+  }
+  .datea-list h3 span{
+    font-size: 15px;
+  }
+  .datea-list .cions{
+    width: 55px;
+    height: 55px;
+  }
+  .datea-list .cions svg{
+    width: 25px;
+    height: 25px;
+  }
+  .body-heading {
+    font-size: 40px;
+    line-height: 49px;
+}
+.text-block h4 {
+    font-size: 23px;
+}
+.text-block .btn-divu{
+  font-size: 14px;
+  padding: 12px 25px;
+}
+}
+@media(max-width:1180px){
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .menu-sections01 .nav-link, .login-ins{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 9px;
+  }
+  .signup-btn{
+    padding:9px 18px;
+     font-size: 15px;
+    font-weight: 500;
+  }
+  
+}
+@media(max-width:1080px){
+  .container{
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .signup-btn,
+  .menu-sections01 .nav-link, .login-ins{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 9px;
+  }
+  .banner-slider-parts {
+    height: 490px;
+  }
+ 
+}
+@media(max-width:910px){
+  .container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .signup-btn,
+  .menu-sections01 .nav-link, .login-ins{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 9px;
+  }
+   .user-img01{
+    width: 40px;
+    height: 40px;
+  }
+  .banners-text01 h2 {
+        font-size: 35px;
+        line-height: 37px;
+    }
+  .banners-text01 h2 span{
+    font-size: 25px;
+  }
+  .forms-seraclist .suba-text{
+    font-size: 16px;
+  }
+  .banner-slider-parts img{
+    height: 100%;
+  
+  }
+  .right-logins {
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+  .datea-list{
+    width: 100%;
+  }
+  .tops-sec-head{
+    display: none;
+  }
+}
+.disclers-div{
+  margin-bottom: 20px;
+}
+.disclers-div h3{
+  font-size: 18px;
+  text-decoration: underline;
+}
+.crad-list-menu h1,
+.crad-list-menu p,
+.crad-list-menu h3,
+.crad-list-menu ul{
+  background: #fff;
+}
+.crad-list-menu hr{
+  background: #f8f8f8;
+  margin: 15px 0;
+}
+@media(max-width:575px){
+  .signup-btn{
+    padding: 10px;
+   font-size: 13px;
+  }
 }
