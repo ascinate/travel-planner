@@ -756,7 +756,7 @@ export default function TravelPlanner() {
                   </div>
                   <div
                     ref={resultRef}
-                    className="mt-4 border p-4 crad-list-menu rounded bg-white prose dark:prose-invert max-w-none overflow-auto"
+                    className="mt-4 border p-4 crad-list-menu rounded prose dark:prose-invert max-w-none overflow-auto"
                   >
                     <ReactMarkdown rehypePlugins={[rehypeRaw]}>{result}</ReactMarkdown>
                   </div>

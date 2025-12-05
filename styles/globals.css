@@ -755,7 +755,20 @@ footer p{
   .tops-sec-head{
     display: none;
   }
+  .signup-btn{
+    padding: 10px;
+   font-size: 13px !important;
+  }
 }
+
+
+@media(max-width:575px){
+  .signup-btn{
+    padding: 10px;
+   font-size: 13px !important;
+  }
+}
+
 .disclers-div{
   margin-bottom: 20px;
 }
@@ -763,19 +776,20 @@ footer p{
   font-size: 18px;
   text-decoration: underline;
 }
-.crad-list-menu h1,
-.crad-list-menu p,
-.crad-list-menu h3,
+
+.crad-list-menu h1{
+  background: #fff !important;
+}
+.crad-list-menu p{
+  background: #fff !important;
+}
+.crad-list-menu h3{
+  background: #fff !important;
+}
 .crad-list-menu ul{
-  background: #fff;
+  background: #fff !important;
 }
 .crad-list-menu hr{
   background: #f8f8f8;
   margin: 15px 0;
-}
-@media(max-width:575px){
-  .signup-btn{
-    padding: 10px;
-   font-size: 13px;
-  }
 }
