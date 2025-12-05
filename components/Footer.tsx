@@ -10,7 +10,7 @@ export default function Footer() {
 
          <div className="bootems-div block w-full">
               <div className="container">
-                 <div className="grid grid-cols-4 justify-between items-start gap-4">
+                 <div className="grid xl:grid-cols-4 justify-between items-start gap-4">
                     <div className="comonus-crads">
                          <h5> About Niche </h5>
                          <p className="mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard. </p>
@@ -91,7 +91,7 @@ export default function Footer() {
          </div>
          <div className="last-footers block w-full">
              <div className="container">
-                 <div className="grid grid-cols-2 justify-between items-start">
+                 <div className="grid xl:grid-cols-2 justify-between items-start">
                     <div className="copyrs01">
                          <p> &copy; 2025 Niche. All Rights Reserved. </p>
                     </div>
