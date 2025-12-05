@@ -594,7 +594,7 @@ const generatePlan = async () => {
                         <Image
                           width={300}
                           height={300}
-                          src="/QNF78Uk4YE.gif" // your custom big image
+                          src="/ezgif-815c088423421e9a.gif" // your custom big image
                           alt="Loading"
                             className="animate-pulse"
                         />
