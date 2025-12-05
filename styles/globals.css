@@ -366,6 +366,7 @@ font-size: 60px;
   background: #f1efea;
   padding: 70px 0;
   position: relative;
+  overflow: hidden;
 }
 .usert01{
   width: 40px;
@@ -427,6 +428,7 @@ font-size: 60px;
 }
 .explores-div{
   padding: 100px 0;
+  overflow: hidden;
 }
 .main-headings{
   font-size: 45px;
@@ -776,7 +778,19 @@ footer p{
     font-weight: 700;
     margin-bottom: 15px;
   }
-
+  .inside-scrolls-div .grid,
+  .inside-scrolls-div .flex{
+    display: block !important; 
+  }
+  .inside-scrolls-div .suend-butons{
+     display:flex !important; 
+  }
+  .mains-forms014{
+    overflow: hidden;
+  }
+  .msp015{
+    margin-bottom: 10px !important;
+  }
 }
 
 
