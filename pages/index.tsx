@@ -10,21 +10,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import TestmoliasSlider from '@/components/TestmoliasSlider';
-
-import { auth, db, googleProvider } from "@/lib/firebase";
-import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
-import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
-import type { User } from "firebase/auth";
-
-const tripMoodOptions = [
-  "Romance",
-  "Spiritual",
-  "Nature",
-  "Party",
-  "Photography",
-  "Local Culture",
-];
-
 const inter = Inter({
   variable: "--font-inter-sans",
   weight: ['300', '400', '500', '600', '700'],
@@ -35,44 +20,42 @@ const inter = Inter({
 
 
 export default function TravelPlanner() {
-  const [user, setUser] = useState<User | null>(null);
+  const [open, setOpen] = useState(false);
   
-  // Core form state
   const [destination, setDestination] = useState("");
-  const [travelPersona, setTravelPersona] = useState("Solo");
+  const [travelPersona, setTravelPersona] = useState("Single Woman");
   const [foodPersona, setFoodPersona] = useState("Vegan");
 
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  const [wakeUpTime, setWakeUpTime] = useState("");
+  const [wakeUpTime, setWakeUpTime] = useState("08:00");
   const [sleepTime, setSleepTime] = useState("");
   const [workStartTime, setWorkStartTime] = useState("");
   const [workEndTime, setWorkEndTime] = useState("");
   const [arrivalTime, setArrivalTime] = useState("");
   const [departureTime, setDepartureTime] = useState("");
-
   const [interests, setInterests] = useState<string[]>([]);
   const [selectedInterest, setSelectedInterest] = useState("");
   const [customInterest, setCustomInterest] = useState("");
-
   const [additionalNotes, setAdditionalNotes] = useState("");
-  const [result, setResult] = useState("");
 
+  const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
   const [remaining, setRemaining] = useState<number | null>(null);
 
+  const resultRef = useRef<HTMLDivElement>(null);
+
+
+  
   // New hyper-personalization fields
   const [travelStyle, setTravelStyle] = useState<number>(5); // 1=Relaxation, 10=Adventure
   const [budgetLevel, setBudgetLevel] = useState<number>(2); // 1=Budget, 2=Mid, 3=Luxury
   const [foodAllergies, setFoodAllergies] = useState("");
   const [mustVisit, setMustVisit] = useState("");
-  const [tripMood, setTripMood] = useState<string[]>([]);
 
-  const resultRef = useRef<HTMLDivElement>(null);
-
-  // --- Options ---
   const travelPersonaOptions = [
-    "Solo Traveller",
+    "Single Woman",
+    "Single Man",
     "Couple",
     "Elderly-Friendly",
     "Family-Friendly",
@@ -94,161 +77,144 @@ export default function TravelPlanner() {
 
   const interestOptions = ["Sightseeing", "Adventure", "Relaxation", "Food"];
 
-  // --- Interests ---
   const addInterest = () => {
     const newInterest = customInterest || selectedInterest;
     if (newInterest && !interests.includes(newInterest)) {
-      setInterests((prev) => [...prev, newInterest]);
+      setInterests([...interests, newInterest]);
       setCustomInterest("");
       setSelectedInterest("");
     }
   };
 
-  // --- Trip Mood toggle ---
-  const toggleMood = (mood: string) => {
-    setTripMood((prev) =>
-      prev.includes(mood) ? prev.filter((m) => m !== mood) : [...prev, mood]
-    );
-  };
-
-  // --- Free tier tracking (no login required) ---
-  const limitCheck = () => {
+  // --- Monthly usage logic ---
+  const checkUsageLimit = () => {
     if (typeof window === "undefined") return true;
+    const limit = 300;
+    const now = new Date();
+    const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
+    const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
 
-    const FREE_LIMIT = 3;
-    const month = new Date().toISOString().slice(0, 7); // YYYY-MM
-
-    let usage = JSON.parse(localStorage.getItem("usage-limit") || "{}");
-
-    if (!usage.month || usage.month !== month) {
-      usage = { month, count: 1 };
-    } else if (usage.count >= FREE_LIMIT) {
-      alert("You've used all 3 free itineraries for this month.");
-      return false;
-    } else {
-      usage.count += 1;
+    if (!stored.month || stored.month !== monthKey) {
+      localStorage.setItem(
+        "generationUsage",
+        JSON.stringify({ month: monthKey, count: 1 })
+      );
+      setRemaining(limit - 1);
+      return true;
     }
 
-    localStorage.setItem("usage-limit", JSON.stringify(usage));
-    setRemaining(FREE_LIMIT - usage.count);
+    if (stored.count >= limit) {
+      alert(
+        "You've reached the free usage limit for this month. Come back next month!"
+      );
+      return false;
+    }
+
+    stored.count += 1;
+    stored.month = monthKey;
+    localStorage.setItem("generationUsage", JSON.stringify(stored));
+    setRemaining(limit - stored.count);
     return true;
   };
 
   useEffect(() => {
-    const FREE_LIMIT = 3;
-    const month = new Date().toISOString().slice(0, 7);
-    const usage = JSON.parse(localStorage.getItem("usage-limit") || "{}");
-
-    if (!usage.month || usage.month !== month) {
-      setRemaining(FREE_LIMIT);
+    if (typeof window === "undefined") return;
+    const limit = 300;
+    const now = new Date();
+    const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
+    const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
+    if (stored.month !== monthKey) {
+      setRemaining(limit);
     } else {
-      setRemaining(FREE_LIMIT - usage.count);
+      setRemaining(Math.max(limit - stored.count, 0));
     }
-
-    // Auth watcher
-    const unsub = onAuthStateChanged(auth!, (u) => setUser(u));
-    return () => unsub();
   }, []);
 
-  const clean = (t: string) =>
-    t.replace(/(\w)\n(\w)/g, "$1 $2").replace(/\n{2,}/g, "\n\n").trim();
+  const Spinner = () => (
+    <svg
+      className="animate-spin h-5 w-5 text-white inline-block mr-2"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <circle
+        className="opacity-25"
+        cx="12"
+        cy="12"
+        r="10"
+        stroke="currentColor"
+        strokeWidth="4"
+      />
+      <path
+        className="opacity-75"
+        fill="currentColor"
+        d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+      ></path>
+    </svg>
+  );
 
-  const generatePlan = async () => {
-    if (!limitCheck()) return;
+  const cleanText = (text: string) =>
+    text
+      .replace(/(\w)\n(\w)/g, "$1 $2") // join broken words
+      .replace(/\n{2,}/g, "\n\n") // collapse multiple newlines
+      .replace(/[ ]{2,}/g, " ") // collapse multiple spaces
+      .trim();
 
-    setLoading(true);
-    setResult("");
+const generatePlan = async () => {
+  if (!checkUsageLimit()) return;
 
-    try {
-      const res = await fetch("/api/ai", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          destination,
-          travelPersona,
-          foodPersona,
-          startDate,
-          endDate,
-          wakeUpTime,
-          sleepTime,
-          workStartTime,
-          workEndTime,
-          arrivalTime,
-          departureTime,
-          interests,
-          additionalNotes,
-          travelStyle,
-          budgetLevel,
-          foodAllergies,
-          mustVisit,
-          tripMood,
-        }),
-      });
+  setLoading(true);
+  setResult(""); // clears old result
 
-      const data = await res.json();
-      setResult(clean(data.text));
-    } catch (err) {
-      console.error(err);
-      setResult("Error generating itinerary.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const savePlan = async () => {
-    if (!user) {
-      alert("Sign in to save itineraries.");
-      return;
-    }
-    if (!result) {
-      alert("Generate an itinerary first.");
-      return;
-    }
-
-    await updateDoc(doc(db, "users", user.uid), {
-      savedPlans: arrayUnion({
-        created: new Date().toISOString(),
+  try {
+    const response = await fetch("/api/ai", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
         destination,
         travelPersona,
         foodPersona,
-        travelStyle,
-        budgetLevel,
-        tripMood,
-        result,
+        startDate,
+        endDate,
+        wakeUpTime,
+        sleepTime,
+        workStartTime,
+        workEndTime,
+        arrivalTime,
+        departureTime,
+        interests,
+        additionalNotes,
       }),
     });
 
-    alert("Itinerary saved!");
-  };
+    if (!response.ok) throw new Error(`API Error: ${response.status}`);
 
-  const login = async () => {
-    try {
-      const res = await signInWithPopup(auth!, googleProvider);
-      await setDoc(
-        doc(db, "users", res.user.uid),
-        { savedPlans: [] },
-        { merge: true }
-      );
-    } catch (e) {
-      console.error("Google login failed:", e);
-      alert("Google sign-in failed. Please try again.");
-    }
-  };
+    const data = await response.json();
+    const cleaned = cleanText(data.text);
+    setResult(cleaned);       // 👈 result now appears
+  } catch (err) {
+    console.error(err);
+    setResult("There was an error generating your itinerary.");
+  } finally {
+    setLoading(false);       // 👈 loader stops, Answer appears
+  }
+};
 
-  const logout = async () => {
-    try {
-      await signOut(auth!);
-      setUser(null);
-    } catch (e) {
-      console.error("Logout failed:", e);
-      alert("Logout failed. Please try again.");
-    }
-  };
 
-  const pdf = async () => {
+  const downloadPDF = async () => {
     if (!resultRef.current) return;
     const html2pdf = (await import("html2pdf.js")).default;
-    html2pdf().from(resultRef.current).save("itinerary.pdf");
+
+    html2pdf()
+      .set({
+        margin: 0.5,
+        filename: `${destination || "travel-itinerary"}.pdf`,
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+      })
+      .from(resultRef.current)
+      .save();
   };
 
   return (
