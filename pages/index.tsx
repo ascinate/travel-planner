@@ -16,9 +16,6 @@ const inter = Inter({
   subsets: ['latin'],
 });
 
-
-
-
 export default function TravelPlanner() {
   const [open, setOpen] = useState(false);
   
