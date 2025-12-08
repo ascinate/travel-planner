@@ -1,5 +1,5 @@
 
-import { Inter, Big_Shoulders, Satisfy, Archivo } from 'next/font/google';
+import { Inter} from 'next/font/google';
 import React, { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -17,23 +17,8 @@ const inter = Inter({
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
 });
-const BigShoulders = Big_Shoulders({
-  variable: "--font-BigShoulders-sans",
-  weight: ['300', '400', '500', '600', '700', '800', '900'],
-  subsets: ['latin'],
-});
 
-const Satisfys = Satisfy({
-  variable: "--font-Satisfys-sans",
-  weight: [ '400'],
-  subsets: ['latin'],
-});
 
-const Archivos = Archivo({
-  variable: "--font-Archivos-sans",
-  weight: [ '400'],
-  subsets: ['latin'],
-});
 
 
 export default function TravelPlanner() {
