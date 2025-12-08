@@ -9,6 +9,7 @@ export default function Navbar() {
 
 
   const [isSticky, setIsSticky] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,12 +55,15 @@ export default function Navbar() {
                         </div>
                 </ul>
                 
-                <button id="menu-btn" className="md:hidden  flex items-center text-gray-700 focus:outline-none">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
-                      viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                          d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
+                <button 
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    className="md:hidden flex items-center text-gray-700 focus:outline-none"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
+                        viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
                 </button>
               </div>
             </div>
@@ -76,6 +80,44 @@ export default function Navbar() {
           </nav>
         </div>
       </header>
+
+      <div className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-[999] 
+    transform transition-transform duration-300 md:hidden
+    ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}>
+
+    <div className="flex justify-between items-center p-4 border-b">
+        <h2 className="text-lg font-semibold">
+          <Link className="navbar-brand" href="/">
+                            <Image width={144} height={63} loading="lazy" src="/logo-svg.svg" alt="logos"/>
+                        </Link>
+        </h2>
+
+        <button onClick={() => setIsMenuOpen(false)}>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
+                viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+
+        <nav className="p-4 space-y-3">
+            {menulist.map((type) => (
+                <Link 
+                  key={type.id} 
+                  href={type.link} 
+                  onClick={() => setIsMenuOpen(false)}
+                  className="block text-gray-800 text-lg hover:text-blue-600"
+                >
+                    {type.title}
+                </Link>
+            ))}
+
+            <Link href="/" className="block signut-bg text-white py-2 px-4 rounded mt-2 text-center">
+                Sign up
+            </Link>
+        </nav>
+      </div>
 
        </>
   );
