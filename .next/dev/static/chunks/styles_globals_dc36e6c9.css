@@ -2011,7 +2011,6 @@ footer p {
 
 .crad-list-menu ul li:before {
   content: "☯";
-  background: var(--primarycolor);
   width: 35px;
   height: 35px;
   color: var(--darkcolor);
