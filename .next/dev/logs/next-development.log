@@ -1,0 +1,34 @@
+[00:00:02.573] Server  LOG     
+[00:00:02.575] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:02.577] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:02.577] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:02.578] Server  LOG     
+[00:00:02.968] Server  LOG      ✓ Ready in 2.2s
+[00:00:05.999] Server  LOG      ○ Compiling /_error ...
+[00:00:36.483] Server  LOG      ○ Compiling / ...
+[00:00:36.943] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:00:38.049] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:00:40.825] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:01:10.231] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:01:46.773] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
