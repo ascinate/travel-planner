@@ -262,9 +262,8 @@ const generatePlan = async () => {
                         <div className='container'>
                                <div className="right-coloms">
                                   <div className='banners-text01'>
-                                      <h2 className='mt-2'> Travel That
-                                        <span className='block'> fits You. </span> </h2>
-                                      <p className='text-white'> Build a trip with your saves or use AI to get custom recommendations </p>
+                                      <h2 className='mt-2'> Travel That fits You.
+                                        <span className='block'>  </span> </h2>
                                    
 
                                      
@@ -273,9 +272,9 @@ const generatePlan = async () => {
                            <div className="grid grid-cols-1 gap-4 gap-x-5 grid-forms">
                               <div className="left-coloms">
                                    <div className='mains-forms014 bg-white'>
-                                    <div className='inside-scrolls-div grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-5  items-center'>
+                                    <div className='inside-scrolls-div grid grid-cols-2 gap-5  items-center'>
                                       {/* --- Inputs (all preserved) --- */}
-                                        <div className="crm-groups col-span-4 xl:col-span-2">
+                                        <div className="crm-groups">
                                           <label className="font-medium mb-1"> <span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="rgba(194,157,89,1)"><path d="M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"></path></svg> </span> Destination</label>
                                           <input
                                             type="text"
@@ -286,7 +285,7 @@ const generatePlan = async () => {
                                           />
                                         </div>
 
-                                        <div className="crm-groups col-span-4 xl:col-span-1">
+                                        <div className="crm-groups">
                                           <label className="block font-medium mb-1"> <span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="rgba(194,157,89,1)"><path d="M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"></path></svg> </span> Travel Persona</label>
                                           <select
                                             value={travelPersona}
@@ -301,7 +300,18 @@ const generatePlan = async () => {
                                           </select>
                                         </div>
 
-                                         <div className="crm-groups  col-span-4 xl:col-span-1">
+                                         
+
+
+                                        
+
+                                        {/* advanced */}
+
+                                        {open && (
+                                        <div className="mt-4 col-span-4 xl:col-span-4 grid gap-x-5 items-end">
+                                             
+
+                                              <div className="crm-groups">
                                                 <label className="block font-medium mb-1"> <span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="rgba(194,157,89,1)"><path d="M4 2H7.32297L8.52297 5H3V7H5.11765L5.94463 21.0587C5.97572 21.5873 6.41343 22 6.9429 22H17.0571C17.5866 22 18.0243 21.5873 18.0554 21.0587L18.8824 7H21V5H10.677L8.67703 0H4V2ZM7.29906 10.0252L7.1211 7H16.8789L16.5867 11.9675C14.28 11.853 13.4226 11.4919 12.3713 11.0714C11.2792 10.6347 9.97065 10.1354 7.29906 10.0252ZM7.41714 12.0326C9.72097 12.1473 10.5894 12.5128 11.6401 12.933C12.7001 13.357 13.9556 13.8375 16.4692 13.9641L16.1142 20H7.88581L7.41714 12.0326Z"></path></svg> </span> Food Persona</label>
                                                 <select
                                                   value={foodPersona}
@@ -314,17 +324,7 @@ const generatePlan = async () => {
                                                     </option>
                                                   ))}
                                                 </select>
-                                          </div>
-
-
-                                        
-
-                                        {/* advanced */}
-
-                                        {open && (
-                                        <div className="mt-4 col-span-4 xl:col-span-4 grid gap-x-5 items-end">
-                                             
-
+                                              </div>
                                               {/* Dates */}
                                               <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-5">
                                                 <div className='crm-groups col-span-4 xl:col-span-1'>
@@ -546,11 +546,13 @@ const generatePlan = async () => {
                                           </div>
                                         )}
 
-                                        <div className="sm-div-btn col-span-4 xl:col-span-1">
+                                       
+                                    </div>
+                                     <div className="sm-div-btn ml:auto">
                                             <button
                                               onClick={generatePlan}
                                               disabled={loading}
-                                              className="suend-butons flex items-center justify-center disabled:opacity-60"
+                                              className="suend-butons flex items-center md:ml-auto justify-center disabled:opacity-60"
                                             >
                                               <svg viewBox="0 0 24 24" width="24px" height="24px" className="d Vb UmNoP" aria-hidden="true"><path d="M16.895 3A4.86 4.86 0 0 0 21 7.105a4.86 4.86 0 0 0-4.105 4.106 4.86 4.86 0 0 0-4.105-4.106A4.86 4.86 0 0 0 16.895 3M9.947 7.105a8.22 8.22 0 0 0 6.947 6.947A8.22 8.22 0 0 0 9.947 21 8.22 8.22 0 0 0 3 14.052a8.22 8.22 0 0 0 6.947-6.947"></path></svg>
                                               {loading ? <Spinner /> : "Generate Itinerary"}
@@ -560,7 +562,7 @@ const generatePlan = async () => {
                                             
                                         </div>
                                         <button onClick={() => setOpen(!open)}
-                                                    className="advance-btn flex items-center col-span-4 xl:col-span-1"
+                                                    className="advance-btn flex items-center md:ml-auto"
                                                   >
                                                     Advanced Search <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path></svg>
                                           </button>
@@ -571,7 +573,6 @@ const generatePlan = async () => {
                                           </p>
                                         )}
                                         </div>
-                                    </div>
 
                                         {/* Generate */}
                                         
