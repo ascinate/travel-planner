@@ -24,7 +24,7 @@ const inter = Inter({
 export default function TravelPlanner() {
   const [open, setOpen] = useState(false);
   
-  const [destination, setDestination] = useState("");
+const [destination, setDestination] = useState("");
   const [travelPersona, setTravelPersona] = useState("Single Woman");
   const [foodPersona, setFoodPersona] = useState("Vegan");
 
@@ -46,14 +46,6 @@ export default function TravelPlanner() {
   const [remaining, setRemaining] = useState<number | null>(null);
 
   const resultRef = useRef<HTMLDivElement>(null);
-
-
-  
-  // New hyper-personalization fields
-  const [travelStyle, setTravelStyle] = useState<number>(5); // 1=Relaxation, 10=Adventure
-  const [budgetLevel, setBudgetLevel] = useState<number>(2); // 1=Budget, 2=Mid, 3=Luxury
-  const [foodAllergies, setFoodAllergies] = useState("");
-  const [mustVisit, setMustVisit] = useState("");
 
   const travelPersonaOptions = [
     "Single Woman",
@@ -162,46 +154,45 @@ export default function TravelPlanner() {
       .replace(/[ ]{2,}/g, " ") // collapse multiple spaces
       .trim();
 
-const generatePlan = async () => {
-  if (!checkUsageLimit()) return;
+  const generatePlan = async () => {
+    if (!checkUsageLimit()) return;
 
-  setLoading(true);
-  setResult(""); // clears old result
+    setLoading(true);
+    setResult("");
 
-  try {
-    const response = await fetch("/api/ai", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        destination,
-        travelPersona,
-        foodPersona,
-        startDate,
-        endDate,
-        wakeUpTime,
-        sleepTime,
-        workStartTime,
-        workEndTime,
-        arrivalTime,
-        departureTime,
-        interests,
-        additionalNotes,
-      }),
-    });
+    try {
+      const response = await fetch("/api/ai", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          destination,
+          travelPersona,
+          foodPersona,
+          startDate,
+          endDate,
+          wakeUpTime,
+          sleepTime,
+          workStartTime,
+          workEndTime,
+          arrivalTime,
+          departureTime,
+          interests,
+          additionalNotes,
+        }),
+      });
 
-    if (!response.ok) throw new Error(`API Error: ${response.status}`);
+      if (!response.ok) throw new Error(`API Error: ${response.status}`);
 
-    const data = await response.json();
-    const cleaned = cleanText(data.text);
-    setResult(cleaned);       // 👈 result now appears
-  } catch (err) {
-    console.error(err);
-    setResult("There was an error generating your itinerary.");
-  } finally {
-    setLoading(false);       // 👈 loader stops, Answer appears
-  }
-};
-
+      const data = await response.json();
+      const cleaned = cleanText(data.text);
+      setResult(cleaned);
+    } catch (err) {
+      console.error(err);
+      setResult("There was an error generating your itinerary.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const downloadPDF = async () => {
     if (!resultRef.current) return;
@@ -221,23 +212,7 @@ const generatePlan = async () => {
 
   return (
     <>
-    <style>
-      {`
-       h2,
-       .plans015 span,
-       .left-footer h3{
-       
-       }
-        .suba-text{
-           
-        }
-        .mainmenu a.nav-link,
-        .signup-btn,
-        .login-ins{
-           
-        }
-        `}
-    </style>
+  
          <div className={inter.className}>
               <Navbar/>
                 <section className='float-left w-full banners-parts'>
