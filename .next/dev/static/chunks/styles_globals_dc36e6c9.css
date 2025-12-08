@@ -1688,8 +1688,8 @@ footer p {
 }
 
 .left-contents015-res {
-  border: solid 1px e8e3dc;
   background: #f4f0e5;
+  border: 1px solid #e8e3dc;
   padding: 20px;
 }
 
@@ -1702,6 +1702,14 @@ footer p {
   .advance-btn {
     margin-top: 15px;
     margin-left: auto;
+  }
+
+  .rights-contentsd-res {
+    width: 90%;
+  }
+
+  .left-contents015-res {
+    width: 40%;
   }
 }
 

@@ -591,3 +591,109 @@ Skipping generating a fallback font.
 
 
 [00:44:09.285] Browser ERROR   {}
+[00:44:40.192] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:45:20.777] Server  LOG      ✓ Compiled in 714ms
+[00:45:22.391] Server  LOG      ✓ Compiled in 346ms
+[00:45:26.745] Server  LOG      ✓ Compiled in 109ms
+[00:45:32.791] Server  LOG      ✓ Compiled in 97ms
+[00:45:35.150] Server  LOG      ✓ Compiled in 98ms
+[00:45:37.822] Server  LOG      ✓ Compiled in 190ms
+[00:45:40.527] Server  LOG      ✓ Compiled in 244ms
+[00:45:45.239] Server  LOG      ✓ Compiled in 299ms
+[00:45:46.522] Server  LOG      ✓ Compiled in 519ms
+[00:45:48.689] Server  LOG      ✓ Compiled in 198ms
+[00:45:53.450] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:45:55.949] Server  LOG      ✓ Compiled in 226ms
+[00:45:59.311] Server  LOG      ✓ Compiled in 120ms
+[00:46:01.931] Server  LOG      ✓ Compiled in 85ms
+[00:46:03.168] Server  LOG      ✓ Compiled in 90ms
+[00:46:16.243] Server  LOG      ✓ Compiled in 110ms
+[00:46:20.479] Server  LOG      ✓ Compiled in 118ms
+[00:47:00.656] Server  LOG      ✓ Compiled in 338ms
+[00:47:01.179] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:623:5: Unknown word right
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:47:04.925] Server  LOG      ✓ Compiled in 786ms
+[00:47:08.547] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:47:09.018] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:47:09.022] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:47:26.834] Server  LOG      ✓ Compiled in 310ms
+[00:47:29.705] Server  LOG      ✓ Compiled in 150ms
+[00:47:40.278] Server  LOG      ✓ Compiled in 123ms
+[00:48:00.353] Server  LOG      ✓ Compiled in 145ms
+[00:48:01.177] Browser LOG     Refreshing page data due to server-side change
+[00:48:01.177] Browser ERROR   ./pages/index.tsx:788:33
+Parsing ecmascript source code failed
+  786 |                                 <div className='rights-contentsd-res'>
+  787 |                                      <h
+> 788 |                                 </div>
+      |                                 ^
+  789 |                             </div>
+  790 |                             
+  791 |                              
+
+Expression expected
+[00:48:01.177] Browser ERROR   ./pages/index.tsx:788:34
+Parsing ecmascript source code failed
+  786 |                                 <div className='rights-contentsd-res'>
+  787 |                                      <h
+> 788 |                                 </div>
+      |                                  ^^^^^
+  789 |                             </div>
+  790 |                             
+  791 |                              
+
+Unterminated regexp literal
+[00:48:01.177] Browser ERROR   ./pages/index.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:48:02.961] Server  LOG      ✓ Compiled in 134ms
+[00:48:03.173] Browser LOG     Refreshing page data due to server-side change
+[00:48:06.728] Server  LOG      ✓ Compiled in 137ms
+[00:49:34.663] Server  LOG      ✓ Compiled in 106ms
+[00:49:37.030] Server  LOG      ✓ Compiled in 294ms
+[00:49:49.392] Server  LOG      ✓ Compiled in 134ms

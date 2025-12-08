@@ -756,11 +756,6 @@ const generatePlan = async () => {
                         {/* Result Screen */}
                         <div className='float-left w-full'>
                           <div className='container sub-pages01 position-relative'>
-                            <div className='flex items-start'>
-                                <div className='left-contents015-res'>
-                                   
-                                </div>
-                            </div>
                             <div className="flex justify-end mt-4">
 
                               <button
@@ -777,14 +772,27 @@ const generatePlan = async () => {
                                 Download as PDF
                               </button>
                             </div>
-                             <h1 className='md:flex items-center sub-tr'> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(234,113,46,1)"><path d="M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"></path></svg>  Heres what NicheTrips Creates for You </h1>
-                            <div
-                              ref={resultRef}
-                              className="mt-4 border p-4 crad-list-menu rounded prose dark:prose-invert max-w-none overflow-auto"
-                            >
-                              
-                              <ReactMarkdown rehypePlugins={[rehypeRaw]}>{result}</ReactMarkdown>
+                            <div className='flex items-start'>
+                                <div className='left-contents015-res'>
+                                    <h1 className='md:flex items-center sub-tr'> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(234,113,46,1)"><path d="M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"></path></svg>  Heres what NicheTrips Creates for You </h1>
+                                    <div
+                                      ref={resultRef}
+                                      className="mt-4 border p-4 crad-list-menu rounded prose dark:prose-invert max-w-none overflow-auto"
+                                    >
+                                      
+                                      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{result}</ReactMarkdown>
+                                    </div>
+                                </div>
+                                <div className='rights-contentsd-res'>
+                                     <h3>  Niche Trips was created
+for travelers who don't tit the "one size fits all" mold. </h3>
+                                     <p>  Whether you're a digital nomad. a feodle: a souple seeking fomantic getaways, or someone with specific distary iteeds your frip-eirould adapt to you, nof the other ionound.
+With Ar shiven personalization Niche Trips cratts liltheraries that match your lifestyle, preferences, and exergy. Trevel fan't
+genenc. Your plan-shouldn't be either. </p>
+                                </div>
                             </div>
+                            
+                             
 
                             <div className='disclers-div'>
                                 <h3 className='text-white'> Disclaimers </h3>

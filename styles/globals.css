@@ -619,6 +619,12 @@ footer p{
     margin-left: auto;
     margin-top: 15px;
   }
+  .rights-contentsd-res{
+    width: 90% ;
+  }
+  .left-contents015-res{
+    width: 30% ;
+  }
 
 }
 @media(min-width:1400px){
