@@ -10,11 +10,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import TestmoliasSlider from '@/components/TestmoliasSlider';
+
+
 const inter = Inter({
   variable: "--font-inter-sans",
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
 });
+
+
+
 
 export default function TravelPlanner() {
   const [open, setOpen] = useState(false);
@@ -216,7 +221,23 @@ const generatePlan = async () => {
 
   return (
     <>
-  
+    <style>
+      {`
+       h2,
+       .plans015 span,
+       .left-footer h3{
+       
+       }
+        .suba-text{
+           
+        }
+        .mainmenu a.nav-link,
+        .signup-btn,
+        .login-ins{
+           
+        }
+        `}
+    </style>
          <div className={inter.className}>
               <Navbar/>
                 <section className='float-left w-full banners-parts'>
