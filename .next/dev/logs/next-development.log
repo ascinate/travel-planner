@@ -697,3 +697,153 @@ Debug info:
 [00:49:34.663] Server  LOG      ✓ Compiled in 106ms
 [00:49:37.030] Server  LOG      ✓ Compiled in 294ms
 [00:49:49.392] Server  LOG      ✓ Compiled in 134ms
+[00:51:30.480] Server  LOG      ✓ Compiled in 176ms
+[00:51:32.529] Server  LOG      ✓ Compiled in 170ms
+[00:51:43.917] Server  LOG      ✓ Compiled in 174ms
+[00:51:45.614] Server  LOG      ✓ Compiled in 213ms
+[00:52:13.313] Server  LOG      ✓ Compiled in 161ms
+[00:52:26.365] Server  LOG      ✓ Compiled in 207ms
+[00:52:27.184] Browser ERROR   ./styles/globals.css:1306:1
+Parsing CSS source code failed
+  1304 | }
+  1305 | .left-contents015-res h
+> 1306 | @media(min-width:1200px) {
+       | ^
+  1307 |   .container {
+  1308 |     max-width: 1100px;
+  1309 |     margin: 0 auto;
+
+Invalid dangling combinator in selector
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:52:37.553] Server  LOG      ✓ Compiled in 132ms
+[00:52:42.868] Server  LOG      ✓ Compiled in 61ms
+[00:52:43.179] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:615:3: Unknown word font
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:52:45.409] Server  LOG      ✓ Compiled in 1002ms
+[00:52:45.937] Server  LOG      ✓ Compiled in 191ms
+[00:52:48.365] Server  LOG      ✓ Compiled in 173ms
+[00:52:52.367] Server  LOG      ✓ Compiled in 42ms
+[00:52:53.171] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:616:3: Unknown word m
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:52:56.139] Server  LOG      ✓ Compiled in 879ms
+[00:54:08.132] Server  LOG      ✓ Compiled in 260ms
+[00:54:09.610] Server  LOG      ✓ Compiled in 250ms
+[00:54:11.373] Server  LOG      ✓ Compiled in 160ms
+[00:54:13.020] Server  LOG      ✓ Compiled in 151ms
+[00:56:34.939] Server  LOG      ✓ Compiled in 255ms
+[00:56:40.535] Server  LOG      ✓ Compiled in 178ms
+[00:56:48.992] Server  LOG      ✓ Compiled in 66ms
+[00:56:49.229] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:883:3: Unknown word po
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:56:54.045] Server  LOG      ✓ Compiled in 1080ms
+[00:56:57.372] Server  LOG      ✓ Compiled in 215ms
+[00:57:02.526] Server  LOG      ✓ Compiled in 232ms
+[00:57:08.905] Server  LOG      ✓ Compiled in 160ms
+[00:57:09.169] Browser ERROR   ./styles/globals.css:1562:19
+Parsing CSS source code failed
+  1560 |   left: 0;
+  1561 |   top: 0;
+> 1562 |   background: var();
+       |                   ^
+  1563 | }
+  1564 | .signut-bg {
+  1565 |   background: var(--primarycolor) !important;
+
+Unexpected end of input
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:57:10.873] Server  LOG      ✓ Compiled in 219ms
+[00:57:12.583] Server  LOG      ✓ Compiled in 201ms
+[00:57:34.257] Server  LOG      ✓ Compiled in 77ms
+[00:57:35.173] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:894:3: Unknown word ali
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:57:37.414] Server  LOG      ✓ Compiled in 860ms
+[00:57:41.965] Server  LOG      ✓ Compiled in 246ms
+[00:57:42.175] Browser ERROR   ./styles/globals.css:1570:14
+Parsing CSS source code failed
+  1568 |   justify-content: center;
+  1569 |   align-content: center;
+> 1570 |   color: var();
+       |              ^
+  1571 | }
+  1572 | .signut-bg {
+  1573 |   background: var(--primarycolor) !important;
+
+Unexpected end of input
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:57:43.447] Server  LOG      ✓ Compiled in 176ms

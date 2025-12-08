@@ -610,6 +610,11 @@ footer p{
   padding: 20px;
   border: solid 1px #e8e3dc;
 }
+.left-contents015-res h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
 @media(min-width:1200px){
   .container{
     max-width: 1100px;
@@ -620,10 +625,11 @@ footer p{
     margin-top: 15px;
   }
   .rights-contentsd-res{
-    width: 90% ;
+    width: 30% ;
+    padding: 20px;
   }
   .left-contents015-res{
-    width: 30% ;
+    width: 70% ;
   }
 
 }
@@ -858,22 +864,35 @@ footer p{
 }
 
 .crad-list-menu h1{
-  background: #fff !important;
 }
 .crad-list-menu p{
-  background: #fff !important;
 }
 .crad-list-menu h3{
-  background: #fff !important;
 }
 .crad-list-menu ul{
-  background: #fff !important;
   padding: 0 15px 15px 15px;
 }
 .crad-list-menu hr {
-    background: #f8f8f8;
     margin: 15px 0;
     border-color: #dcdcdc !important;
+}
+.crad-list-menu ul li{
+  position: relative;
+}
+.crad-list-menu ul li::before{
+  position: absolute;
+  content: "262F";
+  left: 0;
+  top:0;
+  background: var(--primarycolor);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: var(--darkcolor);
 }
 .signut-bg{
   background: var(--primarycolor) !important;
