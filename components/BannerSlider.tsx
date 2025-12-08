@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 
 export default function BannerCarousel() {
   const slides = [
-    "/banner1.jpg",
-    "/banner2.jpg",
+    "/gress01.jpg",
+    "/gress02.jpg",
   ];
 
   const [index, setIndex] = useState(0);

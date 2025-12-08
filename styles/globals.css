@@ -3,9 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primarycolor:#dcaf5d;
+  --primarycolor:#f1715c;
   --textcolor:#1b1b1b;
-  --darkcolor:#0d0d0d;
+  --darkcolor:#2c3046;
+  --paratext:#75757a;
+  --textdark:#1e2132;
+  --bg-background:#fbf7ee;
 }
 
 @theme inline {
@@ -23,19 +26,18 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--bg-background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .navications-div{
   padding: 12px 0;
 }
 
 .navications-div {
     padding: 0 0 15px 0;
-    background: #fff;
-    z-index: 2;
+    position: absolute;
+    z-index: 33;
 }
 .tops-sec-head{
   background: var(--darkcolor);
@@ -45,14 +47,14 @@ body {
   padding: 10px 0 0 0;
 }
 .menu-sections01{
-  width:60%;
+  width:auto;
 }
 .logos-mains{
   width: 20%;
 }
 .menu-sections01 .nav-link ,
 .login-ins{
-  color: var(--foreground);
+  color: var(--textdark);
   font-size: 18px;
   font-weight: 500;
   padding: 0 14px;
@@ -64,7 +66,6 @@ body {
   font-size: 14px;
 }
 .right-logins{
-  width: 20%;
   justify-content: flex-end;
 }
 .signup-btn{
@@ -92,8 +93,9 @@ body {
 .mains-forms014{
   border-radius: 20px;
   padding: 28px;
-  width: 100%;
+  width: 49%;
   margin-top: 40px;
+  background: var(--bg-background);
 }
 .forms-seraclist{
   margin-top: -460px;
@@ -106,10 +108,10 @@ body {
 .mains-forms014::before{
     position: absolute;
     left: -50px;
-    bottom: 117px;
+    bottom: 87px;
     content: "";
     border-radius: 0px 0px 20px 0px;
-    box-shadow: 10px 10px 0px 0px var(--background);
+    box-shadow: 10px 10px 0px 0px var(--bg-background);
     /* top: 0; */
     width: 50px;
     height: 50px;
@@ -117,10 +119,10 @@ body {
 .mains-forms014::after{
     position: absolute;
     right:-50px;
-    bottom: 117px;
+    bottom: 87px;
     content: "";
     border-radius: 0px 0px 0px 20px;
-    box-shadow: -10px 10px 0px 0px var(--background);
+    box-shadow: -10px 10px 0px 0px var(--bg-background);
     width: 50px;
     height: 50px;
 }
@@ -203,30 +205,31 @@ body {
     font-weight: 500;
     cursor: pointer;
     transition: all 0.5s;
+    color: var(--background);
 }
 .suend-butons:hover{
   background: var(--foreground);
   color: var(--background) !important;
 }
 .suend-butons:hover svg{
-  fill: var(--background) !important;
+  fill: #fff !important;
 }
 .crm-groups label span{
   margin-right: 5px;
 }
 .crm-groups input,
 .crm-groups select{
-    background-color: #f2f2f2;
+    background-color: var(--background);
     height: 53px;
     color: var(--textcolor);
     border-radius: 13px;
     text-indent: 15px;
-    border: none;
     font-size: 14px;
+    border: solid 1px #bbbbbb6e;
 
 }
 .crm-groups textarea{
-  background-color: #f2f2f2;
+  background-color: var(--background);
   height: 100px;
   resize: none;
   color: var(--textcolor);
@@ -257,11 +260,12 @@ body {
   font-weight: 800;
   line-height: 75px;
   margin-bottom: 7px;
+  color: var(--textdark);
 }
 .banners-text01 h2 span{
-  font-size: 54px;
+  /* font-size: 54px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: capitalize; */
 }
 .banners-text01 p{
   margin: 0;
@@ -596,10 +600,18 @@ footer p{
   z-index: 22999;
 }
 
+.sm-div-btn{
+
+}
+
 @media(min-width:1200px){
   .container{
     max-width: 1100px;
     margin: 0 auto;
+  }
+  .advance-btn{
+    margin-left: auto;
+    margin-top: 15px;
   }
 
 }
@@ -711,6 +723,9 @@ footer p{
     font-weight: 500;
   }
   
+}
+@media(max-width:1180px){
+
 }
 @media(max-width:1080px){
   .container{
