@@ -104,7 +104,11 @@ body {
 }
 .mains-forms014{
   position: relative;
+  height: 320px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
+.inside-scrolls-div
 .mains-forms014::before{
     position: absolute;
     left: -50px;

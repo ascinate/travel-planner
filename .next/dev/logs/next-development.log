@@ -163,3 +163,158 @@ Skipping generating a fallback font.
 [00:11:08.796] Server  LOG      ✓ Compiled in 138ms
 [00:11:11.456] Server  LOG      ✓ Compiled in 120ms
 [00:11:15.744] Server  LOG      ✓ Compiled in 268ms
+[00:12:31.734] Server  LOG      ✓ Compiled in 95ms
+[00:14:06.793] Server  LOG      ✓ Compiled in 120ms
+[00:14:09.755] Server  LOG      ✓ Compiled in 97ms
+[00:14:16.965] Server  LOG      ✓ Compiled in 232ms
+[00:14:25.114] Server  LOG      ✓ Compiled in 89ms
+[00:14:27.662] Server  LOG      ✓ Compiled in 98ms
+[00:14:29.312] Server  LOG      ✓ Compiled in 144ms
+[00:14:30.259] Server  LOG      ✓ Compiled in 111ms
+[00:14:32.937] Server  LOG      ✓ Compiled in 193ms
+[00:14:39.333] Server  LOG      ✓ Compiled in 209ms
+[00:15:20.831] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:15:24.529] Server  LOG      ✓ Compiled in 241ms
+[00:16:04.988] Server  LOG      ✓ Compiled in 124ms
+[00:16:47.443] Server  LOG      ✓ Compiled in 122ms
+[00:17:01.791] Server  LOG      ✓ Compiled in 112ms
+[00:17:08.948] Server  LOG      ✓ Compiled in 113ms
+[00:17:15.081] Server  LOG      ✓ Compiled in 111ms
+[00:18:29.339] Server  LOG      ✓ Compiled in 111ms
+[00:18:31.305] Server  LOG      ✓ Compiled in 200ms
+[00:18:32.399] Server  LOG      ✓ Compiled in 90ms
+[00:18:35.671] Server  LOG      ✓ Compiled in 96ms
+[00:18:37.379] Server  LOG      ✓ Compiled in 107ms
+[00:18:39.568] Server  LOG      ✓ Compiled in 141ms
+[00:18:46.072] Server  LOG      ✓ Compiled in 108ms
+[00:19:01.919] Server  LOG      ✓ Compiled in 106ms
+[00:19:04.126] Server  LOG      ✓ Compiled in 120ms
+[00:19:06.196] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:19:36.785] Server  LOG      ✓ Compiled in 87ms
+[00:19:53.648] Server  LOG      ✓ Compiled in 187ms
+[00:19:53.660] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:19:53.663] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:19:56.244] Server  LOG      ✓ Compiled in 175ms
+[00:19:58.169] Server  LOG      ✓ Compiled in 248ms
+[00:19:59.312] Server  LOG      ✓ Compiled in 170ms
+[00:20:01.463] Server  LOG      ✓ Compiled in 78ms
+[00:20:02.181] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:108:3: Unknown word ove
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:20:05.485] Server  LOG      ✓ Compiled in 1251ms
+[00:20:07.645] Server  LOG      ✓ Compiled in 63ms
+[00:20:08.178] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:109:3: Unknown word ove
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:20:10.117] Server  LOG      ✓ Compiled in 849ms
+[00:20:40.595] Server  LOG      ✓ Compiled in 350ms
+[00:20:41.124] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:20:43.038] Server  LOG      ✓ Compiled in 182ms
+[00:20:44.932] Server  LOG      ✓ Compiled in 167ms
+[00:20:51.441] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:20:52.063] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:20:54.229] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:21:06.451] Server  LOG      ✓ Compiled in 156ms
+[00:21:13.558] Server  LOG      ✓ Compiled in 175ms
+[00:21:34.463] Server  LOG      ✓ Compiled in 212ms
+[00:21:43.828] Server  LOG      ✓ Compiled in 136ms
+[00:21:51.673] Server  LOG      ✓ Compiled in 163ms
+[00:22:00.782] Server  LOG      ✓ Compiled in 123ms
+[00:22:07.436] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:22:07.792] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:22:07.795] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:22:21.615] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:22:21.627] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:23:38.832] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:23:41.840] Server  LOG      ✓ Compiled in 164ms
+[00:24:29.625] Server  LOG      ✓ Compiled in 182ms
+[00:25:01.164] Server  LOG      ✓ Compiled in 148ms
+[00:25:22.055] Server  LOG      ✓ Compiled in 165ms
+[00:25:23.978] Server  LOG      ✓ Compiled in 122ms
+[00:25:37.642] Server  LOG      ✓ Compiled in 165ms

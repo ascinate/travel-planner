@@ -1927,7 +1927,7 @@ function TravelPlanner() {
                                                             columnNumber: 41
                                                         }, this),
                                                         open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "mt-4 col-span-4 xl:col-span-4 grid gap-x-5 items-end",
+                                                            className: "mt-4 col-span-4 xl:col-span-2 off-scrolls grid grid-cols-2 gap-x-5 items-end",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                                     className: "crm-groups",
@@ -2120,7 +2120,7 @@ function TravelPlanner() {
                                                                     columnNumber: 47
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "grid grid-cols-1 xl:grid-cols-2 gap-x-5",
+                                                                    className: "grid grid-cols-1 xl:grid-cols-1 gap-x-5",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                                             className: "crm-groups col-span-4 xl:col-span-1",
@@ -2157,7 +2157,7 @@ function TravelPlanner() {
                                                                                             lineNumber: 353,
                                                                                             columnNumber: 94
                                                                                         }, this),
-                                                                                        " Wake-Up Time"
+                                                                                        " Wake-Up Time "
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/pages/index.tsx",
@@ -2251,7 +2251,7 @@ function TravelPlanner() {
                                                                     columnNumber: 47
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "grid grid-cols-1 xl:grid-cols-2 gap-x-5",
+                                                                    className: "grid grid-cols-1 xl:grid-cols-1 gap-x-5",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                                             className: "crm-groups xl:col-span-1",
@@ -2391,7 +2391,7 @@ function TravelPlanner() {
                                                                     columnNumber: 47
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "grid grid-cols-1 xl:grid-cols-2 gap-x-5",
+                                                                    className: "grid grid-cols-1 xl:grid-cols-2 col-span-2 gap-x-5",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                                             className: "crm-groups",
@@ -2531,7 +2531,7 @@ function TravelPlanner() {
                                                                     columnNumber: 47
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups",
+                                                                    className: "crm-groups col-span-2",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
                                                                             className: "text-sm text-gray-600",
@@ -2558,7 +2558,7 @@ function TravelPlanner() {
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups ",
+                                                                    className: "crm-groups col-span-2 ",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
                                                                             className: "block font-medium mb-1",
@@ -2978,7 +2978,7 @@ function TravelPlanner() {
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "crm-groups col-span-4 mt-5",
+                                                    className: "crm-groups col-span-4 mt-5 md:text-right",
                                                     children: remaining !== null && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                         className: "text-sm plans015 text-gray-600 mt-0 ",
                                                         children: [
@@ -2991,7 +2991,7 @@ function TravelPlanner() {
                                                             }, this),
                                                             "  ",
                                                             remaining,
-                                                            " itinerary generations left this month"
+                                                            " itinerary free no sign-up required."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
