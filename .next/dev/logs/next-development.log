@@ -318,3 +318,276 @@ Skipping generating a fallback font.
 [00:25:22.055] Server  LOG      ✓ Compiled in 165ms
 [00:25:23.978] Server  LOG      ✓ Compiled in 122ms
 [00:25:37.642] Server  LOG      ✓ Compiled in 165ms
+[00:29:34.715] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:29:35.541] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:29:37.625] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:29:38.833] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:29:39.199] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:29:39.203] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:29:50.823] Server  LOG      ✓ Compiled in 148ms
+[00:30:01.319] Server  LOG      ✓ Compiled in 114ms
+[00:30:03.151] Server  LOG      ✓ Compiled in 180ms
+[00:30:34.182] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:30:37.934] Server  LOG      ✓ Compiled in 45ms
+[00:30:38.188] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:102:3: Unknown word ove
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:30:42.042] Server  LOG      ✓ Compiled in 839ms
+[00:30:51.733] Server  LOG      ✓ Compiled in 224ms
+[00:30:55.894] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:30:57.083] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:30:59.286] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:31:28.772] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:32:14.457] Server  LOG      ✓ Compiled in 203ms
+[00:32:17.423] Server  LOG      ✓ Compiled in 136ms
+[00:32:18.175] Browser LOG     Refreshing page data due to server-side change
+[00:32:18.175] Browser ERROR   ./pages/index.tsx:779:42
+Parsing ecmascript source code failed
+  777 |                               className="mt-4 border p-4 crad-list-menu rounded prose dark:prose-invert max-w-none overflow-auto"
+  778 |                             >
+> 779 |                                <h1> </h2>
+      |                                          ^
+> 780 |                               <ReactMarkdown rehypePlugins={[rehypeRaw]}>{result}</ReactMarkdown>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  781 |                             </div>
+  782 |
+  783 |                             <div className='disclers-div'>
+
+Expected '</', got 'jsx text (
+                              )'
+[00:32:18.175] Browser ERROR   ./pages/index.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:32:19.128] Server  LOG      ✓ Compiled in 137ms
+[00:32:19.340] Browser LOG     Refreshing page data due to server-side change
+[00:32:20.659] Server  LOG      ✓ Compiled in 253ms
+[00:32:22.047] Server  LOG      ✓ Compiled in 139ms
+[00:32:23.700] Server  LOG      ✓ Compiled in 177ms
+[00:32:26.431] Server  LOG      ✓ Compiled in 94ms
+[00:32:29.092] Server  LOG      ✓ Compiled in 84ms
+[00:32:33.698] Server  LOG      ✓ Compiled in 90ms
+[00:32:40.466] Server  LOG      ✓ Compiled in 200ms
+[00:32:43.531] Server  LOG      ✓ Compiled in 190ms
+[00:33:07.716] Server  LOG      ✓ Compiled in 153ms
+[00:33:28.994] Server  LOG      ✓ Compiled in 113ms
+[00:33:32.737] Server  LOG      ✓ Compiled in 94ms
+[00:33:37.177] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:33:38.313] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:33:40.380] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:33:43.027] Server  WARN     ⚠ The requested resource "/ezgif-815c088423421e9a.gif" is an animated image so it will not be optimized. Consider adding the "unoptimized" property to the <Image>.
+[00:33:44.415] Server  ERROR   D:\subrata\next-js\travel-planner\.next\dev\server\chunks\[root-of-the-server]__12a14c3e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:33:44.418] Server  ERROR    ⨯ Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+[00:33:44.418] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:33:44.893] Browser ERROR   {}
+[00:34:14.077] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:34:14.518] Server  LOG      ✓ Compiled in 112ms
+[00:34:16.443] Server  LOG      ✓ Compiled in 121ms
+[00:34:30.778] Server  LOG      ✓ Compiled in 273ms
+[00:34:39.350] Server  LOG      ✓ Compiled in 125ms
+[00:34:40.155] Server  LOG      ✓ Compiled in 108ms
+[00:35:04.999] Server  LOG      ✓ Compiled in 182ms
+[00:35:07.744] Server  LOG      ✓ Compiled in 137ms
+[00:35:11.278] Server  LOG      ✓ Compiled in 179ms
+[00:35:12.178] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:626:5: Unknown word font
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:35:15.495] Server  LOG      ✓ Compiled in 826ms
+[00:35:16.509] Server  LOG      ✓ Compiled in 174ms
+[00:35:25.222] Server  LOG      ✓ Compiled in 278ms
+[00:35:27.229] Server  LOG      ✓ Compiled in 276ms
+[00:35:58.276] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:41:14.031] Server  LOG      ✓ Compiled in 285ms
+[00:41:42.835] Server  LOG      ✓ Compiled in 134ms
+[00:42:07.127] Server  LOG      ✓ Compiled in 162ms
+[00:42:08.808] Server  LOG      ✓ Compiled in 131ms
+[00:42:10.790] Server  LOG      ✓ Compiled in 104ms
+[00:42:13.861] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:42:22.601] Server  LOG      ✓ Compiled in 83ms
+[00:42:27.776] Server  LOG      ✓ Compiled in 108ms
+[00:42:30.004] Server  LOG      ✓ Compiled in 91ms
+[00:42:33.570] Server  LOG      ✓ Compiled in 129ms
+[00:42:36.196] Server  LOG      ✓ Compiled in 140ms
+[00:42:40.772] Server  LOG      ✓ Compiled in 121ms
+[00:42:42.653] Server  LOG      ✓ Compiled in 97ms
+[00:42:46.556] Server  LOG      ✓ Compiled in 114ms
+[00:43:14.865] Server  LOG      ✓ Compiled in 155ms
+[00:43:18.295] Server  LOG      ✓ Compiled in 259ms
+[00:43:29.869] Server  LOG      ✓ Compiled in 68ms
+[00:43:30.166] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:611:3: Unknown word bor
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:43:35.355] Server  LOG      ✓ Compiled in 1022ms
+[00:43:41.875] Server  LOG      ✓ Compiled in 183ms
+[00:43:52.993] Server  ERROR   D:\subrata\next-js\travel-planner\.next\dev\server\chunks\[root-of-the-server]__12a14c3e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:52.995] Server  ERROR    ⨯ Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+[00:43:52.999] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:43:53.127] Browser ERROR   {}
+[00:44:00.075] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:00.759] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:02.963] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:05.562] Server  ERROR   D:\subrata\next-js\travel-planner\.next\dev\server\chunks\[root-of-the-server]__12a14c3e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:44:05.563] Server  ERROR    ⨯ Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+[00:44:05.565] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:05.729] Browser ERROR   {}
+[00:44:08.228] Server  ERROR   D:\subrata\next-js\travel-planner\.next\dev\server\chunks\[root-of-the-server]__12a14c3e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:44:08.229] Server  ERROR    ⨯ Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+[00:44:08.230] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:08.368] Browser ERROR   {}
+[00:44:09.147] Server  ERROR   D:\subrata\next-js\travel-planner\.next\dev\server\chunks\[root-of-the-server]__12a14c3e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:44:09.148] Server  ERROR    ⨯ Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+[00:44:09.150] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:09.285] Browser ERROR   {}
