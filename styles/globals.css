@@ -157,10 +157,7 @@ p{
 .crad-list-menu{
   border: 1px solid #e5e5e5;
 }
-.crad-list-menu h1{
-  font-size: 30px;
-  font-weight: 700;
-}
+
 .crad-list-menu h2{
   font-size: 25px;
   font-weight: 700;
@@ -930,7 +927,9 @@ footer p{
 }
 .crad-list-menu h1{
   position: relative;
-  padding-left: 15px;
+  padding-left: 32px;
+    font-size: 30px;
+  font-weight: 700;
 }
 .crad-list-menu h1::before{
   position: absolute;
@@ -938,7 +937,7 @@ footer p{
   left: 0;
   top:0;
   color: var(--primarycolor);
-  font-size: 20px;
+  font-size: 25px;
   width: 20px;
   height: 20px;
 }

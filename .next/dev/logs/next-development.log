@@ -3088,3 +3088,11 @@ Import trace:
 [01:35:10.909] Server  LOG      ✓ Compiled in 112ms
 [01:35:12.927] Server  LOG      ✓ Compiled in 150ms
 [01:35:16.009] Server  LOG      ✓ Compiled in 121ms
+[01:35:56.208] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:38:58.603] Server  LOG      ✓ Compiled in 185ms
+[01:39:18.472] Server  LOG      ✓ Compiled in 262ms
+[01:39:49.933] Server  LOG      ✓ Compiled in 210ms
