@@ -925,6 +925,21 @@ footer p{
   color: var(--primarycolor);
   font-size: 25px;
 }
+.crad-list-menu h1{
+  position: relative;
+  padding-left: 15px;
+}
+.crad-list-menu h1::before{
+  position: absolute;
+  content: "\27A2";
+  left: 0;
+  top:0;
+  color: var(--primarycolor);
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
 .crad-list-menu p{
   color: var(--darkcolor);
 }

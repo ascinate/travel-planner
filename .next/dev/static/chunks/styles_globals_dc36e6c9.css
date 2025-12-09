@@ -2053,6 +2053,22 @@ footer p {
   overflow: hidden;
 }
 
+.crad-list-menu h1 {
+  padding-left: 15px;
+  position: relative;
+}
+
+.crad-list-menu h1:before {
+  content: "➢";
+  color: var(--primarycolor);
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .crad-list-menu p {
   color: var(--darkcolor);
 }

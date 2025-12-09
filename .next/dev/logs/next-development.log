@@ -2948,3 +2948,95 @@ Import trace:
 [01:23:51.914] Server  LOG      ✓ Compiled in 222ms
 [01:23:59.683] Server  LOG      ✓ Compiled in 137ms
 [01:24:00.602] Server  LOG      ✓ Compiled in 133ms
+[01:24:56.013] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:28:36.919] Server  LOG      ✓ Compiled in 138ms
+[01:28:42.771] Server  LOG      ✓ Compiled in 160ms
+[01:28:45.298] Server  LOG      ✓ Compiled in 112ms
+[01:28:46.669] Server  LOG      ✓ Compiled in 164ms
+[01:29:05.221] Server  LOG      ✓ Compiled in 44ms
+[01:29:06.037] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:929:3: Unknown word po
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[01:29:07.214] Server  LOG      ✓ Compiled in 835ms
+[01:29:08.980] Server  LOG      ✓ Compiled in 221ms
+[01:29:10.047] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:930:3: Unknown word p
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[01:29:13.269] Server  LOG      ✓ Compiled in 939ms
+[01:29:21.765] Server  LOG      ✓ Compiled in 218ms
+[01:29:27.002] Server  LOG      ✓ Compiled in 160ms
+[01:29:29.650] Server  LOG      ✓ Compiled in 171ms
+[01:29:31.972] Server  LOG      ✓ Compiled in 190ms
+[01:29:33.301] Server  LOG      ✓ Compiled in 48ms
+[01:29:34.060] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:935:3: Unknown word l
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[01:29:35.605] Server  LOG      ✓ Compiled in 868ms
+[01:29:42.731] Server  LOG      ✓ Compiled in 221ms
+[01:29:43.079] Browser ERROR   ./styles/globals.css:1614:14
+Parsing CSS source code failed
+  1612 |   left: 0;
+  1613 |   top: 0;
+> 1614 |   color: var();
+       |              ^
+  1615 | }
+  1616 | .crad-list-menu p {
+  1617 |   color: var(--darkcolor);
+
+Unexpected end of input
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[01:29:44.367] Server  LOG      ✓ Compiled in 228ms
+[01:30:01.440] Server  LOG      ✓ Compiled in 224ms
