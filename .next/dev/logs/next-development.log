@@ -2917,3 +2917,34 @@ Skipping generating a fallback font.
 
 
 [01:13:56.461] Server  LOG      ✓ Compiled in 123ms
+[01:19:05.035] Server  LOG      ✓ Compiled in 172ms
+[01:19:08.352] Server  LOG      ✓ Compiled in 124ms
+[01:19:09.553] Server  LOG      ✓ Compiled in 178ms
+[01:19:25.942] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:22:44.049] Server  LOG      ✓ Compiled in 137ms
+[01:23:16.893] Server  LOG      ✓ Compiled in 111ms
+[01:23:22.083] Server  LOG      ✓ Compiled in 146ms
+[01:23:23.036] Browser ERROR   ./styles/globals.css:1587:14
+Parsing CSS source code failed
+  1585 | }
+  1586 | .crad-list-menu ul li strong {
+> 1587 |   color: var();
+       |              ^
+  1588 | }
+  1589 | .crad-list-menu ul li::before {
+  1590 |   position: absolute;
+
+Unexpected end of input
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[01:23:23.926] Server  LOG      ✓ Compiled in 142ms
+[01:23:51.914] Server  LOG      ✓ Compiled in 222ms
+[01:23:59.683] Server  LOG      ✓ Compiled in 137ms
+[01:24:00.602] Server  LOG      ✓ Compiled in 133ms

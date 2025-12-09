@@ -903,13 +903,13 @@ footer p{
   position: relative;
     padding-left: 37px;
     line-height: 29px;
+    color: #6d7281;
 }
-.crad-list-menu ul li:first-child{
-    padding-left:0;
+.crad-list-menu ul li strong{
+  color: var(--textdark);
 }
-.crad-list-menu ul li:first-child::before{
-  display: none;
-}
+
+
 .crad-list-menu ul li::before{
   position: absolute;
   content: "\262F";
@@ -922,7 +922,7 @@ footer p{
   display: grid;
   justify-content: center;
   align-content: center;
-  color: var(--darkcolor);
+  color: var(--primarycolor);
   font-size: 25px;
 }
 .crad-list-menu p{

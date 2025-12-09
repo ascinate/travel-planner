@@ -2028,24 +2028,21 @@ footer p {
 }
 
 .crad-list-menu ul li {
+  color: #6d7281;
   padding-left: 37px;
   line-height: 29px;
   position: relative;
 }
 
-.crad-list-menu ul li:first-child {
-  padding-left: 0;
-}
-
-.crad-list-menu ul li:first-child:before {
-  display: none;
+.crad-list-menu ul li strong {
+  color: var(--textdark);
 }
 
 .crad-list-menu ul li:before {
   content: "☯";
   width: 35px;
   height: 35px;
-  color: var(--darkcolor);
+  color: var(--primarycolor);
   border-radius: 50%;
   place-content: center;
   font-size: 25px;
