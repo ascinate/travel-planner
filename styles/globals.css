@@ -46,6 +46,9 @@ body {
 .mainmenus{
   padding: 10px 0 0 0;
 }
+p{
+  color: var(--darkcolor);
+}
 .menu-sections01{
   width:auto;
 }
@@ -94,7 +97,7 @@ body {
   border-radius: 20px;
   padding: 28px;
   width: 49%;
-  margin-top: 40px;
+  margin-top: 0;
   background: var(--bg-background);
     position: relative;
   height: 320px;
@@ -266,7 +269,7 @@ body {
   width: 90%;
 }
 .banners-text01 h2{
-  font-size: 75px;
+  font-size: 45px;
   font-weight: 800;
   line-height: 75px;
   margin-bottom: 7px;

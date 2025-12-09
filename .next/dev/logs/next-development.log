@@ -1093,3 +1093,254 @@ Import trace:
   Browser:
     ./styles/globals.css
     ./pages/_app.tsx
+[00:17:47.041] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:910:1: Unknown word .left-contents015-res
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:18:02.048] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:910:1: Unknown word .left-contents015-res
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:18:12.045] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:910:1: Unknown word .left-contents015-res
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:24:21.631] Server  LOG      ✓ Compiled in 248ms
+[00:24:22.116] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:910:1: Unknown word .left-contents015-res
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:24:28.327] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:24:29.188] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:24:31.292] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:24:34.940] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:24:35.220] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:24:35.223] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:24:50.170] Server  LOG      ✓ Compiled in 219ms
+[00:24:56.795] Server  LOG      ✓ Compiled in 174ms
+[00:25:27.836] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:26:03.792] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:27:55.983] Server  LOG      ✓ Compiled in 183ms
+[00:27:57.239] Server  LOG      ✓ Compiled in 136ms
+[00:29:25.545] Server  LOG      ✓ Compiled in 123ms
+[00:29:27.460] Server  LOG      ✓ Compiled in 99ms
+[00:29:39.950] Server  LOG      ✓ Compiled in 128ms
+[00:30:15.559] Server  LOG      ✓ Compiled in 117ms
+[00:30:18.710] Server  LOG      ✓ Compiled in 142ms
+[00:30:47.993] Server  LOG      ✓ Compiled in 116ms
+[00:30:56.237] Server  LOG      ✓ Compiled in 123ms
+[00:30:59.831] Server  LOG      ✓ Compiled in 130ms
+[00:31:11.527] Server  LOG      ✓ Compiled in 196ms
+[00:32:56.940] Server  LOG      ✓ Compiled in 141ms
+[00:32:58.272] Server  LOG      ✓ Compiled in 160ms
+[00:32:59.015] Server  LOG      ✓ Compiled in 120ms
+[00:33:10.746] Server  LOG      ✓ Compiled in 146ms
+[00:33:54.321] Server  LOG      ✓ Compiled in 103ms
+[00:33:55.038] Server  LOG      ✓ Compiled in 128ms
+[00:34:43.471] Server  LOG      ✓ Compiled in 302ms
+[00:34:48.335] Server  LOG      ✓ Compiled in 123ms
+[00:35:33.445] Server  LOG      ✓ Compiled in 203ms
+[00:35:41.423] Server  LOG      ✓ Compiled in 116ms
+[00:35:57.148] Server  LOG      ✓ Compiled in 179ms
+[00:36:02.336] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:36:06.894] Server  LOG      ✓ Compiled in 171ms
+[00:36:13.373] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:36:13.405] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:36:21.101] Server  LOG      ✓ Compiled in 149ms
+[00:36:31.525] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:36:31.544] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:36:51.181] Server  LOG      ✓ Compiled in 231ms
+[00:36:54.028] Server  LOG      ✓ Compiled in 39ms
+[00:36:55.054] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:50:3: Unknown word col
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:36:56.483] Server  LOG      ✓ Compiled in 923ms
+[00:36:57.525] Server  LOG      ✓ Compiled in 207ms
+[00:36:58.039] Browser ERROR   ./styles/globals.css:764:14
+Parsing CSS source code failed
+  762 | }
+  763 | p {
+> 764 |   color: var();
+      |              ^
+  765 | }
+  766 | .menu-sections01 {
+  767 |   width: auto;
+
+Unexpected end of input
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:36:58.504] Server  LOG      ✓ Compiled in 170ms
+[00:37:29.537] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:38:22.575] Server  ERROR   D:\subrata\next-js\travel-planner\node_modules\next\dist\server\dev\on-demand-entry-handler.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:38:22.592] Server  ERROR   D:\subrata\next-js\travel-planner\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:38:22.600] Server  ERROR   D:\subrata\next-js\travel-planner\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:38:22.604] Server  ERROR   D:\subrata\next-js\travel-planner\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:38:22.612] Server  ERROR   D:\subrata\next-js\travel-planner\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:38:22.617] Server  ERROR   PageNotFoundError: Cannot find module for page: /discover
+[00:38:22.646] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:38:23.008] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:38:24.723] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:38:24.823] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:38:25.537] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:38:27.668] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:38:44.183] Server  LOG      ✓ Compiled in 124ms
+[00:38:46.763] Server  LOG      ✓ Compiled in 76ms
+[00:38:56.729] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+

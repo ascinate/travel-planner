@@ -1,8 +1,8 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
-      "static/chunks/node_modules_html2pdf_js_dist_html2pdf_87ca27a2.js",
-      "static/chunks/[root-of-the-server]__9e6c7385._.js",
+      "static/chunks/node_modules_html2pdf_js_dist_html2pdf_e8d67684.js",
+      "static/chunks/[root-of-the-server]__691a0bc5._.js",
       "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
       "static/chunks/node_modules_next_dist_shared_lib_32850b1c._.js",
       "static/chunks/node_modules_next_dist_client_56ad6e05._.js",
@@ -16,7 +16,7 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/node_modules_aaa6c72f._.js",
       "static/chunks/[root-of-the-server]__72f1644e._.css",
       "static/chunks/pages_index_2da965e7._.js",
-      "static/chunks/turbopack-pages_index_28919575._.js"
+      "static/chunks/turbopack-pages_index_d9f067c3._.js"
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_8ca6b690._.js",

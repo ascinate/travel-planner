@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 export default function Navbar() {
-    const menulist = [{ id: 1, title: 'Discover' , link: '/discover'}, { id: 2, title: 'Trips' , link: '/trips'}]; 
+    const menulist = [{ id: 1, title: 'Discover' , link: '/'}, { id: 2, title: 'Trips' , link: '/'}]; 
     const pathname = usePathname();
 
 

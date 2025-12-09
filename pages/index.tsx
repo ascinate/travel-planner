@@ -8,7 +8,6 @@ import BannerSlider from '@/components/BannerSlider';
 import ExploreSlider from '@/components/ExploreSlider';
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from '@/components/Footer';
 import TestmoliasSlider from '@/components/TestmoliasSlider';
 
 
@@ -616,14 +615,13 @@ const generatePlan = async () => {
                                             
                                           </div>
                                           <div className='txerat'>
-                                            <h5 className='suba-text ns-text'> About story </h5>
-                                            <h2> Build a trip with your saves or use AI to get </h2>
+                                            <h2> Brand Story  </h2>
 
-                                            <p className='py-4'> The Niche Group connects people to experiences worth sharing, and aims to be the worlds most trusted source for travel and experiences. We leverage our brands, technology, and capabilities to connect our global audience with partners through rich content, travel guidance, and two-sided marketplaces for experiences, accommodations, restaurants, and other travel categories. The subsidiaries of Niche, Inc. include a portfolio of travel brands and businesses,
-                                              including Niche, Viator, and TheFork.</p>
+                                            <p className='pb-3'> NicheTrips was created for travelers who don&rsquo;t fit the “one size fits all” mold. Whether you&rsquo;re a digital nomad, a foodie, a couple seeking romantic getaways, or someone with specific dietary needs — your trip should adapt to you, not the other way around. With AI-driven personalization, NicheTrips crafts itineraries that match your lifestyle, preferences, and energy. 
+                                              Travel isn&rsquo;t generic. Your plan shouldn&rsquo;t be either. </p>
 
-                                            <Link href="/" className='b-dsicover-btn mb-5'> Plan My Trip </Link>
-                                            <div className='flex items-center mt-5 py-4'>
+                                            
+                                            <div className='flex items-center  py-3'>
                                               <div className='flex items-center'>
                                                 <figure className='user-img01'>
                                                   <Image width={143} height={23} src="/user01.jpg" alt='user'/>
@@ -646,7 +644,7 @@ const generatePlan = async () => {
                                   </div>
                             </div>
                         </section>
-                        <section className='float-left w-full sm-grid01'>
+                        <section className='float-left w-full hidden sm-grid01'>
                             <div className='container'>
                               <div className='grid grid-cols-1 xl:grid-cols-3 gap-4 gap-xl-5'>
                                     <div className='datea-list flex items-center'>
@@ -681,7 +679,7 @@ const generatePlan = async () => {
                             </div>
                         </section>
 
-                        <section className='float-left w-full darks-amb-texm'>
+                        <section className='float-left hidden  w-full darks-amb-texm'>
                             <div className='container'>
                                 <div className='grid gap-4 grid-cols-1 xl:grid-cols-12 gap-xl-5 justify-between items-center'>
                                     <div className='left-darkstext col-span-4 xl:col-span-3'>
@@ -725,7 +723,7 @@ const generatePlan = async () => {
                                 </div>
                             </div>
                         </section>
-                        <section className='float-left w-full explores-div'>
+                        <section className='float-left w-full hidden explores-div'>
                             <div className='container'>
                                 <div className='grid grid-cols-1 grid-cols-xl-2 gap-4 justify-between items-center'>
                                   <div className='headings-div'>
@@ -740,7 +738,7 @@ const generatePlan = async () => {
                             </div>
                         </section>
 
-                        <section className='float-left w-full testimonials-div'>
+                        <section className='float-left hidden w-full testimonials-div'>
                             <Image width={251} height={416} className='spco01' src="/section-vector5.png" alt="nam"/>
                             <div className='container'>
                                       <h5 className='text-center suba-text ns-text'> Testimonials </h5>
@@ -754,7 +752,7 @@ const generatePlan = async () => {
                       // Show Result Content
                       <>
                         {/* Result Screen */}
-                        <div className='float-left w-full'>
+                        <div className='float-left hidden w-full'>
                           <div className='container sub-pages01 position-relative'>
                             <div className="flex justify-end mt-4">
 
@@ -808,7 +806,6 @@ genenc. Your plan-shouldn't be either. </p>
               
         </div>
 
-        <Footer/>
       
     </>
   
