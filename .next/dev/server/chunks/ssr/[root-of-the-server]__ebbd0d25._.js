@@ -3409,17 +3409,17 @@ function TravelPlanner() {
                                                         children: result
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 787,
+                                                        lineNumber: 785,
                                                         columnNumber: 39
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 782,
+                                                    lineNumber: 780,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 780,
+                                                lineNumber: 779,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3429,26 +3429,26 @@ function TravelPlanner() {
                                                         children: '  Niche Trips was created for travelers who don\'t tit the "one size fits all" mold. '
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 791,
+                                                        lineNumber: 789,
                                                         columnNumber: 38
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                         children: "  Whether you're a digital nomad. a feodle: a souple seeking fomantic getaways, or someone with specific distary iteeds your frip-eirould adapt to you, nof the other ionound. With Ar shiven personalization Niche Trips cratts liltheraries that match your lifestyle, preferences, and exergy. Trevel fan't genenc. Your plan-shouldn't be either. "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 793,
+                                                        lineNumber: 791,
                                                         columnNumber: 38
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 790,
+                                                lineNumber: 788,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 779,
+                                        lineNumber: 778,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3459,7 +3459,7 @@ function TravelPlanner() {
                                                 children: " Disclaimers "
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 802,
+                                                lineNumber: 800,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3467,13 +3467,13 @@ function TravelPlanner() {
                                                 children: " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 803,
+                                                lineNumber: 801,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 801,
+                                        lineNumber: 799,
                                         columnNumber: 29
                                     }, this)
                                 ]
