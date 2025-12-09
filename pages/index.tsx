@@ -755,7 +755,7 @@ const generatePlan = async () => {
                       // Show Result Content
                       <>
                         {/* Result Screen */}
-                        <div className='float-left hidden w-full'>
+                        <div className='float-left  w-full'>
                           <div className='container sub-pages01 position-relative'>
                             <div className="flex justify-end mt-4">
 
