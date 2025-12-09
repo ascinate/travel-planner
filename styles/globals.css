@@ -186,6 +186,7 @@ p{
   border: 1px solid #e5e5e5;
   padding: 30px;
   background: var(--primarycolor);
+  margin-top: 27px;
 }
 .disclers-div h2{
   font-size: 25px;
@@ -845,11 +846,13 @@ footer p{
     font-weight: 700;
     margin-bottom: 0;
     padding: 12px 12px 0 13px;
+    color: var(--textdark);
   }
   .crad-list-menu h2 {
     font-size: 23px;
     font-weight: 700;
     margin-bottom: 15px;
+    color: var(--textdark);
   }
   .inside-scrolls-div .grid,
   .inside-scrolls-div .flex{
