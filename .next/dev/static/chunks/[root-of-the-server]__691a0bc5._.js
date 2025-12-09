@@ -1629,7 +1629,7 @@ function TravelPlanner() {
     const checkUsageLimit = ()=>{
         if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
         ;
-        const limit = 300;
+        const limit = 3;
         const now = new Date();
         const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
         const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
@@ -1655,7 +1655,7 @@ function TravelPlanner() {
         "TravelPlanner.useEffect": ()=>{
             if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
             ;
-            const limit = 300;
+            const limit = 3;
             const now = new Date();
             const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
             const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
