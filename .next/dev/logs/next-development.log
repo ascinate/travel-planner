@@ -2901,3 +2901,19 @@ Skipping generating a fallback font.
 
 [01:09:53.504] Server  LOG      ✓ Compiled in 162ms
 [01:11:03.567] Server  LOG      ✓ Compiled in 196ms
+[01:13:00.460] Server  LOG      ✓ Compiled in 383ms
+[01:13:02.367] Server  LOG      ✓ Compiled in 614ms
+[01:13:07.961] Server  LOG      ✓ Compiled in 177ms
+[01:13:21.183] Server  LOG      ✓ Compiled in 114ms
+[01:13:22.986] Server  LOG      ✓ Compiled in 175ms
+[01:13:35.082] Server  LOG      ✓ Compiled in 103ms
+[01:13:38.022] Server  LOG      ✓ Compiled in 91ms
+[01:13:39.385] Server  LOG      ✓ Compiled in 159ms
+[01:13:50.976] Server  LOG      ✓ Compiled in 105ms
+[01:13:55.641] Server  LOG      ✓ Compiled in 154ms
+[01:13:55.820] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:13:56.461] Server  LOG      ✓ Compiled in 123ms
