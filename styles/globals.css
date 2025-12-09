@@ -186,7 +186,9 @@ body {
   padding-top: 70px;
 }
 .crad-list-menu p strong{
-  color: var(--primarycolor);
+  color: var(--darkcolor);
+  font-size: 20px;
+  font-weight: 500;
 }
 .crm-groups label{
   color: var(--textcolor);
@@ -195,6 +197,12 @@ body {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+}
+.crm-groups .rights-contentsd-res h3{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 18px;
 }
 .suend-butons{
   background: var(--primarycolor);
@@ -626,7 +634,7 @@ footer p{
   }
   .rights-contentsd-res{
     width: 30% ;
-    padding: 20px;
+    padding: 43px;
   }
   .left-contents015-res{
     width: 70% ;
@@ -876,9 +884,12 @@ footer p{
     margin: 15px 0;
     border-color: #dcdcdc !important;
 }
+.crad-list-menu ul{
+  margin-top: 15px !important;
+}
 .crad-list-menu ul li{
   position: relative;
-      padding-left: 52px;
+    padding-left: 37px;
     line-height: 29px;
 }
 .crad-list-menu ul li:first-child{
@@ -891,9 +902,9 @@ footer p{
   position: absolute;
   content: "\262F";
   left: 0;
-     top: 3px;
-     width: 35px;
-    height: 35px;
+  top: 0;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   overflow: hidden;
   display: grid;
@@ -902,8 +913,18 @@ footer p{
   color: var(--darkcolor);
   font-size: 25px;
 }
+.crad-list-menu p{
+  color: var(--darkcolor);
+}
+
 .signut-bg{
   background: var(--primarycolor) !important;
   padding: 12px 25px;
   color: var(--darkcolor);
+}
+.left-contents015-res .crad-list-menu{
+  border: none !important;
+}
+.left-contents015-res .crad-list-menu h1{
+  font-size: 25px;
 }

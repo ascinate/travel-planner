@@ -1217,7 +1217,9 @@ body {
 }
 
 .crad-list-menu p strong {
-  color: var(--primarycolor);
+  color: var(--darkcolor);
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .crm-groups label {
@@ -1227,6 +1229,13 @@ body {
   font-size: 16px;
   font-weight: 500;
   display: flex;
+}
+
+.crm-groups .rights-contentsd-res h3 {
+  margin-bottom: 18px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 29px;
 }
 
 .suend-butons {
@@ -1712,7 +1721,7 @@ footer p {
 
   .rights-contentsd-res {
     width: 30%;
-    padding: 20px;
+    padding: 43px;
   }
 
   .left-contents015-res {
@@ -1995,8 +2004,12 @@ footer p {
   border-color: #dcdcdc !important;
 }
 
+.crad-list-menu ul {
+  margin-top: 15px !important;
+}
+
 .crad-list-menu ul li {
-  padding-left: 52px;
+  padding-left: 37px;
   line-height: 29px;
   position: relative;
 }
@@ -2019,15 +2032,27 @@ footer p {
   font-size: 25px;
   display: grid;
   position: absolute;
-  top: 3px;
+  top: 0;
   left: 0;
   overflow: hidden;
+}
+
+.crad-list-menu p {
+  color: var(--darkcolor);
 }
 
 .signut-bg {
   color: var(--darkcolor);
   padding: 12px 25px;
   background: var(--primarycolor) !important;
+}
+
+.left-contents015-res .crad-list-menu {
+  border: none !important;
+}
+
+.left-contents015-res .crad-list-menu h1 {
+  font-size: 25px;
 }
 
 @property --tw-translate-x {
