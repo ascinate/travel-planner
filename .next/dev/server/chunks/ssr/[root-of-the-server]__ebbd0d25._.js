@@ -264,47 +264,89 @@ function Navbar() {
                                                     }, this)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                     className: "right-logins ml-auto flex items-center",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/",
-                                                        className: "signup-btn flex items-center",
-                                                        children: [
-                                                            "Sign up ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                className: "ml-1",
-                                                                children: [
-                                                                    " ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                        xmlns: "http://www.w3.org/2000/svg",
-                                                                        viewBox: "0 0 24 24",
-                                                                        width: "18",
-                                                                        height: "18",
-                                                                        fill: "rgba(255,255,255,1)",
-                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                            d: "M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/",
+                                                            className: "signup-btn2 flex items-center",
+                                                            children: [
+                                                                "Login ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                    className: "ml-1",
+                                                                    children: [
+                                                                        " ",
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                            xmlns: "http://www.w3.org/2000/svg",
+                                                                            viewBox: "0 0 24 24",
+                                                                            width: "18",
+                                                                            height: "18",
+                                                                            fill: "rgba(255,255,255,1)",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                d: "M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/Navbar.tsx",
+                                                                                lineNumber: 54,
+                                                                                columnNumber: 224
+                                                                            }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Navbar.tsx",
                                                                             lineNumber: 54,
-                                                                            columnNumber: 227
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/Navbar.tsx",
-                                                                        lineNumber: 54,
-                                                                        columnNumber: 117
-                                                                    }, this),
-                                                                    " "
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/components/Navbar.tsx",
-                                                                lineNumber: 54,
-                                                                columnNumber: 93
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 54,
-                                                        columnNumber: 29
-                                                    }, this)
-                                                }, void 0, false, {
+                                                                            columnNumber: 114
+                                                                        }, this),
+                                                                        " "
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/Navbar.tsx",
+                                                                    lineNumber: 54,
+                                                                    columnNumber: 90
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/Navbar.tsx",
+                                                            lineNumber: 54,
+                                                            columnNumber: 27
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/",
+                                                            className: "signup-btn flex items-center",
+                                                            children: [
+                                                                "Sign up ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                    className: "ml-1",
+                                                                    children: [
+                                                                        " ",
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                            xmlns: "http://www.w3.org/2000/svg",
+                                                                            viewBox: "0 0 24 24",
+                                                                            width: "18",
+                                                                            height: "18",
+                                                                            fill: "rgba(255,255,255,1)",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                d: "M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/Navbar.tsx",
+                                                                                lineNumber: 55,
+                                                                                columnNumber: 227
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/Navbar.tsx",
+                                                                            lineNumber: 55,
+                                                                            columnNumber: 117
+                                                                        }, this),
+                                                                        " "
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/Navbar.tsx",
+                                                                    lineNumber: 55,
+                                                                    columnNumber: 93
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/Navbar.tsx",
+                                                            lineNumber: 55,
+                                                            columnNumber: 29
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/components/Navbar.tsx",
                                                     lineNumber: 53,
                                                     columnNumber: 25
@@ -330,17 +372,17 @@ function Navbar() {
                                                     d: "M4 6h16M4 12h16M4 18h16"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 65,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 63,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 58,
+                                            lineNumber: 59,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -364,7 +406,7 @@ function Navbar() {
                                         children: "Home"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -373,7 +415,7 @@ function Navbar() {
                                         children: "About"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 74,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -382,7 +424,7 @@ function Navbar() {
                                         children: "Services"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 75,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -391,13 +433,13 @@ function Navbar() {
                                         children: "Contact"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 71,
+                                lineNumber: 72,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -437,17 +479,17 @@ function Navbar() {
                                         alt: "logos"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 92,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 91,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 89,
+                                lineNumber: 90,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -464,23 +506,23 @@ function Navbar() {
                                         d: "M6 18L18 6M6 6l12 12"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 99,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 97,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 95,
+                                lineNumber: 96,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 88,
+                        lineNumber: 89,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("nav", {
@@ -493,7 +535,7 @@ function Navbar() {
                                     children: type.title
                                 }, type.id, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 107,
                                     columnNumber: 17
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -502,19 +544,19 @@ function Navbar() {
                                 children: "Sign up"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 116,
+                                lineNumber: 117,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 104,
+                        lineNumber: 105,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 84,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
@@ -1290,1113 +1332,1120 @@ function TravelPlanner() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                     className: "inside-scrolls-div grid grid-cols-2 gap-5  items-center",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "crm-groups",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                    className: "font-medium mb-1",
-                                                                    children: [
-                                                                        " ",
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                            children: [
-                                                                                " ",
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                    viewBox: "0 0 24 24",
-                                                                                    width: "20",
-                                                                                    height: "20",
-                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                        d: "M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "scrollbard-main grid grid-cols-2 gap-5 col-span-2",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "crm-groups",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                        className: "font-medium mb-1",
+                                                                        children: [
+                                                                            " ",
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                children: [
+                                                                                    " ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                        viewBox: "0 0 24 24",
+                                                                                        width: "20",
+                                                                                        height: "20",
+                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                            d: "M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                            lineNumber: 279,
+                                                                                            columnNumber: 200
+                                                                                        }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 277,
-                                                                                        columnNumber: 196
-                                                                                    }, this)
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 277,
-                                                                                    columnNumber: 87
-                                                                                }, this),
-                                                                                " "
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 277,
-                                                                            columnNumber: 80
-                                                                        }, this),
-                                                                        " Destination"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 277,
-                                                                    columnNumber: 43
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                    type: "text",
-                                                                    value: destination,
-                                                                    onChange: (e)=>setDestination(e.target.value),
-                                                                    placeholder: "Enter destination",
-                                                                    className: "border p-2 rounded w-full"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 278,
-                                                                    columnNumber: 43
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 276,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "crm-groups",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                    className: "block font-medium mb-1",
-                                                                    children: [
-                                                                        " ",
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                            children: [
-                                                                                " ",
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                    viewBox: "0 0 24 24",
-                                                                                    width: "20",
-                                                                                    height: "20",
-                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                        d: "M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"
+                                                                                        lineNumber: 279,
+                                                                                        columnNumber: 91
+                                                                                    }, this),
+                                                                                    " "
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 279,
+                                                                                columnNumber: 84
+                                                                            }, this),
+                                                                            " Destination"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 279,
+                                                                        columnNumber: 47
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                        type: "text",
+                                                                        value: destination,
+                                                                        onChange: (e)=>setDestination(e.target.value),
+                                                                        placeholder: "Enter destination",
+                                                                        className: "border p-2 rounded w-full"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 280,
+                                                                        columnNumber: 47
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/pages/index.tsx",
+                                                                lineNumber: 278,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "crm-groups",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                        className: "block font-medium mb-1",
+                                                                        children: [
+                                                                            " ",
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                children: [
+                                                                                    " ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                        viewBox: "0 0 24 24",
+                                                                                        width: "20",
+                                                                                        height: "20",
+                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                            d: "M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                            lineNumber: 290,
+                                                                                            columnNumber: 206
+                                                                                        }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 288,
-                                                                                        columnNumber: 202
+                                                                                        lineNumber: 290,
+                                                                                        columnNumber: 97
+                                                                                    }, this),
+                                                                                    " "
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 290,
+                                                                                columnNumber: 90
+                                                                            }, this),
+                                                                            " Travel Persona"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 290,
+                                                                        columnNumber: 47
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("select", {
+                                                                        value: travelPersona,
+                                                                        onChange: (e)=>setTravelPersona(e.target.value),
+                                                                        className: "border p-2 rounded w-full",
+                                                                        children: travelPersonaOptions.map((opt)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
+                                                                                value: opt,
+                                                                                children: opt
+                                                                            }, opt, false, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 297,
+                                                                                columnNumber: 51
+                                                                            }, this))
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 291,
+                                                                        columnNumber: 47
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/pages/index.tsx",
+                                                                lineNumber: 289,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "mt-4 col-span-4 xl:col-span-2 off-scrolls grid grid-cols-2 gap-x-5 items-end",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "crm-groups",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                className: "block font-medium mb-1",
+                                                                                children: [
+                                                                                    " ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                xmlns: "http://www.w3.org/2000/svg",
+                                                                                                viewBox: "0 0 24 24",
+                                                                                                width: "20",
+                                                                                                height: "20",
+                                                                                                fill: "rgba(194,157,89,1)",
+                                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                    d: "M4 2H7.32297L8.52297 5H3V7H5.11765L5.94463 21.0587C5.97572 21.5873 6.41343 22 6.9429 22H17.0571C17.5866 22 18.0243 21.5873 18.0554 21.0587L18.8824 7H21V5H10.677L8.67703 0H4V2ZM7.29906 10.0252L7.1211 7H16.8789L16.5867 11.9675C14.28 11.853 13.4226 11.4919 12.3713 11.0714C11.2792 10.6347 9.97065 10.1354 7.29906 10.0252ZM7.41714 12.0326C9.72097 12.1473 10.5894 12.5128 11.6401 12.933C12.7001 13.357 13.9556 13.8375 16.4692 13.9641L16.1142 20H7.88581L7.41714 12.0326Z"
+                                                                                                }, void 0, false, {
+                                                                                                    fileName: "[project]/pages/index.tsx",
+                                                                                                    lineNumber: 316,
+                                                                                                    columnNumber: 212
+                                                                                                }, this)
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 316,
+                                                                                                columnNumber: 103
+                                                                                            }, this),
+                                                                                            " "
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 316,
+                                                                                        columnNumber: 96
+                                                                                    }, this),
+                                                                                    " Food Persona"
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 316,
+                                                                                columnNumber: 53
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("select", {
+                                                                                value: foodPersona,
+                                                                                onChange: (e)=>setFoodPersona(e.target.value),
+                                                                                className: "border p-2 rounded w-full",
+                                                                                children: foodPersonaOptions.map((opt)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
+                                                                                        value: opt,
+                                                                                        children: opt
+                                                                                    }, opt, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 323,
+                                                                                        columnNumber: 57
+                                                                                    }, this))
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 317,
+                                                                                columnNumber: 53
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 315,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "grid grid-cols-1 xl:grid-cols-2 gap-x-5",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "crm-groups col-span-4 xl:col-span-1",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                        className: "block font-medium mb-1",
+                                                                                        children: [
+                                                                                            "  ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                children: [
+                                                                                                    " ",
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                                        viewBox: "0 0 24 24",
+                                                                                                        width: "20",
+                                                                                                        height: "20",
+                                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                            d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                                        }, void 0, false, {
+                                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                                            lineNumber: 332,
+                                                                                                            columnNumber: 215
+                                                                                                        }, this)
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                                        lineNumber: 332,
+                                                                                                        columnNumber: 106
+                                                                                                    }, this),
+                                                                                                    " "
+                                                                                                ]
+                                                                                            }, void 0, true, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 332,
+                                                                                                columnNumber: 99
+                                                                                            }, this),
+                                                                                            " Start Date "
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 332,
+                                                                                        columnNumber: 55
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "date",
+                                                                                        value: startDate,
+                                                                                        onChange: (e)=>setStartDate(e.target.value),
+                                                                                        className: "border p-2 rounded w-full"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 333,
+                                                                                        columnNumber: 55
                                                                                     }, this)
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 288,
-                                                                                    columnNumber: 93
-                                                                                }, this),
-                                                                                " "
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 288,
-                                                                            columnNumber: 86
-                                                                        }, this),
-                                                                        " Travel Persona"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 288,
-                                                                    columnNumber: 43
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("select", {
-                                                                    value: travelPersona,
-                                                                    onChange: (e)=>setTravelPersona(e.target.value),
-                                                                    className: "border p-2 rounded w-full",
-                                                                    children: travelPersonaOptions.map((opt)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
-                                                                            value: opt,
-                                                                            children: opt
-                                                                        }, opt, false, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 295,
-                                                                            columnNumber: 47
-                                                                        }, this))
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 289,
-                                                                    columnNumber: 43
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 287,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "mt-4 col-span-4 xl:col-span-2 off-scrolls grid grid-cols-2 gap-x-5 items-end",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                            className: "block font-medium mb-1",
-                                                                            children: [
-                                                                                " ",
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                            xmlns: "http://www.w3.org/2000/svg",
-                                                                                            viewBox: "0 0 24 24",
-                                                                                            width: "20",
-                                                                                            height: "20",
-                                                                                            fill: "rgba(194,157,89,1)",
-                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                d: "M4 2H7.32297L8.52297 5H3V7H5.11765L5.94463 21.0587C5.97572 21.5873 6.41343 22 6.9429 22H17.0571C17.5866 22 18.0243 21.5873 18.0554 21.0587L18.8824 7H21V5H10.677L8.67703 0H4V2ZM7.29906 10.0252L7.1211 7H16.8789L16.5867 11.9675C14.28 11.853 13.4226 11.4919 12.3713 11.0714C11.2792 10.6347 9.97065 10.1354 7.29906 10.0252ZM7.41714 12.0326C9.72097 12.1473 10.5894 12.5128 11.6401 12.933C12.7001 13.357 13.9556 13.8375 16.4692 13.9641L16.1142 20H7.88581L7.41714 12.0326Z"
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 331,
+                                                                                columnNumber: 53
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "crm-groups col-span-4 xl:col-span-1",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                        className: "block font-medium mb-1",
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                children: [
+                                                                                                    " ",
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                                        viewBox: "0 0 24 24",
+                                                                                                        width: "20",
+                                                                                                        height: "20",
+                                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                            d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                                        }, void 0, false, {
+                                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                                            lineNumber: 341,
+                                                                                                            columnNumber: 214
+                                                                                                        }, this)
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                                        lineNumber: 341,
+                                                                                                        columnNumber: 105
+                                                                                                    }, this),
+                                                                                                    " "
+                                                                                                ]
+                                                                                            }, void 0, true, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 341,
+                                                                                                columnNumber: 98
+                                                                                            }, this),
+                                                                                            " End Date"
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 341,
+                                                                                        columnNumber: 55
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "date",
+                                                                                        value: endDate,
+                                                                                        onChange: (e)=>setEndDate(e.target.value),
+                                                                                        className: "border p-2 rounded w-full"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 342,
+                                                                                        columnNumber: 55
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 340,
+                                                                                columnNumber: 53
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 330,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "grid grid-cols-1 xl:grid-cols-1 gap-x-5",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "crm-groups col-span-4 xl:col-span-1",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                        className: "block font-medium mb-1",
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                children: [
+                                                                                                    " ",
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                                        viewBox: "0 0 24 24",
+                                                                                                        width: "20",
+                                                                                                        height: "20",
+                                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                            d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                                        }, void 0, false, {
+                                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                                            lineNumber: 354,
+                                                                                                            columnNumber: 214
+                                                                                                        }, this)
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                                        lineNumber: 354,
+                                                                                                        columnNumber: 105
+                                                                                                    }, this),
+                                                                                                    " "
+                                                                                                ]
+                                                                                            }, void 0, true, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 354,
+                                                                                                columnNumber: 98
+                                                                                            }, this),
+                                                                                            " Wake-Up Time "
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 354,
+                                                                                        columnNumber: 55
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "time",
+                                                                                        value: wakeUpTime,
+                                                                                        onChange: (e)=>setWakeUpTime(e.target.value),
+                                                                                        className: "border p-2 rounded w-full"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 355,
+                                                                                        columnNumber: 55
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 353,
+                                                                                columnNumber: 53
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "crm-groups col-span-4 xl:col-span-1",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                        className: "block font-medium mb-1",
+                                                                                        children: [
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                children: [
+                                                                                                    " ",
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                                        viewBox: "0 0 24 24",
+                                                                                                        width: "20",
+                                                                                                        height: "20",
+                                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                            d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                                        }, void 0, false, {
+                                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                                            lineNumber: 363,
+                                                                                                            columnNumber: 213
+                                                                                                        }, this)
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                                        lineNumber: 363,
+                                                                                                        columnNumber: 104
+                                                                                                    }, this),
+                                                                                                    " "
+                                                                                                ]
+                                                                                            }, void 0, true, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 363,
+                                                                                                columnNumber: 97
+                                                                                            }, this),
+                                                                                            "Sleep Time ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
+                                                                                                children: " (Optional) "
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 314,
-                                                                                                columnNumber: 208
+                                                                                                lineNumber: 363,
+                                                                                                columnNumber: 497
                                                                                             }, this)
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 314,
-                                                                                            columnNumber: 99
-                                                                                        }, this),
-                                                                                        " "
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 314,
-                                                                                    columnNumber: 92
-                                                                                }, this),
-                                                                                " Food Persona"
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 314,
-                                                                            columnNumber: 49
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("select", {
-                                                                            value: foodPersona,
-                                                                            onChange: (e)=>setFoodPersona(e.target.value),
-                                                                            className: "border p-2 rounded w-full",
-                                                                            children: foodPersonaOptions.map((opt)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
-                                                                                    value: opt,
-                                                                                    children: opt
-                                                                                }, opt, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 321,
-                                                                                    columnNumber: 53
-                                                                                }, this))
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 315,
-                                                                            columnNumber: 49
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 313,
-                                                                    columnNumber: 47
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "grid grid-cols-1 xl:grid-cols-2 gap-x-5",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "crm-groups col-span-4 xl:col-span-1",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                                    className: "block font-medium mb-1",
-                                                                                    children: [
-                                                                                        "  ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                            children: [
-                                                                                                " ",
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                                    viewBox: "0 0 24 24",
-                                                                                                    width: "20",
-                                                                                                    height: "20",
-                                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                        d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 363,
+                                                                                        columnNumber: 55
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "time",
+                                                                                        value: sleepTime,
+                                                                                        onChange: (e)=>setSleepTime(e.target.value),
+                                                                                        className: "border p-2 rounded w-full"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 364,
+                                                                                        columnNumber: 55
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 362,
+                                                                                columnNumber: 53
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 352,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "grid grid-cols-1 xl:grid-cols-1 gap-x-5",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "crm-groups xl:col-span-1",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                        className: "block font-medium mb-1",
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                children: [
+                                                                                                    " ",
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                                        viewBox: "0 0 24 24",
+                                                                                                        width: "20",
+                                                                                                        height: "20",
+                                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                            d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                                        }, void 0, false, {
+                                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                                            lineNumber: 377,
+                                                                                                            columnNumber: 214
+                                                                                                        }, this)
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 330,
-                                                                                                        columnNumber: 211
-                                                                                                    }, this)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                                    lineNumber: 330,
-                                                                                                    columnNumber: 102
-                                                                                                }, this),
-                                                                                                " "
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 330,
-                                                                                            columnNumber: 95
-                                                                                        }, this),
-                                                                                        " Start Date "
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 330,
-                                                                                    columnNumber: 51
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "date",
-                                                                                    value: startDate,
-                                                                                    onChange: (e)=>setStartDate(e.target.value),
-                                                                                    className: "border p-2 rounded w-full"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 331,
-                                                                                    columnNumber: 51
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 329,
-                                                                            columnNumber: 49
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "crm-groups col-span-4 xl:col-span-1",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                                    className: "block font-medium mb-1",
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                            children: [
-                                                                                                " ",
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                                    viewBox: "0 0 24 24",
-                                                                                                    width: "20",
-                                                                                                    height: "20",
-                                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                        d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 339,
-                                                                                                        columnNumber: 210
-                                                                                                    }, this)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                                    lineNumber: 339,
-                                                                                                    columnNumber: 101
-                                                                                                }, this),
-                                                                                                " "
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 339,
-                                                                                            columnNumber: 94
-                                                                                        }, this),
-                                                                                        " End Date"
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 339,
-                                                                                    columnNumber: 51
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "date",
-                                                                                    value: endDate,
-                                                                                    onChange: (e)=>setEndDate(e.target.value),
-                                                                                    className: "border p-2 rounded w-full"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 340,
-                                                                                    columnNumber: 51
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 338,
-                                                                            columnNumber: 49
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 328,
-                                                                    columnNumber: 47
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "grid grid-cols-1 xl:grid-cols-1 gap-x-5",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "crm-groups col-span-4 xl:col-span-1",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                                    className: "block font-medium mb-1",
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                            children: [
-                                                                                                " ",
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                                    viewBox: "0 0 24 24",
-                                                                                                    width: "20",
-                                                                                                    height: "20",
-                                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                        d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 352,
-                                                                                                        columnNumber: 210
-                                                                                                    }, this)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                                    lineNumber: 352,
-                                                                                                    columnNumber: 101
-                                                                                                }, this),
-                                                                                                " "
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 352,
-                                                                                            columnNumber: 94
-                                                                                        }, this),
-                                                                                        " Wake-Up Time "
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 352,
-                                                                                    columnNumber: 51
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "time",
-                                                                                    value: wakeUpTime,
-                                                                                    onChange: (e)=>setWakeUpTime(e.target.value),
-                                                                                    className: "border p-2 rounded w-full"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 353,
-                                                                                    columnNumber: 51
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 351,
-                                                                            columnNumber: 49
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "crm-groups col-span-4 xl:col-span-1",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                                    className: "block font-medium mb-1",
-                                                                                    children: [
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                            children: [
-                                                                                                " ",
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                                    viewBox: "0 0 24 24",
-                                                                                                    width: "20",
-                                                                                                    height: "20",
-                                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                        d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 361,
-                                                                                                        columnNumber: 209
-                                                                                                    }, this)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                                    lineNumber: 361,
-                                                                                                    columnNumber: 100
-                                                                                                }, this),
-                                                                                                " "
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 361,
-                                                                                            columnNumber: 93
-                                                                                        }, this),
-                                                                                        "Sleep Time ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
-                                                                                            children: " (Optional) "
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 361,
-                                                                                            columnNumber: 493
-                                                                                        }, this)
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 361,
-                                                                                    columnNumber: 51
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "time",
-                                                                                    value: sleepTime,
-                                                                                    onChange: (e)=>setSleepTime(e.target.value),
-                                                                                    className: "border p-2 rounded w-full"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 362,
-                                                                                    columnNumber: 51
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 360,
-                                                                            columnNumber: 49
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 350,
-                                                                    columnNumber: 47
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "grid grid-cols-1 xl:grid-cols-1 gap-x-5",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "crm-groups xl:col-span-1",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                                    className: "block font-medium mb-1",
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                            children: [
-                                                                                                " ",
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                                    viewBox: "0 0 24 24",
-                                                                                                    width: "20",
-                                                                                                    height: "20",
-                                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                        d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 375,
-                                                                                                        columnNumber: 210
-                                                                                                    }, this)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                                    lineNumber: 375,
-                                                                                                    columnNumber: 101
-                                                                                                }, this),
-                                                                                                " "
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 375,
-                                                                                            columnNumber: 94
-                                                                                        }, this),
-                                                                                        " Work Start Time ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
-                                                                                            children: " (Optional) "
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 375,
-                                                                                            columnNumber: 500
-                                                                                        }, this)
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 375,
-                                                                                    columnNumber: 51
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "time",
-                                                                                    value: workStartTime,
-                                                                                    onChange: (e)=>setWorkStartTime(e.target.value),
-                                                                                    className: "border p-2 rounded w-full"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 376,
-                                                                                    columnNumber: 51
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 374,
-                                                                            columnNumber: 49
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "crm-groups xl:col-span-1",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                                    className: "block font-medium mb-1",
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                            children: [
-                                                                                                " ",
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                                    viewBox: "0 0 24 24",
-                                                                                                    width: "20",
-                                                                                                    height: "20",
-                                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                        d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 384,
-                                                                                                        columnNumber: 212
-                                                                                                    }, this)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                                    lineNumber: 384,
-                                                                                                    columnNumber: 103
-                                                                                                }, this),
-                                                                                                " "
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 384,
-                                                                                            columnNumber: 96
-                                                                                        }, this),
-                                                                                        " Work End Time ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
-                                                                                            children: " (Optional) "
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 384,
-                                                                                            columnNumber: 500
-                                                                                        }, this),
-                                                                                        " "
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 384,
-                                                                                    columnNumber: 53
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "time",
-                                                                                    value: workEndTime,
-                                                                                    onChange: (e)=>setWorkEndTime(e.target.value),
-                                                                                    className: "border p-2 rounded w-full"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 385,
-                                                                                    columnNumber: 53
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 383,
-                                                                            columnNumber: 49
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 373,
-                                                                    columnNumber: 47
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "grid grid-cols-1 xl:grid-cols-2 col-span-2 gap-x-5",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "crm-groups",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                                    className: "block font-medium mb-1",
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                            children: [
-                                                                                                " ",
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                                    viewBox: "0 0 24 24",
-                                                                                                    width: "20",
-                                                                                                    height: "20",
-                                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                        d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 396,
-                                                                                                        columnNumber: 212
-                                                                                                    }, this)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                                    lineNumber: 396,
-                                                                                                    columnNumber: 103
-                                                                                                }, this),
-                                                                                                " "
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 396,
-                                                                                            columnNumber: 96
-                                                                                        }, this),
-                                                                                        " Arrival Time ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
-                                                                                            children: " (Optional) "
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 396,
-                                                                                            columnNumber: 499
-                                                                                        }, this)
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 396,
-                                                                                    columnNumber: 53
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "time",
-                                                                                    value: arrivalTime,
-                                                                                    onChange: (e)=>setArrivalTime(e.target.value),
-                                                                                    className: "border p-2 rounded w-full"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 397,
-                                                                                    columnNumber: 53
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 395,
-                                                                            columnNumber: 52
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "crm-groups",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                                    className: "block font-medium mb-1",
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                            children: [
-                                                                                                " ",
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                                                                    viewBox: "0 0 24 24",
-                                                                                                    width: "20",
-                                                                                                    height: "20",
-                                                                                                    fill: "rgba(194,157,89,1)",
-                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                        d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 406,
-                                                                                                        columnNumber: 212
-                                                                                                    }, this)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                                    lineNumber: 406,
-                                                                                                    columnNumber: 103
-                                                                                                }, this),
-                                                                                                " "
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 406,
-                                                                                            columnNumber: 96
-                                                                                        }, this),
-                                                                                        " Departure Time ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
-                                                                                            children: " (Optional) "
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 406,
-                                                                                            columnNumber: 501
-                                                                                        }, this),
-                                                                                        " "
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 406,
-                                                                                    columnNumber: 53
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "time",
-                                                                                    value: departureTime,
-                                                                                    onChange: (e)=>setDepartureTime(e.target.value),
-                                                                                    className: "border p-2 rounded w-full"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 407,
-                                                                                    columnNumber: 53
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 405,
-                                                                            columnNumber: 51
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 394,
-                                                                    columnNumber: 47
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups col-span-2",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                            className: "text-sm text-gray-600",
-                                                                            children: "Food Allergies"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 421,
-                                                                            columnNumber: 51
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                            className: "border p-2 rounded w-full",
-                                                                            placeholder: "e.g. peanuts, shellfish, dairy...",
-                                                                            value: foodAllergies,
-                                                                            onChange: (e)=>setFoodAllergies(e.target.value)
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 422,
-                                                                            columnNumber: 51
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 419,
-                                                                    columnNumber: 49
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups col-span-2 ",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                            className: "block font-medium mb-1",
-                                                                            children: [
-                                                                                " ",
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                            xmlns: "http://www.w3.org/2000/svg",
-                                                                                            viewBox: "0 0 24 24",
-                                                                                            width: "20",
-                                                                                            height: "20",
-                                                                                            fill: "rgba(194,157,89,1)",
-                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                d: "M19 22H5C3.34315 22 2 20.6569 2 19V3C2 2.44772 2.44772 2 3 2H17C17.5523 2 18 2.44772 18 3V15H22V19C22 20.6569 20.6569 22 19 22ZM18 17V19C18 19.5523 18.4477 20 19 20C19.5523 20 20 19.5523 20 19V17H18ZM16 20V4H4V19C4 19.5523 4.44772 20 5 20H16ZM6 7H14V9H6V7ZM6 11H14V13H6V11ZM6 15H11V17H6V15Z"
+                                                                                                        lineNumber: 377,
+                                                                                                        columnNumber: 105
+                                                                                                    }, this),
+                                                                                                    " "
+                                                                                                ]
+                                                                                            }, void 0, true, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 377,
+                                                                                                columnNumber: 98
+                                                                                            }, this),
+                                                                                            " Work Start Time ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
+                                                                                                children: " (Optional) "
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 432,
-                                                                                                columnNumber: 208
+                                                                                                lineNumber: 377,
+                                                                                                columnNumber: 504
                                                                                             }, this)
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 432,
-                                                                                            columnNumber: 99
-                                                                                        }, this),
-                                                                                        " "
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 432,
-                                                                                    columnNumber: 92
-                                                                                }, this),
-                                                                                " Interests"
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 432,
-                                                                            columnNumber: 49
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "flex gap-2 mb-2",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("select", {
-                                                                                    className: "border p-2 rounded msp015",
-                                                                                    value: selectedInterest,
-                                                                                    onChange: (e)=>setSelectedInterest(e.target.value),
-                                                                                    children: [
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
-                                                                                            value: "",
-                                                                                            children: "Select interest"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 439,
-                                                                                            columnNumber: 53
-                                                                                        }, this),
-                                                                                        interestOptions.map((opt)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
-                                                                                                value: opt,
-                                                                                                children: opt
-                                                                                            }, opt, false, {
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 377,
+                                                                                        columnNumber: 55
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "time",
+                                                                                        value: workStartTime,
+                                                                                        onChange: (e)=>setWorkStartTime(e.target.value),
+                                                                                        className: "border p-2 rounded w-full"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 378,
+                                                                                        columnNumber: 55
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 376,
+                                                                                columnNumber: 53
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "crm-groups xl:col-span-1",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                        className: "block font-medium mb-1",
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                children: [
+                                                                                                    " ",
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                                        viewBox: "0 0 24 24",
+                                                                                                        width: "20",
+                                                                                                        height: "20",
+                                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                            d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                                        }, void 0, false, {
+                                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                                            lineNumber: 386,
+                                                                                                            columnNumber: 216
+                                                                                                        }, this)
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                                        lineNumber: 386,
+                                                                                                        columnNumber: 107
+                                                                                                    }, this),
+                                                                                                    " "
+                                                                                                ]
+                                                                                            }, void 0, true, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 386,
+                                                                                                columnNumber: 100
+                                                                                            }, this),
+                                                                                            " Work End Time ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
+                                                                                                children: " (Optional) "
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 386,
+                                                                                                columnNumber: 504
+                                                                                            }, this),
+                                                                                            " "
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 386,
+                                                                                        columnNumber: 57
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "time",
+                                                                                        value: workEndTime,
+                                                                                        onChange: (e)=>setWorkEndTime(e.target.value),
+                                                                                        className: "border p-2 rounded w-full"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 387,
+                                                                                        columnNumber: 57
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 385,
+                                                                                columnNumber: 53
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 375,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "grid grid-cols-1 xl:grid-cols-2 col-span-2 gap-x-5",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "crm-groups",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                        className: "block font-medium mb-1",
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                children: [
+                                                                                                    " ",
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                                        viewBox: "0 0 24 24",
+                                                                                                        width: "20",
+                                                                                                        height: "20",
+                                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                            d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                                        }, void 0, false, {
+                                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                                            lineNumber: 398,
+                                                                                                            columnNumber: 216
+                                                                                                        }, this)
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                                        lineNumber: 398,
+                                                                                                        columnNumber: 107
+                                                                                                    }, this),
+                                                                                                    " "
+                                                                                                ]
+                                                                                            }, void 0, true, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 398,
+                                                                                                columnNumber: 100
+                                                                                            }, this),
+                                                                                            " Arrival Time ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
+                                                                                                children: " (Optional) "
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 398,
+                                                                                                columnNumber: 503
+                                                                                            }, this)
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 398,
+                                                                                        columnNumber: 57
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "time",
+                                                                                        value: arrivalTime,
+                                                                                        onChange: (e)=>setArrivalTime(e.target.value),
+                                                                                        className: "border p-2 rounded w-full"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 399,
+                                                                                        columnNumber: 57
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 397,
+                                                                                columnNumber: 55
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "crm-groups",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                        className: "block font-medium mb-1",
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                children: [
+                                                                                                    " ",
+                                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                                                                        viewBox: "0 0 24 24",
+                                                                                                        width: "20",
+                                                                                                        height: "20",
+                                                                                                        fill: "rgba(194,157,89,1)",
+                                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                            d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
+                                                                                                        }, void 0, false, {
+                                                                                                            fileName: "[project]/pages/index.tsx",
+                                                                                                            lineNumber: 408,
+                                                                                                            columnNumber: 216
+                                                                                                        }, this)
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                                        lineNumber: 408,
+                                                                                                        columnNumber: 107
+                                                                                                    }, this),
+                                                                                                    " "
+                                                                                                ]
+                                                                                            }, void 0, true, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 408,
+                                                                                                columnNumber: 100
+                                                                                            }, this),
+                                                                                            " Departure Time ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
+                                                                                                children: " (Optional) "
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 408,
+                                                                                                columnNumber: 505
+                                                                                            }, this),
+                                                                                            " "
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 408,
+                                                                                        columnNumber: 57
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "time",
+                                                                                        value: departureTime,
+                                                                                        onChange: (e)=>setDepartureTime(e.target.value),
+                                                                                        className: "border p-2 rounded w-full"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 409,
+                                                                                        columnNumber: 57
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 407,
+                                                                                columnNumber: 55
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 396,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "crm-groups col-span-2",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                className: "text-sm text-gray-600",
+                                                                                children: "Food Allergies"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 423,
+                                                                                columnNumber: 55
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                className: "border p-2 rounded w-full",
+                                                                                placeholder: "e.g. peanuts, shellfish, dairy...",
+                                                                                value: foodAllergies,
+                                                                                onChange: (e)=>setFoodAllergies(e.target.value)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 424,
+                                                                                columnNumber: 55
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 421,
+                                                                        columnNumber: 53
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "crm-groups col-span-2 ",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                className: "block font-medium mb-1",
+                                                                                children: [
+                                                                                    " ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                xmlns: "http://www.w3.org/2000/svg",
+                                                                                                viewBox: "0 0 24 24",
+                                                                                                width: "20",
+                                                                                                height: "20",
+                                                                                                fill: "rgba(194,157,89,1)",
+                                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                    d: "M19 22H5C3.34315 22 2 20.6569 2 19V3C2 2.44772 2.44772 2 3 2H17C17.5523 2 18 2.44772 18 3V15H22V19C22 20.6569 20.6569 22 19 22ZM18 17V19C18 19.5523 18.4477 20 19 20C19.5523 20 20 19.5523 20 19V17H18ZM16 20V4H4V19C4 19.5523 4.44772 20 5 20H16ZM6 7H14V9H6V7ZM6 11H14V13H6V11ZM6 15H11V17H6V15Z"
+                                                                                                }, void 0, false, {
+                                                                                                    fileName: "[project]/pages/index.tsx",
+                                                                                                    lineNumber: 434,
+                                                                                                    columnNumber: 212
+                                                                                                }, this)
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                                lineNumber: 434,
+                                                                                                columnNumber: 103
+                                                                                            }, this),
+                                                                                            " "
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 434,
+                                                                                        columnNumber: 96
+                                                                                    }, this),
+                                                                                    " Interests"
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 434,
+                                                                                columnNumber: 53
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "flex gap-2 mb-2",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("select", {
+                                                                                        className: "border p-2 rounded msp015",
+                                                                                        value: selectedInterest,
+                                                                                        onChange: (e)=>setSelectedInterest(e.target.value),
+                                                                                        children: [
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
+                                                                                                value: "",
+                                                                                                children: "Select interest"
+                                                                                            }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
                                                                                                 lineNumber: 441,
-                                                                                                columnNumber: 55
-                                                                                            }, this))
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 434,
-                                                                                    columnNumber: 51
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "text",
-                                                                                    placeholder: "Custom interest",
-                                                                                    value: customInterest,
-                                                                                    onChange: (e)=>setCustomInterest(e.target.value),
-                                                                                    className: "border p-2 rounded flex-1"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 446,
-                                                                                    columnNumber: 51
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
-                                                                                    type: "button",
-                                                                                    onClick: addInterest,
-                                                                                    className: "bg-purple-600 text-white px-3 rounded",
-                                                                                    children: "Add"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 453,
-                                                                                    columnNumber: 51
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 433,
-                                                                            columnNumber: 49
-                                                                        }, this),
-                                                                        interests.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                                            children: [
-                                                                                "Selected: ",
-                                                                                interests.join(", ")
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 461,
-                                                                            columnNumber: 74
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 431,
-                                                                    columnNumber: 47
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                            className: "text-sm text-gray-600",
-                                                                            children: [
-                                                                                "Travel Style:",
-                                                                                " ",
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    className: "font-medium",
-                                                                                    children: travelStyle <= 3 ? "Very Relaxed" : travelStyle >= 8 ? "Adventure-heavy" : "Balanced"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 468,
-                                                                                    columnNumber: 53
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 466,
-                                                                            columnNumber: 51
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "flex items-center gap-3",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    className: "text-xs text-gray-500",
-                                                                                    children: "Relaxation"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 477,
-                                                                                    columnNumber: 53
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "range",
-                                                                                    min: 1,
-                                                                                    max: 10,
-                                                                                    value: travelStyle,
-                                                                                    onChange: (e)=>setTravelStyle(Number(e.target.value)),
-                                                                                    className: "flex-1"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 478,
-                                                                                    columnNumber: 53
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    className: "text-xs text-gray-500",
-                                                                                    children: "Adventure"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 486,
-                                                                                    columnNumber: 53
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 476,
-                                                                            columnNumber: 51
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 464,
-                                                                    columnNumber: 48
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                            className: "text-sm text-gray-600",
-                                                                            children: [
-                                                                                "Budget Level:",
-                                                                                " ",
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    className: "font-medium",
-                                                                                    children: budgetLevel === 1 ? "Budget" : budgetLevel === 2 ? "Mid-range" : "Luxury"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 495,
-                                                                                    columnNumber: 53
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 493,
-                                                                            columnNumber: 51
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                            className: "flex items-center gap-3",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    className: "text-xs text-gray-500",
-                                                                                    children: "Budget"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 504,
-                                                                                    columnNumber: 53
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                                                    type: "range",
-                                                                                    min: 1,
-                                                                                    max: 3,
-                                                                                    value: budgetLevel,
-                                                                                    onChange: (e)=>setBudgetLevel(Number(e.target.value)),
-                                                                                    className: "flex-1"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 505,
-                                                                                    columnNumber: 53
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    className: "text-xs text-gray-500",
-                                                                                    children: "Luxury"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 513,
-                                                                                    columnNumber: 53
-                                                                                }, this)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 503,
-                                                                            columnNumber: 51
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 491,
-                                                                    columnNumber: 47
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups col-span-2",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                            className: "block font-medium mb-1",
-                                                                            children: [
-                                                                                " ",
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                                    children: [
-                                                                                        " ",
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                                                                            xmlns: "http://www.w3.org/2000/svg",
-                                                                                            viewBox: "0 0 24 24",
-                                                                                            width: "20",
-                                                                                            height: "20",
-                                                                                            fill: "rgba(194,157,89,1)",
-                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                                                                d: "M19 22H5C3.34315 22 2 20.6569 2 19V3C2 2.44772 2.44772 2 3 2H17C17.5523 2 18 2.44772 18 3V15H22V19C22 20.6569 20.6569 22 19 22ZM18 17V19C18 19.5523 18.4477 20 19 20C19.5523 20 20 19.5523 20 19V17H18ZM16 20V4H4V19C4 19.5523 4.44772 20 5 20H16ZM6 7H14V9H6V7ZM6 11H14V13H6V11ZM6 15H11V17H6V15Z"
+                                                                                                columnNumber: 57
+                                                                                            }, this),
+                                                                                            interestOptions.map((opt)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("option", {
+                                                                                                    value: opt,
+                                                                                                    children: opt
+                                                                                                }, opt, false, {
+                                                                                                    fileName: "[project]/pages/index.tsx",
+                                                                                                    lineNumber: 443,
+                                                                                                    columnNumber: 59
+                                                                                                }, this))
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 436,
+                                                                                        columnNumber: 55
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "text",
+                                                                                        placeholder: "Custom interest",
+                                                                                        value: customInterest,
+                                                                                        onChange: (e)=>setCustomInterest(e.target.value),
+                                                                                        className: "border p-2 rounded flex-1"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 448,
+                                                                                        columnNumber: 55
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                                                                        type: "button",
+                                                                                        onClick: addInterest,
+                                                                                        className: "bg-purple-600 text-white px-3 rounded",
+                                                                                        children: "Add"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 455,
+                                                                                        columnNumber: 55
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 435,
+                                                                                columnNumber: 53
+                                                                            }, this),
+                                                                            interests.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                                                children: [
+                                                                                    "Selected: ",
+                                                                                    interests.join(", ")
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 463,
+                                                                                columnNumber: 78
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 433,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "crm-groups",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                className: "text-sm text-gray-600",
+                                                                                children: [
+                                                                                    "Travel Style:",
+                                                                                    " ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        className: "font-medium",
+                                                                                        children: travelStyle <= 3 ? "Very Relaxed" : travelStyle >= 8 ? "Adventure-heavy" : "Balanced"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 470,
+                                                                                        columnNumber: 57
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 468,
+                                                                                columnNumber: 55
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "flex items-center gap-3",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        className: "text-xs text-gray-500",
+                                                                                        children: "Relaxation"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 479,
+                                                                                        columnNumber: 57
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "range",
+                                                                                        min: 1,
+                                                                                        max: 10,
+                                                                                        value: travelStyle,
+                                                                                        onChange: (e)=>setTravelStyle(Number(e.target.value)),
+                                                                                        className: "flex-1"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 480,
+                                                                                        columnNumber: 57
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        className: "text-xs text-gray-500",
+                                                                                        children: "Adventure"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 488,
+                                                                                        columnNumber: 57
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 478,
+                                                                                columnNumber: 55
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 466,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "crm-groups",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                className: "text-sm text-gray-600",
+                                                                                children: [
+                                                                                    "Budget Level:",
+                                                                                    " ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        className: "font-medium",
+                                                                                        children: budgetLevel === 1 ? "Budget" : budgetLevel === 2 ? "Mid-range" : "Luxury"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 497,
+                                                                                        columnNumber: 57
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 495,
+                                                                                columnNumber: 55
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "flex items-center gap-3",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        className: "text-xs text-gray-500",
+                                                                                        children: "Budget"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 506,
+                                                                                        columnNumber: 57
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                                        type: "range",
+                                                                                        min: 1,
+                                                                                        max: 3,
+                                                                                        value: budgetLevel,
+                                                                                        onChange: (e)=>setBudgetLevel(Number(e.target.value)),
+                                                                                        className: "flex-1"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 507,
+                                                                                        columnNumber: 57
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        className: "text-xs text-gray-500",
+                                                                                        children: "Luxury"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 515,
+                                                                                        columnNumber: 57
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 505,
+                                                                                columnNumber: 55
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 493,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "crm-groups col-span-2",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                className: "block font-medium mb-1",
+                                                                                children: [
+                                                                                    " ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                        children: [
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                                                                xmlns: "http://www.w3.org/2000/svg",
+                                                                                                viewBox: "0 0 24 24",
+                                                                                                width: "20",
+                                                                                                height: "20",
+                                                                                                fill: "rgba(194,157,89,1)",
+                                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                                                                    d: "M19 22H5C3.34315 22 2 20.6569 2 19V3C2 2.44772 2.44772 2 3 2H17C17.5523 2 18 2.44772 18 3V15H22V19C22 20.6569 20.6569 22 19 22ZM18 17V19C18 19.5523 18.4477 20 19 20C19.5523 20 20 19.5523 20 19V17H18ZM16 20V4H4V19C4 19.5523 4.44772 20 5 20H16ZM6 7H14V9H6V7ZM6 11H14V13H6V11ZM6 15H11V17H6V15Z"
+                                                                                                }, void 0, false, {
+                                                                                                    fileName: "[project]/pages/index.tsx",
+                                                                                                    lineNumber: 521,
+                                                                                                    columnNumber: 212
+                                                                                                }, this)
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 519,
-                                                                                                columnNumber: 208
-                                                                                            }, this)
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 519,
-                                                                                            columnNumber: 99
-                                                                                        }, this),
-                                                                                        " "
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 519,
-                                                                                    columnNumber: 92
-                                                                                }, this),
-                                                                                " Additional Notes ",
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
-                                                                                    children: " (Optional) "
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 519,
-                                                                                    columnNumber: 548
-                                                                                }, this),
-                                                                                " "
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 519,
-                                                                            columnNumber: 49
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("textarea", {
-                                                                            value: additionalNotes,
-                                                                            onChange: (e)=>setAdditionalNotes(e.target.value),
-                                                                            placeholder: "Add anything extra for your itinerary...",
-                                                                            className: "border p-2 rounded w-full",
-                                                                            rows: 3
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 520,
-                                                                            columnNumber: 49
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 518,
-                                                                    columnNumber: 47
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                    className: "crm-groups col-span-2",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                                            className: "text-sm text-gray-600",
-                                                                            children: "Must-Visit Spots"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 535,
-                                                                            columnNumber: 51
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("textarea", {
-                                                                            rows: 2,
-                                                                            className: "border p-2 rounded w-full",
-                                                                            placeholder: "List any must-visit places, neighborhoods, or landmarks...",
-                                                                            value: mustVisit,
-                                                                            onChange: (e)=>setMustVisit(e.target.value)
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 536,
-                                                                            columnNumber: 51
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 531,
-                                                                    columnNumber: 47
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 310,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                                                                lineNumber: 521,
+                                                                                                columnNumber: 103
+                                                                                            }, this),
+                                                                                            " "
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 521,
+                                                                                        columnNumber: 96
+                                                                                    }, this),
+                                                                                    " Additional Notes ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
+                                                                                        children: " (Optional) "
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/index.tsx",
+                                                                                        lineNumber: 521,
+                                                                                        columnNumber: 552
+                                                                                    }, this),
+                                                                                    " "
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 521,
+                                                                                columnNumber: 53
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("textarea", {
+                                                                                value: additionalNotes,
+                                                                                onChange: (e)=>setAdditionalNotes(e.target.value),
+                                                                                placeholder: "Add anything extra for your itinerary...",
+                                                                                className: "border p-2 rounded w-full",
+                                                                                rows: 3
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 522,
+                                                                                columnNumber: 53
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 520,
+                                                                        columnNumber: 51
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "crm-groups col-span-2",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                                className: "text-sm text-gray-600",
+                                                                                children: "Must-Visit Spots"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 537,
+                                                                                columnNumber: 55
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("textarea", {
+                                                                                rows: 2,
+                                                                                className: "border p-2 rounded w-full",
+                                                                                placeholder: "List any must-visit places, neighborhoods, or landmarks...",
+                                                                                value: mustVisit,
+                                                                                onChange: (e)=>setMustVisit(e.target.value)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 538,
+                                                                                columnNumber: 55
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/index.tsx",
+                                                                        lineNumber: 533,
+                                                                        columnNumber: 51
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/pages/index.tsx",
+                                                                lineNumber: 312,
+                                                                columnNumber: 45
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/pages/index.tsx",
+                                                        lineNumber: 276,
+                                                        columnNumber: 42
+                                                    }, this)
+                                                }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 274,
-                                                    columnNumber: 37
+                                                    lineNumber: 275,
+                                                    columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                     className: "sm-div-btn ml:auto",
@@ -2415,28 +2464,28 @@ function TravelPlanner() {
                                                                     d: "M16.895 3A4.86 4.86 0 0 0 21 7.105a4.86 4.86 0 0 0-4.105 4.106 4.86 4.86 0 0 0-4.105-4.106A4.86 4.86 0 0 0 16.895 3M9.947 7.105a8.22 8.22 0 0 0 6.947 6.947A8.22 8.22 0 0 0 9.947 21 8.22 8.22 0 0 0 3 14.052a8.22 8.22 0 0 0 6.947-6.947"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 556,
+                                                                    lineNumber: 559,
                                                                     columnNumber: 141
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 556,
+                                                                lineNumber: 559,
                                                                 columnNumber: 47
                                                             }, this),
                                                             loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Spinner, {}, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 557,
+                                                                lineNumber: 560,
                                                                 columnNumber: 58
                                                             }, this) : "Generate Itinerary"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 551,
+                                                        lineNumber: 554,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 550,
+                                                    lineNumber: 553,
                                                     columnNumber: 38
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -2452,18 +2501,18 @@ function TravelPlanner() {
                                                                 d: "M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 566,
+                                                                lineNumber: 569,
                                                                 columnNumber: 149
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 566,
+                                                            lineNumber: 569,
                                                             columnNumber: 69
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 563,
+                                                    lineNumber: 566,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2475,7 +2524,7 @@ function TravelPlanner() {
                                                                 children: " Free Plan: "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 571,
+                                                                lineNumber: 574,
                                                                 columnNumber: 43
                                                             }, this),
                                                             "  ",
@@ -2484,12 +2533,12 @@ function TravelPlanner() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 570,
+                                                        lineNumber: 573,
                                                         columnNumber: 43
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 568,
+                                                    lineNumber: 571,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
@@ -2532,17 +2581,17 @@ function TravelPlanner() {
                                     className: "animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 592,
+                                    lineNumber: 595,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 591,
+                                lineNumber: 594,
                                 columnNumber: 23
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 590,
+                            lineNumber: 593,
                             columnNumber: 21
                         }, this)
                     }, void 0, false) : !result ? // Show Homepage
@@ -2570,17 +2619,17 @@ function TravelPlanner() {
                                                                 alt: "ms"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 613,
+                                                                lineNumber: 616,
                                                                 columnNumber: 51
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 612,
+                                                            lineNumber: 615,
                                                             columnNumber: 47
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 610,
+                                                        lineNumber: 613,
                                                         columnNumber: 43
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2590,7 +2639,7 @@ function TravelPlanner() {
                                                                 children: " Brand Story  "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 618,
+                                                                lineNumber: 621,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2598,7 +2647,7 @@ function TravelPlanner() {
                                                                 children: " NicheTrips was created for travelers who don’t fit the “one size fits all” mold. Whether you’re a digital nomad, a foodie, a couple seeking romantic getaways, or someone with specific dietary needs — your trip should adapt to you, not the other way around. With AI-driven personalization, NicheTrips crafts itineraries that match your lifestyle, preferences, and energy. Travel isn’t generic. Your plan shouldn’t be either. "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 620,
+                                                                lineNumber: 623,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2616,23 +2665,6 @@ function TravelPlanner() {
                                                                                     alt: "user"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 627,
-                                                                                    columnNumber: 51
-                                                                                }, this)
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 626,
-                                                                                columnNumber: 49
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
-                                                                                className: "user-img01",
-                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    width: 143,
-                                                                                    height: 23,
-                                                                                    src: "/vecteezy_a-man-sitting-on-a-dock-with-yellow-nets_71135147.jpg",
-                                                                                    alt: "user"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/pages/index.tsx",
                                                                                     lineNumber: 630,
                                                                                     columnNumber: 51
                                                                                 }, this)
@@ -2646,7 +2678,7 @@ function TravelPlanner() {
                                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                                     width: 143,
                                                                                     height: 23,
-                                                                                    src: "/pexels-chaitaastic-2031753.jpg",
+                                                                                    src: "/vecteezy_a-man-sitting-on-a-dock-with-yellow-nets_71135147.jpg",
                                                                                     alt: "user"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
@@ -2657,11 +2689,28 @@ function TravelPlanner() {
                                                                                 fileName: "[project]/pages/index.tsx",
                                                                                 lineNumber: 632,
                                                                                 columnNumber: 49
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
+                                                                                className: "user-img01",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    width: 143,
+                                                                                    height: 23,
+                                                                                    src: "/pexels-chaitaastic-2031753.jpg",
+                                                                                    alt: "user"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/index.tsx",
+                                                                                    lineNumber: 636,
+                                                                                    columnNumber: 51
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/index.tsx",
+                                                                                lineNumber: 635,
+                                                                                columnNumber: 49
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 625,
+                                                                        lineNumber: 628,
                                                                         columnNumber: 47
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
@@ -2675,7 +2724,7 @@ function TravelPlanner() {
                                                                                 alt: "sm"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 636,
+                                                                                lineNumber: 639,
                                                                                 columnNumber: 71
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -2683,51 +2732,51 @@ function TravelPlanner() {
                                                                                 children: " 5k+ Reviews "
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 637,
+                                                                                lineNumber: 640,
                                                                                 columnNumber: 51
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 636,
+                                                                        lineNumber: 639,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 624,
+                                                                lineNumber: 627,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 617,
+                                                        lineNumber: 620,
                                                         columnNumber: 43
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 609,
+                                                lineNumber: 612,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 608,
+                                            lineNumber: 611,
                                             columnNumber: 39
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 607,
+                                        lineNumber: 610,
                                         columnNumber: 35
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 606,
+                                    lineNumber: 609,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 605,
+                                lineNumber: 608,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -2752,17 +2801,17 @@ function TravelPlanner() {
                                                                 d: "M21.7267 2.95694L16.2734 22.0432C16.1225 22.5716 15.7979 22.5956 15.5563 22.1126L11 13L1.9229 9.36919C1.41322 9.16532 1.41953 8.86022 1.95695 8.68108L21.0432 2.31901C21.5716 2.14285 21.8747 2.43866 21.7267 2.95694ZM19.0353 5.09647L6.81221 9.17085L12.4488 11.4255L15.4895 17.5068L19.0353 5.09647Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 652,
+                                                                lineNumber: 655,
                                                                 columnNumber: 152
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 652,
+                                                            lineNumber: 655,
                                                             columnNumber: 43
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 651,
+                                                        lineNumber: 654,
                                                         columnNumber: 39
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -2773,19 +2822,19 @@ function TravelPlanner() {
                                                                 children: " Trips Planned "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 656,
+                                                                lineNumber: 659,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 654,
+                                                        lineNumber: 657,
                                                         columnNumber: 39
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 650,
+                                                lineNumber: 653,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2803,17 +2852,17 @@ function TravelPlanner() {
                                                                 d: "M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 661,
+                                                                lineNumber: 664,
                                                                 columnNumber: 154
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 661,
+                                                            lineNumber: 664,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 660,
+                                                        lineNumber: 663,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -2825,19 +2874,19 @@ function TravelPlanner() {
                                                                 children: " Messages Processed "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 665,
+                                                                lineNumber: 668,
                                                                 columnNumber: 43
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 663,
+                                                        lineNumber: 666,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 659,
+                                                lineNumber: 662,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2855,17 +2904,17 @@ function TravelPlanner() {
                                                                 d: "M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 670,
+                                                                lineNumber: 673,
                                                                 columnNumber: 154
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 670,
+                                                            lineNumber: 673,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 669,
+                                                        lineNumber: 672,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -2877,35 +2926,35 @@ function TravelPlanner() {
                                                                 children: " Client Globally "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 674,
+                                                                lineNumber: 677,
                                                                 columnNumber: 43
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 672,
+                                                        lineNumber: 675,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 668,
+                                                lineNumber: 671,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 649,
+                                        lineNumber: 652,
                                         columnNumber: 31
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 648,
+                                    lineNumber: 651,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 647,
+                                lineNumber: 650,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -2923,7 +2972,7 @@ function TravelPlanner() {
                                                         children: " Your Most Trusted Guides "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 686,
+                                                        lineNumber: 689,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -2931,7 +2980,7 @@ function TravelPlanner() {
                                                         children: " People Who Make Travel Enchanting "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 687,
+                                                        lineNumber: 690,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2939,7 +2988,7 @@ function TravelPlanner() {
                                                         children: " The Niche Group connects people to experiences worth sharing, and aims to be the worlds most trusted source for travel and experiences. "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 688,
+                                                        lineNumber: 691,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2948,13 +2997,13 @@ function TravelPlanner() {
                                                         children: " Plan My Trip "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 690,
+                                                        lineNumber: 693,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 685,
+                                                lineNumber: 688,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2972,12 +3021,12 @@ function TravelPlanner() {
                                                                     alt: "nam"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 695,
+                                                                    lineNumber: 698,
                                                                     columnNumber: 47
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 697,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2987,26 +3036,26 @@ function TravelPlanner() {
                                                                         children: " Go for Restaurants "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 698,
+                                                                        lineNumber: 701,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                                         children: " our experiences decided by travelers "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 699,
+                                                                        lineNumber: 702,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 697,
+                                                                lineNumber: 700,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 693,
+                                                        lineNumber: 696,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3021,12 +3070,12 @@ function TravelPlanner() {
                                                                     alt: "nam"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 705,
+                                                                    lineNumber: 708,
                                                                     columnNumber: 47
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 704,
+                                                                lineNumber: 707,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3036,26 +3085,26 @@ function TravelPlanner() {
                                                                         children: " Go for Accommodations "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 708,
+                                                                        lineNumber: 711,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                                         children: " our experiences decided by travelers "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 709,
+                                                                        lineNumber: 712,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 707,
+                                                                lineNumber: 710,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 703,
+                                                        lineNumber: 706,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3070,12 +3119,12 @@ function TravelPlanner() {
                                                                     alt: "nam"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 715,
+                                                                    lineNumber: 718,
                                                                     columnNumber: 47
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 714,
+                                                                lineNumber: 717,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3085,48 +3134,48 @@ function TravelPlanner() {
                                                                         children: " Go for Attractions "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 718,
+                                                                        lineNumber: 721,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                                         children: " our experiences decided by travelers "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 719,
+                                                                        lineNumber: 722,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 717,
+                                                                lineNumber: 720,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 713,
+                                                        lineNumber: 716,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 692,
+                                                lineNumber: 695,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 684,
+                                        lineNumber: 687,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 683,
+                                    lineNumber: 686,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 682,
+                                lineNumber: 685,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -3145,7 +3194,7 @@ function TravelPlanner() {
                                                             children: " Where to go next "
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 730,
+                                                            lineNumber: 733,
                                                             columnNumber: 39
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3153,13 +3202,13 @@ function TravelPlanner() {
                                                             children: " Weve updated our Trips product to help. "
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 731,
+                                                            lineNumber: 734,
                                                             columnNumber: 39
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 729,
+                                                    lineNumber: 732,
                                                     columnNumber: 35
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3177,41 +3226,41 @@ function TravelPlanner() {
                                                                 d: "M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 734,
+                                                                lineNumber: 737,
                                                                 columnNumber: 238
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 734,
+                                                            lineNumber: 737,
                                                             columnNumber: 128
                                                         }, this),
                                                         " "
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 734,
+                                                    lineNumber: 737,
                                                     columnNumber: 35
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 728,
+                                            lineNumber: 731,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ExploreSlider$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 737,
+                                            lineNumber: 740,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 727,
+                                    lineNumber: 730,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 726,
+                                lineNumber: 729,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -3225,7 +3274,7 @@ function TravelPlanner() {
                                         alt: "nam"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 742,
+                                        lineNumber: 745,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3236,7 +3285,7 @@ function TravelPlanner() {
                                                 children: " Testimonials "
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 744,
+                                                lineNumber: 747,
                                                 columnNumber: 39
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -3244,24 +3293,24 @@ function TravelPlanner() {
                                                 children: " Regards From Travelers "
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 745,
+                                                lineNumber: 748,
                                                 columnNumber: 39
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TestmoliasSlider$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 747,
+                                                lineNumber: 750,
                                                 columnNumber: 39
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 743,
+                                        lineNumber: 746,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 741,
+                                lineNumber: 744,
                                 columnNumber: 25
                             }, this)
                         ]
@@ -3287,17 +3336,17 @@ function TravelPlanner() {
                                                         d: "M13.1202 17.0228L8.92129 14.7324C8.19135 15.5125 7.15261 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8C7.15255 8 8.19125 8.48746 8.92118 9.26746L13.1202 6.97713C13.0417 6.66441 13 6.33707 13 6C13 3.79086 14.7909 2 17 2C19.2091 2 21 3.79086 21 6C21 8.20914 19.2091 10 17 10C15.8474 10 14.8087 9.51251 14.0787 8.73246L9.87977 11.0228C9.9583 11.3355 10 11.6629 10 12C10 12.3371 9.95831 12.6644 9.87981 12.9771L14.0788 15.2675C14.8087 14.4875 15.8474 14 17 14C19.2091 14 21 15.7909 21 18C21 20.2091 19.2091 22 17 22C14.7909 22 13 20.2091 13 18C13 17.6629 13.0417 17.3355 13.1202 17.0228ZM6 14C7.10457 14 8 13.1046 8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14ZM17 8C18.1046 8 19 7.10457 19 6C19 4.89543 18.1046 4 17 4C15.8954 4 15 4.89543 15 6C15 7.10457 15.8954 8 17 8ZM17 20C18.1046 20 19 19.1046 19 18C19 16.8954 18.1046 16 17 16C15.8954 16 15 16.8954 15 18C15 19.1046 15.8954 20 17 20Z"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 762,
+                                                        lineNumber: 765,
                                                         columnNumber: 137
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 762,
+                                                    lineNumber: 765,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 759,
+                                                lineNumber: 762,
                                                 columnNumber: 31
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -3306,13 +3355,13 @@ function TravelPlanner() {
                                                 children: "Download as PDF"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 766,
+                                                lineNumber: 769,
                                                 columnNumber: 31
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 757,
+                                        lineNumber: 760,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3335,19 +3384,19 @@ function TravelPlanner() {
                                                                     d: "M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 775,
+                                                                    lineNumber: 778,
                                                                     columnNumber: 191
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 775,
+                                                                lineNumber: 778,
                                                                 columnNumber: 82
                                                             }, this),
                                                             "  Heres what NicheTrips Creates for You "
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 775,
+                                                        lineNumber: 778,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3360,18 +3409,18 @@ function TravelPlanner() {
                                                             children: result
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 781,
+                                                            lineNumber: 784,
                                                             columnNumber: 39
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 776,
+                                                        lineNumber: 779,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 774,
+                                                lineNumber: 777,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3381,26 +3430,26 @@ function TravelPlanner() {
                                                         children: '  Niche Trips was created for travelers who don\'t tit the "one size fits all" mold. '
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 785,
+                                                        lineNumber: 788,
                                                         columnNumber: 38
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                         children: "  Whether you're a digital nomad. a feodle: a souple seeking fomantic getaways, or someone with specific distary iteeds your frip-eirould adapt to you, nof the other ionound. With Ar shiven personalization Niche Trips cratts liltheraries that match your lifestyle, preferences, and exergy. Trevel fan't genenc. Your plan-shouldn't be either. "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 787,
+                                                        lineNumber: 790,
                                                         columnNumber: 38
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 784,
+                                                lineNumber: 787,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 773,
+                                        lineNumber: 776,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3411,7 +3460,7 @@ function TravelPlanner() {
                                                 children: " Disclaimers "
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 796,
+                                                lineNumber: 799,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3419,24 +3468,24 @@ function TravelPlanner() {
                                                 children: " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 797,
+                                                lineNumber: 800,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 795,
+                                        lineNumber: 798,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 756,
+                                lineNumber: 759,
                                 columnNumber: 27
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 755,
+                            lineNumber: 758,
                             columnNumber: 25
                         }, this)
                     }, void 0, false)

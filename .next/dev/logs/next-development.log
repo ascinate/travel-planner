@@ -1344,3 +1344,1534 @@ Failed to find font override values for font `Big Shoulders`
 Skipping generating a fallback font.
 
 
+[00:42:49.631] Server  LOG      ✓ Compiled in 257ms
+[00:43:18.885] Server  LOG      ✓ Compiled in 90ms
+[00:43:20.668] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:43:29.179] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:43:30.187] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:43:32.318] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:43:32.953] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.956] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.959] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.962] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.963] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.965] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.969] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.971] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.973] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.975] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.977] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.979] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.981] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.983] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.985] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:32.988] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.172] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:33.172] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:33.173] Browser ERROR   {"code":"MODULE_NOT_FOUND"}
+[00:43:33.173] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:33.173] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:33.295] Browser ERROR   unhandledRejection: Error: Cannot find module '../lib/firebase'
+[00:43:33.418] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:33.418] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:52.885] Server  LOG      ✓ Compiled in 115ms
+[00:43:53.053] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:53.053] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:54.877] Server  LOG      ✓ Compiled in 69ms
+[00:43:55.051] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:55.051] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:56.540] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.543] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.546] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.549] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.552] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.554] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.557] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.560] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.564] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.568] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.570] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.574] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.577] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.580] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.583] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.585] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.590] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.592] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.595] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.598] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.600] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.602] Server  ERROR    ⨯ ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.610] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.612] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.616] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.619] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.622] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.627] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.629] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.633] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.636] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.639] Server  ERROR    ⨯ ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.641] Server  LOG      ✓ Compiled in 95ms
+[00:43:57.046] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:57.046] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:04.202] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:05.037] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:05.037] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:57.449] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:58.183] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:44:58.675] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:58.675] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:58.675] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:58.675] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:58.787] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:58.788] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:00.437] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:45:00.581] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:00.581] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:11.393] Server  LOG      ✓ Compiled in 160ms
+[00:45:11.552] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:11.552] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:13.318] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:45:14.038] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:45:14.191] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:14.192] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:14.596] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:14.596] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:14.596] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:14.596] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:16.271] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:45:16.423] Browser ERROR   ./pages/signin.tsx:4:1
+Module not found: Can't resolve '../lib/firebase'
+  2 | "use client";
+  3 |
+> 4 | import { auth, googleProvider } from "../lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:16.423] Browser ERROR   ./pages/signin.tsx:5:1
+Module not found: Can't resolve 'firebase/auth'
+  3 |
+  4 | import { auth, googleProvider } from "../lib/firebase";
+> 5 | import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useState } from "react";
+  7 | import type { User } from "firebase/auth";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:51.180] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:46:49.681] Server  LOG      ✓ Compiled in 134ms
+[00:46:51.431] Server  LOG      ✓ Compiled in 194ms
+[00:46:56.535] Server  LOG      ✓ Compiled in 175ms
+[00:47:00.672] Server  LOG      ✓ Compiled in 227ms
+[00:48:13.894] Server  LOG      ✓ Compiled in 95ms
+[00:48:15.846] Server  LOG      ✓ Compiled in 138ms
+[00:48:17.944] Server  LOG      ✓ Compiled in 166ms
+[00:48:21.466] Server  LOG      ✓ Compiled in 113ms
+[00:48:22.040] Browser LOG     Refreshing page data due to server-side change
+[00:48:22.040] Browser ERROR   ./pages/index.tsx:586:31
+Parsing ecmascript source code failed
+  584 |                             </div>
+  585 |                         </div>
+> 586 |                     </section>
+      |                               ^
+> 587 |       
+      | ^^^^^^
+> 588 |
+      | ^^^^^^
+> 589 |                  {loading ? (
+      | ^^^^^^^^^^^^^^^^^^
+  590 |                     <>
+  591 |                     <div className='spo-div01'>
+  592 |                       <div className="w-full flex justify-center items-center py-20">
+
+Expected '</', got 'jsx text (
+      
+                 )'
+[00:48:22.040] Browser ERROR   ./pages/index.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:48:32.038] Browser ERROR   ./pages/index.tsx:587:31
+Parsing ecmascript source code failed
+  585 |                             </div>
+  586 |                         </div>
+> 587 |                     </section>
+      |                               ^
+> 588 |       
+      | ^^^^^^
+> 589 |
+      | ^^^^^^
+> 590 |                  {loading ? (
+      | ^^^^^^^^^^^^^^^^^^
+  591 |                     <>
+  592 |                     <div className='spo-div01'>
+  593 |                       <div className="w-full flex justify-center items-center py-20">
+
+Expected '</', got 'jsx text (
+      
+                 )'
+[00:48:32.038] Browser ERROR   ./pages/index.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:48:33.047] Browser ERROR   ./pages/index.tsx:587:31
+Parsing ecmascript source code failed
+  585 |                             </div>
+  586 |                         </div>
+> 587 |                     </section>
+      |                               ^
+> 588 |       
+      | ^^^^^^
+> 589 |
+      | ^^^^^^
+> 590 |                  {loading ? (
+      | ^^^^^^^^^^^^^^^^^^
+  591 |                     <>
+  592 |                     <div className='spo-div01'>
+  593 |                       <div className="w-full flex justify-center items-center py-20">
+
+Expected '</', got 'jsx text (
+      
+                 )'
+[00:48:33.047] Browser ERROR   ./pages/index.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/index.tsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:48:39.994] Server  LOG      ✓ Compiled in 166ms
+[00:48:40.110] Browser LOG     Refreshing page data due to server-side change
+[00:48:48.152] Server  LOG      ✓ Compiled in 110ms
+[00:48:51.408] Server  LOG      ✓ Compiled in 188ms
+[00:48:55.058] Server  LOG      ✓ Compiled in 108ms
+[00:49:04.068] Server  LOG      ✓ Compiled in 120ms
+[00:49:07.059] Server  LOG      ✓ Compiled in 117ms
+[00:49:08.258] Server  LOG      ✓ Compiled in 146ms
+[00:49:42.110] Server  LOG      ✓ Compiled in 174ms
+[00:49:46.241] Server  LOG      ✓ Compiled in 43ms
+[00:49:47.052] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:631:3: Unknown word over
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:49:49.597] Server  LOG      ✓ Compiled in 897ms
+[00:49:53.259] Server  LOG      ✓ Compiled in 77ms
+[00:49:54.072] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:632:3: Unknown word overflow-y
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:49:56.128] Server  LOG      ✓ Compiled in 1002ms
+[00:50:00.389] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:50:00.850] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:50:00.858] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:50:31.863] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:50:56.941] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:50:57.522] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:50:59.689] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:04.627] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:05.495] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:07.498] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:07.927] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:08.319] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:08.323] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:20.955] Server  LOG      ✓ Compiled in 143ms
+[00:51:22.024] Server  LOG      ✓ Compiled in 143ms
+[00:51:22.037] Browser ERROR   ./styles/globals.css:1325:1
+Parsing CSS source code failed
+  1323 | }
+  1324 | .scrollbard-main
+> 1325 | @media(min-width:1200px) {
+       | ^
+  1326 |   .container {
+  1327 |     max-width: 1100px;
+  1328 |     margin: 0 auto;
+
+Invalid dangling combinator in selector
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:51:49.543] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:49.559] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:52:41.317] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:52:41.327] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:52:59.866] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:00.526] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:02.750] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:10.259] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:10.682] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:10.685] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:45.279] Server  LOG      ✓ Compiled in 265ms
+[00:53:46.054] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:105:3: Unknown word ove
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[00:53:47.867] Server  LOG      ✓ Compiled in 1046ms
+[00:53:52.022] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:52.598] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:54.836] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:56.324] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:56.650] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:53:56.654] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:54:37.850] Server  LOG      ✓ Compiled in 185ms
+[00:55:08.866] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:02:54.769] Server  LOG      ✓ Compiled in 203ms
+[01:03:01.897] Server  LOG      ✓ Compiled in 71ms
+[01:03:05.124] Server  LOG      ✓ Compiled in 83ms
+[01:03:24.330] Server  LOG      ✓ Compiled in 119ms
+[01:05:48.411] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:05:48.417] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:05:48.556] Server  LOG      ✓ Compiled in 201ms
+[01:05:50.039] Server  LOG      ✓ Compiled in 64ms
+[01:05:51.047] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\subrata\next-js\travel-planner\styles\globals.css:116:5: Unknown word col
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[01:05:54.035] Browser ERROR   ./styles/globals.css:827:14
+Parsing CSS source code failed
+  825 |   font-size: 18px;
+  826 |   font-weight: 500;
+> 827 |   color: var();
+      |              ^
+  828 | }
+  829 | .inside-scrolls-div
+  830 | .mains-forms014::before {
+
+Unexpected end of input
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.tsx
+[01:05:56.901] Server  LOG      ✓ Compiled in 185ms

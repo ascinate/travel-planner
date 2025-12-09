@@ -95,20 +95,26 @@ p{
 }
 .mains-forms014{
   border-radius: 20px;
-  padding: 28px;
+  padding: 28px 28px 0 28px;
   width: 49%;
   margin-top: 0;
   background: var(--bg-background);
     position: relative;
   height: 320px;
   overflow: hidden;
+  overflow-y: auto;
 }
 .forms-seraclist{
   margin-top: -460px;
   position: relative;
   z-index: 2;
 }
-
+.signup-btn2{
+      padding: 0 14px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--textdark);
+}
 .inside-scrolls-div
 .mains-forms014::before{
     position: absolute;
@@ -625,6 +631,9 @@ footer p{
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 10px;
+}
+.scrollbard-main{
+
 }
 @media(min-width:1200px){
   .container{

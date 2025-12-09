@@ -1120,15 +1120,22 @@ p {
   width: 49%;
   height: 320px;
   margin-top: 0;
-  padding: 28px;
+  padding: 28px 28px 0;
   position: relative;
-  overflow: hidden;
+  overflow: hidden auto;
 }
 
 .forms-seraclist {
   z-index: 2;
   margin-top: -460px;
   position: relative;
+}
+
+.signup-btn2 {
+  color: var(--textdark);
+  padding: 0 14px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .inside-scrolls-div .mains-forms014:before {
