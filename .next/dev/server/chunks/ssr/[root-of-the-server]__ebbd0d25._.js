@@ -540,11 +540,51 @@ function Navbar() {
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
+                                className: "signup-btn2 block p-0 flex items-center",
+                                children: [
+                                    "Login ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "ml-1",
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                viewBox: "0 0 24 24",
+                                                width: "18",
+                                                height: "18",
+                                                fill: "rgba(255,255,255,1)",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
+                                                    d: "M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Navbar.tsx",
+                                                    lineNumber: 117,
+                                                    columnNumber: 220
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Navbar.tsx",
+                                                lineNumber: 117,
+                                                columnNumber: 110
+                                            }, this),
+                                            " "
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/Navbar.tsx",
+                                        lineNumber: 117,
+                                        columnNumber: 86
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 117,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/",
                                 className: "block signut-bg text-white py-2 px-4 rounded mt-2 text-center",
                                 children: "Sign up"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 117,
+                                lineNumber: 119,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -3395,7 +3435,7 @@ function TravelPlanner() {
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "flex items-start",
+                                        className: "md:flex items-start",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                 className: "left-contents015-res",

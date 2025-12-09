@@ -734,6 +734,10 @@
     object-fit: cover;
   }
 
+  .p-0 {
+    padding: calc(var(--spacing) * 0);
+  }
+
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -1900,6 +1904,10 @@ footer p {
 }
 
 @media (max-width: 910px) {
+  header {
+    background: var(--background);
+  }
+
   .container {
     max-width: 100%;
     margin: 0 auto;
@@ -1922,7 +1930,7 @@ footer p {
   }
 
   .banners-text01 h2 {
-    font-size: 35px;
+    font-size: 21px;
     line-height: 37px;
   }
 
@@ -1936,6 +1944,19 @@ footer p {
 
   .banner-slider-parts img {
     height: 100%;
+  }
+
+  .sub-tr {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .left-contents015-res {
+    padding: 0;
+  }
+
+  .left-contents015-res .crad-list-menu h1 {
+    font-size: 19px;
   }
 
   .right-logins {
@@ -1963,6 +1984,10 @@ footer p {
     line-height: 49px;
   }
 
+  .advance-btn {
+    margin-top: 10px;
+  }
+
   .crad-list-menu h1 {
     color: var(--textdark);
     margin-bottom: 0;
@@ -1987,11 +2012,16 @@ footer p {
   }
 
   .mains-forms014 {
-    overflow: hidden;
+    width: 100%;
+    overflow: hidden auto;
   }
 
   .msp015 {
     margin-bottom: 10px !important;
+  }
+
+  .banners-parts {
+    padding-top: 75px;
   }
 }
 
