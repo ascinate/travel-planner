@@ -313,7 +313,7 @@ const generatePlan = async () => {
 
                                             {/* advanced */}
 
-                                            <div className="d-hidden">
+                                            <div className="d-hidden col-span-2">
                                               <div className="mt-4 col-span-4 xl:col-span-2 off-scrolls grid grid-cols-2 gap-x-5 items-end">
                                                 
 

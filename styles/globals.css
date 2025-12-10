@@ -639,6 +639,11 @@ footer p{
 .show-my-div .d-hidden{
   display: block !important;
 }
+  .show-my-div .mains-forms014{
+     width: 100%;
+     overflow: inherit;
+     height: auto;
+  }
 @media(min-width:1200px){
   .container{
     max-width: 1100px;
@@ -661,6 +666,7 @@ footer p{
   }
   .show-my-div .mains-forms014{
      width: 100%;
+
   }
 
 }
