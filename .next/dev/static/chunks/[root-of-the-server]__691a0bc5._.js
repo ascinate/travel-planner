@@ -699,17 +699,17 @@ function Navbar() {
                                                     alt: "logos"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 81,
                                                     columnNumber: 27
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 80,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 72,
+                                            lineNumber: 79,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -723,12 +723,12 @@ function Navbar() {
                                                             children: type.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Navbar.tsx",
-                                                            lineNumber: 82,
+                                                            lineNumber: 89,
                                                             columnNumber: 31
                                                         }, this)
                                                     }, type.id, false, {
                                                         fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 81,
+                                                        lineNumber: 88,
                                                         columnNumber: 27
                                                     }, this)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -753,25 +753,25 @@ function Navbar() {
                                                                                 d: "M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/Navbar.tsx",
-                                                                                lineNumber: 88,
+                                                                                lineNumber: 95,
                                                                                 columnNumber: 230
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Navbar.tsx",
-                                                                            lineNumber: 88,
+                                                                            lineNumber: 95,
                                                                             columnNumber: 120
                                                                         }, this),
                                                                         " "
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Navbar.tsx",
-                                                                    lineNumber: 88,
+                                                                    lineNumber: 95,
                                                                     columnNumber: 96
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Navbar.tsx",
-                                                            lineNumber: 88,
+                                                            lineNumber: 95,
                                                             columnNumber: 27
                                                         }, this),
                                                         !user ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -780,7 +780,7 @@ function Navbar() {
                                                             children: "Sign in with Google"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Navbar.tsx",
-                                                            lineNumber: 93,
+                                                            lineNumber: 100,
                                                             columnNumber: 33
                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                             onClick: logout,
@@ -792,19 +792,19 @@ function Navbar() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Navbar.tsx",
-                                                            lineNumber: 100,
+                                                            lineNumber: 107,
                                                             columnNumber: 33
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 94,
                                                     columnNumber: 25
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 86,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -822,28 +822,28 @@ function Navbar() {
                                                     d: "M4 6h16M4 12h16M4 18h16"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 116,
+                                                    lineNumber: 123,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 121,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Navbar.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 117,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 77,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 68,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -856,7 +856,7 @@ function Navbar() {
                                         children: "Home"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 131,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -865,7 +865,7 @@ function Navbar() {
                                         children: "About"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 132,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -874,7 +874,7 @@ function Navbar() {
                                         children: "Services"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 126,
+                                        lineNumber: 133,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -883,29 +883,29 @@ function Navbar() {
                                         children: "Contact"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 134,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 123,
+                                lineNumber: 130,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 67,
+                        lineNumber: 74,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Navbar.tsx",
-                    lineNumber: 65,
+                    lineNumber: 72,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 64,
+                lineNumber: 71,
                 columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -929,17 +929,17 @@ function Navbar() {
                                         alt: "logos"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 150,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 149,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 141,
+                                lineNumber: 148,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -956,23 +956,23 @@ function Navbar() {
                                         d: "M6 18L18 6M6 6l12 12"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 157,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 155,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 147,
+                                lineNumber: 154,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 140,
+                        lineNumber: 147,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -985,7 +985,7 @@ function Navbar() {
                                     children: type.title
                                 }, type.id, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 158,
+                                    lineNumber: 165,
                                     columnNumber: 17
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1007,25 +1007,25 @@ function Navbar() {
                                                     d: "M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 177,
                                                     columnNumber: 229
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 170,
+                                                lineNumber: 177,
                                                 columnNumber: 119
                                             }, this),
                                             " "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 170,
+                                        lineNumber: 177,
                                         columnNumber: 95
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 170,
+                                lineNumber: 177,
                                 columnNumber: 16
                             }, this),
                             !user ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1034,7 +1034,7 @@ function Navbar() {
                                 children: "Sign in with Google"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 172,
+                                lineNumber: 179,
                                 columnNumber: 19
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: logout,
@@ -1046,19 +1046,19 @@ function Navbar() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 179,
+                                lineNumber: 186,
                                 columnNumber: 19
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 156,
+                        lineNumber: 163,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 136,
+                lineNumber: 143,
                 columnNumber: 7
             }, this)
         ]
@@ -1573,6 +1573,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$b
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$satisfy_fa430789$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/satisfy_fa430789.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$archivo_bb94a44c$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/archivo_bb94a44c.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/router.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/react-markdown/lib/index.js [client] (ecmascript) <export Markdown as default>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-raw/lib/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Navbar.tsx [client] (ecmascript)");
@@ -1581,8 +1582,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ExploreSlider$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TestmoliasSlider$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/TestmoliasSlider.tsx [client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/lib/firestore'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
 ;
 ;
 ;
@@ -1604,18 +1613,29 @@ const tripMoodOptions = [
     "Photography",
     "Local Culture"
 ];
+const tripMoodOptions = [
+    "Romance",
+    "Spiritual",
+    "Nature",
+    "Party",
+    "Photography",
+    "Local Culture"
+];
 function TravelPlanner() {
     _s();
     const [isActive, setIsActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const toggleClass = ()=>{
         setIsActive(!isActive); // Invert the current state
     };
+    const [user, setUser] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
+    // Core form state
     const [destination, setDestination] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [travelPersona, setTravelPersona] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("Single Woman");
+    const [travelPersona, setTravelPersona] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("Solo Traveller");
     const [foodPersona, setFoodPersona] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("Vegan");
     const [startDate, setStartDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [endDate, setEndDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [wakeUpTime, setWakeUpTime] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("08:00");
+    const [wakeUpTime, setWakeUpTime] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [sleepTime, setSleepTime] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [workStartTime, setWorkStartTime] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [workEndTime, setWorkEndTime] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -1627,17 +1647,18 @@ function TravelPlanner() {
     const [additionalNotes, setAdditionalNotes] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [result, setResult] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [checkoutLoading, setCheckoutLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [remaining, setRemaining] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const resultRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    // New hyper-personalization fields
-    const [travelStyle, setTravelStyle] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(5); // 1=Relaxation, 10=Adventure
-    const [budgetLevel, setBudgetLevel] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(2); // 1=Budget, 2=Mid, 3=Luxury
+    // Hyper-personalization fields
+    const [travelStyle, setTravelStyle] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(5);
+    const [budgetLevel, setBudgetLevel] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(2);
     const [foodAllergies, setFoodAllergies] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [mustVisit, setMustVisit] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [tripMood, setTripMood] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [tripMood, setTripMood] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [lastRequestId, setLastRequestId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const resultRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const travelPersonaOptions = [
-        "Single Woman",
-        "Single Man",
+        "Solo Traveller",
         "Couple",
         "Elderly-Friendly",
         "Family-Friendly",
@@ -1661,13 +1682,14 @@ function TravelPlanner() {
         "Relaxation",
         "Food"
     ];
+    // === Interests ===
     const addInterest = ()=>{
         const newInterest = customInterest || selectedInterest;
         if (newInterest && !interests.includes(newInterest)) {
-            setInterests([
-                ...interests,
-                newInterest
-            ]);
+            setInterests((prev)=>[
+                    ...prev,
+                    newInterest
+                ]);
             setCustomInterest("");
             setSelectedInterest("");
         }
@@ -1699,90 +1721,90 @@ function TravelPlanner() {
         setRemaining(FREE_LIMIT - usage.count);
         return true;
     };
-    // --- Monthly usage logic ---
-    const checkUsageLimit = ()=>{
-        if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-        ;
-        const limit = 3;
-        const now = new Date();
-        const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
-        const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
-        if (!stored.month || stored.month !== monthKey) {
-            localStorage.setItem("generationUsage", JSON.stringify({
-                month: monthKey,
-                count: 1
-            }));
-            setRemaining(limit - 1);
-            return true;
-        }
-        if (stored.count >= limit) {
-            alert("You've reached the free usage limit for this month. Come back next month!");
-            return false;
-        }
-        stored.count += 1;
-        stored.month = monthKey;
-        localStorage.setItem("generationUsage", JSON.stringify(stored));
-        setRemaining(limit - stored.count);
-        return true;
-    };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "TravelPlanner.useEffect": ()=>{
-            if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-            ;
-            const limit = 3;
-            const now = new Date();
-            const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
-            const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
-            if (stored.month !== monthKey) {
-                setRemaining(limit);
-            } else {
-                setRemaining(Math.max(limit - stored.count, 0));
-            }
+            const FREE_LIMIT = 3;
+            const month = new Date().toISOString().slice(0, 7);
+            const usage = JSON.parse(localStorage.getItem("usage-limit") || "{}");
+            setRemaining(!usage.month || usage.month !== month ? FREE_LIMIT : FREE_LIMIT - usage.count);
+            const unsub = onAuthStateChanged(auth, {
+                "TravelPlanner.useEffect.unsub": async (u)=>{
+                    setUser(u);
+                    if (u) {
+                        try {
+                            await saveUserProfile(u);
+                        } catch  {}
+                    }
+                }
+            }["TravelPlanner.useEffect.unsub"]);
+            return ({
+                "TravelPlanner.useEffect": ()=>unsub()
+            })["TravelPlanner.useEffect"];
         }
     }["TravelPlanner.useEffect"], []);
-    const Spinner = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-            className: "animate-spin h-5 w-5 text-white inline-block mr-2",
-            xmlns: "http://www.w3.org/2000/svg",
-            fill: "none",
-            viewBox: "0 0 24 24",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                    className: "opacity-25",
-                    cx: "12",
-                    cy: "12",
-                    r: "10",
-                    stroke: "currentColor",
-                    strokeWidth: "4"
-                }, void 0, false, {
-                    fileName: "[project]/pages/index.tsx",
-                    lineNumber: 202,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    className: "opacity-75",
-                    fill: "currentColor",
-                    d: "M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
-                }, void 0, false, {
-                    fileName: "[project]/pages/index.tsx",
-                    lineNumber: 210,
-                    columnNumber: 7
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/pages/index.tsx",
-            lineNumber: 196,
-            columnNumber: 5
-        }, this);
-    const cleanText = (text)=>text.replace(/(\w)\n(\w)/g, "$1 $2") // join broken words
-        .replace(/\n{2,}/g, "\n\n") // collapse multiple newlines
-        .replace(/[ ]{2,}/g, " ") // collapse multiple spaces
-        .trim();
+    // === Payment feedback ===
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "TravelPlanner.useEffect": ()=>{
+            if (!router.isReady) return;
+            const { success, canceled } = router.query;
+            if (success) {
+                alert("Payment successful!");
+                router.replace("/", undefined, {
+                    shallow: true
+                });
+            } else if (canceled) {
+                alert("Checkout canceled.");
+                router.replace("/", undefined, {
+                    shallow: true
+                });
+            }
+        }
+    }["TravelPlanner.useEffect"], [
+        router
+    ]);
+    const clean = (t)=>t.replace(/(\w)\n(\w)/g, "$1 $2").replace(/\n{2,}/g, "\n\n").trim();
+    // ============================================================
+    //            GENERATE PLAN
+    // ============================================================
     const generatePlan = async ()=>{
-        if (!checkUsageLimit()) return;
+        if (!limitCheck()) return;
+        let requestId = null;
         setLoading(true);
-        setResult(""); // clears old result
+        setResult("");
+        setLastRequestId(null);
+        // save request if logged in
+        if (user) {
+            try {
+                requestId = await saveTripRequest({
+                    destination,
+                    travelPersona,
+                    foodPersona,
+                    startDate,
+                    endDate,
+                    wakeUpTime,
+                    sleepTime,
+                    workStartTime,
+                    workEndTime,
+                    arrivalTime,
+                    departureTime,
+                    interests,
+                    additionalNotes,
+                    travelStyle,
+                    budgetLevel,
+                    foodAllergies,
+                    mustVisit,
+                    tripMood
+                });
+                setLastRequestId(requestId);
+                await logEvent("generate_plan_start", {
+                    requestId,
+                    destination
+                });
+            } catch  {}
+        }
+        // Call backend AI
         try {
-            const response = await fetch("/api/ai", {
+            const res = await fetch("/api/ai", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -1808,37 +1830,144 @@ function TravelPlanner() {
                     tripMood
                 })
             });
-            if (!response.ok) throw new Error(`API Error: ${response.status}`);
-            const data = await response.json();
-            const cleaned = cleanText(data.text);
-            setResult(cleaned); // 👈 result now appears
+            const data = await res.json();
+            setResult(clean(data.text));
+            if (user && requestId) {
+                logEvent("generate_plan_success", {
+                    requestId
+                });
+            }
         } catch (err) {
             console.error(err);
-            setResult("There was an error generating your itinerary.");
+            setResult("Error generating itinerary.");
+            logEvent("generate_plan_error", {
+                destination
+            });
         } finally{
-            setLoading(false); // 👈 loader stops, Answer appears
+            setLoading(false);
         }
     };
-    const downloadPDF = async ()=>{
+    // ============================================================
+    //           SAVE PLAN
+    // ============================================================
+    const savePlan = async ()=>{
+        if (!user) return alert("Sign in to save itineraries.");
+        if (!result) return alert("Generate an itinerary first.");
+        const itinerary = {
+            created: new Date().toISOString(),
+            destination,
+            travelPersona,
+            foodPersona,
+            travelStyle,
+            budgetLevel,
+            tripMood,
+            result
+        };
+        try {
+            await saveItinerary(lastRequestId ?? "manual-save", itinerary);
+        } catch  {}
+        await updateDoc(doc(db, "users", user.uid), {
+            savedPlans: arrayUnion(itinerary)
+        });
+        alert("Itinerary saved!");
+    };
+    // ============================================================
+    //              LOGIN / LOGOUT
+    // ============================================================
+    const login = async ()=>{
+        try {
+            const res = await signInWithPopup(auth, googleProvider);
+            await setDoc(doc(db, "users", res.user.uid), {
+                savedPlans: [],
+                plan: "free",
+                usage: 0
+            }, {
+                merge: true
+            });
+        } catch  {
+            alert("Google login failed.");
+        }
+    };
+    const logout = async ()=>{
+        try {
+            await signOut(auth);
+            setUser(null);
+        } catch  {}
+    };
+    // ============================================================
+    //                   CHECKOUT
+    // ============================================================
+    const startCheckout = async ()=>{
+        if (!user) return alert("Sign in to upgrade.");
+        setCheckoutLoading(true);
+        try {
+            const res = await fetch("/api/checkout", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    uid: user.uid
+                })
+            });
+            const data = await res.json();
+            window.location.href = data.url;
+        } catch  {
+            alert("Checkout failed.");
+        } finally{
+            setCheckoutLoading(false);
+        }
+    };
+    // ============================================================
+    //                     PDF EXPORT
+    // ============================================================
+    const pdf = async ()=>{
         if (!resultRef.current) return;
         const html2pdf = (await __turbopack_context__.A("[project]/node_modules/html2pdf.js/dist/html2pdf.js [client] (ecmascript, async loader)")).default;
-        html2pdf().set({
-            margin: 0.5,
-            filename: `${destination || "travel-itinerary"}.pdf`,
-            image: {
-                type: "jpeg",
-                quality: 0.98
-            },
-            html2canvas: {
-                scale: 2
-            },
-            jsPDF: {
-                unit: "in",
-                format: "letter",
-                orientation: "portrait"
-            }
-        }).from(resultRef.current).save();
+        html2pdf().from(resultRef.current).save("itinerary.pdf");
     };
+    function parseItinerary(markdown) {
+        const lines = markdown.split("\n");
+        const days = [];
+        let currentDay = null;
+        let buffer = [];
+        let pendingImage = undefined;
+        const flush = ()=>{
+            if (currentDay) {
+                currentDay = {
+                    ...currentDay,
+                    content: buffer.join("\n").trim(),
+                    image: pendingImage
+                };
+                days.push(currentDay);
+            }
+            buffer = [];
+            pendingImage = undefined;
+        };
+        for (const line of lines){
+            // Day Header
+            if (/^##\s*Day/i.test(line)) {
+                flush();
+                currentDay = {
+                    title: line.replace(/^##\s*/, ""),
+                    content: ""
+                };
+            }
+            // IMAGE tag
+            const imgMatch = line.match(/^!IMAGE:\s*(.*)/i);
+            if (imgMatch) {
+                pendingImage = `https://source.unsplash.com/1200x800/?${encodeURIComponent(imgMatch[1].trim())}`;
+                continue;
+            }
+            buffer.push(line);
+        }
+        flush();
+        return days;
+    }
+    const dayCards = result ? parseItinerary(result) : [];
+    // ============================================================
+    //                        UI RENDER
+    // ============================================================
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -1859,7 +1988,7 @@ function TravelPlanner() {
         `
             }, void 0, false, {
                 fileName: "[project]/pages/index.tsx",
-                lineNumber: 289,
+                lineNumber: 445,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1867,19 +1996,19 @@ function TravelPlanner() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 307,
+                        lineNumber: 463,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         className: "float-left w-full banners-parts",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$BannerSlider$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 309,
+                            lineNumber: 465,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 308,
+                        lineNumber: 464,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1900,24 +2029,24 @@ function TravelPlanner() {
                                                     children: "  "
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 316,
+                                                    lineNumber: 472,
                                                     columnNumber: 41
                                                 }, this),
                                                 " "
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 315,
+                                            lineNumber: 471,
                                             columnNumber: 39
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 314,
+                                        lineNumber: 470,
                                         columnNumber: 35
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 313,
+                                    lineNumber: 469,
                                     columnNumber: 32
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1954,26 +2083,26 @@ function TravelPlanner() {
                                                                                                 d: "M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 331,
+                                                                                                lineNumber: 487,
                                                                                                 columnNumber: 200
                                                                                             }, this)
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 331,
+                                                                                            lineNumber: 487,
                                                                                             columnNumber: 91
                                                                                         }, this),
                                                                                         " "
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 331,
+                                                                                    lineNumber: 487,
                                                                                     columnNumber: 84
                                                                                 }, this),
                                                                                 " Destination"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 331,
+                                                                            lineNumber: 487,
                                                                             columnNumber: 47
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1984,13 +2113,13 @@ function TravelPlanner() {
                                                                             className: "border p-2 rounded w-full"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 332,
+                                                                            lineNumber: 488,
                                                                             columnNumber: 47
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 330,
+                                                                    lineNumber: 486,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2013,26 +2142,26 @@ function TravelPlanner() {
                                                                                                 d: "M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 342,
+                                                                                                lineNumber: 498,
                                                                                                 columnNumber: 206
                                                                                             }, this)
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/pages/index.tsx",
-                                                                                            lineNumber: 342,
+                                                                                            lineNumber: 498,
                                                                                             columnNumber: 97
                                                                                         }, this),
                                                                                         " "
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 342,
+                                                                                    lineNumber: 498,
                                                                                     columnNumber: 90
                                                                                 }, this),
                                                                                 " Travel Persona"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 342,
+                                                                            lineNumber: 498,
                                                                             columnNumber: 47
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2044,18 +2173,18 @@ function TravelPlanner() {
                                                                                     children: opt
                                                                                 }, opt, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 349,
+                                                                                    lineNumber: 505,
                                                                                     columnNumber: 51
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 343,
+                                                                            lineNumber: 499,
                                                                             columnNumber: 47
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 341,
+                                                                    lineNumber: 497,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2083,26 +2212,26 @@ function TravelPlanner() {
                                                                                                             d: "M4 2H7.32297L8.52297 5H3V7H5.11765L5.94463 21.0587C5.97572 21.5873 6.41343 22 6.9429 22H17.0571C17.5866 22 18.0243 21.5873 18.0554 21.0587L18.8824 7H21V5H10.677L8.67703 0H4V2ZM7.29906 10.0252L7.1211 7H16.8789L16.5867 11.9675C14.28 11.853 13.4226 11.4919 12.3713 11.0714C11.2792 10.6347 9.97065 10.1354 7.29906 10.0252ZM7.41714 12.0326C9.72097 12.1473 10.5894 12.5128 11.6401 12.933C12.7001 13.357 13.9556 13.8375 16.4692 13.9641L16.1142 20H7.88581L7.41714 12.0326Z"
                                                                                                         }, void 0, false, {
                                                                                                             fileName: "[project]/pages/index.tsx",
-                                                                                                            lineNumber: 368,
+                                                                                                            lineNumber: 524,
                                                                                                             columnNumber: 212
                                                                                                         }, this)
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 368,
+                                                                                                        lineNumber: 524,
                                                                                                         columnNumber: 103
                                                                                                     }, this),
                                                                                                     " "
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 368,
+                                                                                                lineNumber: 524,
                                                                                                 columnNumber: 96
                                                                                             }, this),
                                                                                             " Food Persona"
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 368,
+                                                                                        lineNumber: 524,
                                                                                         columnNumber: 53
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2114,18 +2243,18 @@ function TravelPlanner() {
                                                                                                 children: opt
                                                                                             }, opt, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 375,
+                                                                                                lineNumber: 531,
                                                                                                 columnNumber: 57
                                                                                             }, this))
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 369,
+                                                                                        lineNumber: 525,
                                                                                         columnNumber: 53
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 367,
+                                                                                lineNumber: 523,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2151,26 +2280,26 @@ function TravelPlanner() {
                                                                                                                     d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                                                    lineNumber: 384,
+                                                                                                                    lineNumber: 540,
                                                                                                                     columnNumber: 215
                                                                                                                 }, this)
                                                                                                             }, void 0, false, {
                                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                                lineNumber: 384,
+                                                                                                                lineNumber: 540,
                                                                                                                 columnNumber: 106
                                                                                                             }, this),
                                                                                                             " "
                                                                                                         ]
                                                                                                     }, void 0, true, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 384,
+                                                                                                        lineNumber: 540,
                                                                                                         columnNumber: 99
                                                                                                     }, this),
                                                                                                     " Start Date "
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 384,
+                                                                                                lineNumber: 540,
                                                                                                 columnNumber: 55
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2180,13 +2309,13 @@ function TravelPlanner() {
                                                                                                 className: "border p-2 rounded w-full"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 385,
+                                                                                                lineNumber: 541,
                                                                                                 columnNumber: 55
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 383,
+                                                                                        lineNumber: 539,
                                                                                         columnNumber: 53
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2209,26 +2338,26 @@ function TravelPlanner() {
                                                                                                                     d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                                                    lineNumber: 393,
+                                                                                                                    lineNumber: 549,
                                                                                                                     columnNumber: 214
                                                                                                                 }, this)
                                                                                                             }, void 0, false, {
                                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                                lineNumber: 393,
+                                                                                                                lineNumber: 549,
                                                                                                                 columnNumber: 105
                                                                                                             }, this),
                                                                                                             " "
                                                                                                         ]
                                                                                                     }, void 0, true, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 393,
+                                                                                                        lineNumber: 549,
                                                                                                         columnNumber: 98
                                                                                                     }, this),
                                                                                                     " End Date"
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 393,
+                                                                                                lineNumber: 549,
                                                                                                 columnNumber: 55
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2238,19 +2367,19 @@ function TravelPlanner() {
                                                                                                 className: "border p-2 rounded w-full"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 394,
+                                                                                                lineNumber: 550,
                                                                                                 columnNumber: 55
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 392,
+                                                                                        lineNumber: 548,
                                                                                         columnNumber: 53
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 382,
+                                                                                lineNumber: 538,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2276,26 +2405,26 @@ function TravelPlanner() {
                                                                                                                     d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                                                    lineNumber: 406,
+                                                                                                                    lineNumber: 562,
                                                                                                                     columnNumber: 214
                                                                                                                 }, this)
                                                                                                             }, void 0, false, {
                                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                                lineNumber: 406,
+                                                                                                                lineNumber: 562,
                                                                                                                 columnNumber: 105
                                                                                                             }, this),
                                                                                                             " "
                                                                                                         ]
                                                                                                     }, void 0, true, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 406,
+                                                                                                        lineNumber: 562,
                                                                                                         columnNumber: 98
                                                                                                     }, this),
                                                                                                     " Wake-Up Time "
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 406,
+                                                                                                lineNumber: 562,
                                                                                                 columnNumber: 55
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2305,13 +2434,13 @@ function TravelPlanner() {
                                                                                                 className: "border p-2 rounded w-full"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 407,
+                                                                                                lineNumber: 563,
                                                                                                 columnNumber: 55
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 405,
+                                                                                        lineNumber: 561,
                                                                                         columnNumber: 53
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2333,19 +2462,19 @@ function TravelPlanner() {
                                                                                                                     d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                                                    lineNumber: 415,
+                                                                                                                    lineNumber: 571,
                                                                                                                     columnNumber: 213
                                                                                                                 }, this)
                                                                                                             }, void 0, false, {
                                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                                lineNumber: 415,
+                                                                                                                lineNumber: 571,
                                                                                                                 columnNumber: 104
                                                                                                             }, this),
                                                                                                             " "
                                                                                                         ]
                                                                                                     }, void 0, true, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 415,
+                                                                                                        lineNumber: 571,
                                                                                                         columnNumber: 97
                                                                                                     }, this),
                                                                                                     "Sleep Time ",
@@ -2353,13 +2482,13 @@ function TravelPlanner() {
                                                                                                         children: " (Optional) "
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 415,
+                                                                                                        lineNumber: 571,
                                                                                                         columnNumber: 497
                                                                                                     }, this)
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 415,
+                                                                                                lineNumber: 571,
                                                                                                 columnNumber: 55
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2369,19 +2498,19 @@ function TravelPlanner() {
                                                                                                 className: "border p-2 rounded w-full"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 416,
+                                                                                                lineNumber: 572,
                                                                                                 columnNumber: 55
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 414,
+                                                                                        lineNumber: 570,
                                                                                         columnNumber: 53
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 404,
+                                                                                lineNumber: 560,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2407,19 +2536,19 @@ function TravelPlanner() {
                                                                                                                     d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                                                    lineNumber: 429,
+                                                                                                                    lineNumber: 585,
                                                                                                                     columnNumber: 214
                                                                                                                 }, this)
                                                                                                             }, void 0, false, {
                                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                                lineNumber: 429,
+                                                                                                                lineNumber: 585,
                                                                                                                 columnNumber: 105
                                                                                                             }, this),
                                                                                                             " "
                                                                                                         ]
                                                                                                     }, void 0, true, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 429,
+                                                                                                        lineNumber: 585,
                                                                                                         columnNumber: 98
                                                                                                     }, this),
                                                                                                     " Work Start Time ",
@@ -2427,13 +2556,13 @@ function TravelPlanner() {
                                                                                                         children: " (Optional) "
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 429,
+                                                                                                        lineNumber: 585,
                                                                                                         columnNumber: 504
                                                                                                     }, this)
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 429,
+                                                                                                lineNumber: 585,
                                                                                                 columnNumber: 55
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2443,13 +2572,13 @@ function TravelPlanner() {
                                                                                                 className: "border p-2 rounded w-full"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 430,
+                                                                                                lineNumber: 586,
                                                                                                 columnNumber: 55
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 428,
+                                                                                        lineNumber: 584,
                                                                                         columnNumber: 53
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2472,19 +2601,19 @@ function TravelPlanner() {
                                                                                                                     d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                                                    lineNumber: 438,
+                                                                                                                    lineNumber: 594,
                                                                                                                     columnNumber: 216
                                                                                                                 }, this)
                                                                                                             }, void 0, false, {
                                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                                lineNumber: 438,
+                                                                                                                lineNumber: 594,
                                                                                                                 columnNumber: 107
                                                                                                             }, this),
                                                                                                             " "
                                                                                                         ]
                                                                                                     }, void 0, true, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 438,
+                                                                                                        lineNumber: 594,
                                                                                                         columnNumber: 100
                                                                                                     }, this),
                                                                                                     " Work End Time ",
@@ -2492,14 +2621,14 @@ function TravelPlanner() {
                                                                                                         children: " (Optional) "
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 438,
+                                                                                                        lineNumber: 594,
                                                                                                         columnNumber: 504
                                                                                                     }, this),
                                                                                                     " "
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 438,
+                                                                                                lineNumber: 594,
                                                                                                 columnNumber: 57
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2509,19 +2638,19 @@ function TravelPlanner() {
                                                                                                 className: "border p-2 rounded w-full"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 439,
+                                                                                                lineNumber: 595,
                                                                                                 columnNumber: 57
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 437,
+                                                                                        lineNumber: 593,
                                                                                         columnNumber: 53
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 427,
+                                                                                lineNumber: 583,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2547,19 +2676,19 @@ function TravelPlanner() {
                                                                                                                     d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                                                    lineNumber: 450,
+                                                                                                                    lineNumber: 606,
                                                                                                                     columnNumber: 216
                                                                                                                 }, this)
                                                                                                             }, void 0, false, {
                                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                                lineNumber: 450,
+                                                                                                                lineNumber: 606,
                                                                                                                 columnNumber: 107
                                                                                                             }, this),
                                                                                                             " "
                                                                                                         ]
                                                                                                     }, void 0, true, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 450,
+                                                                                                        lineNumber: 606,
                                                                                                         columnNumber: 100
                                                                                                     }, this),
                                                                                                     " Arrival Time ",
@@ -2567,13 +2696,13 @@ function TravelPlanner() {
                                                                                                         children: " (Optional) "
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 450,
+                                                                                                        lineNumber: 606,
                                                                                                         columnNumber: 503
                                                                                                     }, this)
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 450,
+                                                                                                lineNumber: 606,
                                                                                                 columnNumber: 57
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2583,13 +2712,13 @@ function TravelPlanner() {
                                                                                                 className: "border p-2 rounded w-full"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 451,
+                                                                                                lineNumber: 607,
                                                                                                 columnNumber: 57
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 449,
+                                                                                        lineNumber: 605,
                                                                                         columnNumber: 55
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2612,19 +2741,19 @@ function TravelPlanner() {
                                                                                                                     d: "M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"
                                                                                                                 }, void 0, false, {
                                                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                                                    lineNumber: 460,
+                                                                                                                    lineNumber: 616,
                                                                                                                     columnNumber: 216
                                                                                                                 }, this)
                                                                                                             }, void 0, false, {
                                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                                lineNumber: 460,
+                                                                                                                lineNumber: 616,
                                                                                                                 columnNumber: 107
                                                                                                             }, this),
                                                                                                             " "
                                                                                                         ]
                                                                                                     }, void 0, true, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 460,
+                                                                                                        lineNumber: 616,
                                                                                                         columnNumber: 100
                                                                                                     }, this),
                                                                                                     " Departure Time ",
@@ -2632,14 +2761,14 @@ function TravelPlanner() {
                                                                                                         children: " (Optional) "
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 460,
+                                                                                                        lineNumber: 616,
                                                                                                         columnNumber: 505
                                                                                                     }, this),
                                                                                                     " "
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 460,
+                                                                                                lineNumber: 616,
                                                                                                 columnNumber: 57
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2649,19 +2778,19 @@ function TravelPlanner() {
                                                                                                 className: "border p-2 rounded w-full"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 461,
+                                                                                                lineNumber: 617,
                                                                                                 columnNumber: 57
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 459,
+                                                                                        lineNumber: 615,
                                                                                         columnNumber: 55
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 448,
+                                                                                lineNumber: 604,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2672,7 +2801,7 @@ function TravelPlanner() {
                                                                                         children: "Food Allergies"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 475,
+                                                                                        lineNumber: 631,
                                                                                         columnNumber: 55
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2682,13 +2811,13 @@ function TravelPlanner() {
                                                                                         onChange: (e)=>setFoodAllergies(e.target.value)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 476,
+                                                                                        lineNumber: 632,
                                                                                         columnNumber: 55
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 473,
+                                                                                lineNumber: 629,
                                                                                 columnNumber: 53
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2711,26 +2840,26 @@ function TravelPlanner() {
                                                                                                             d: "M19 22H5C3.34315 22 2 20.6569 2 19V3C2 2.44772 2.44772 2 3 2H17C17.5523 2 18 2.44772 18 3V15H22V19C22 20.6569 20.6569 22 19 22ZM18 17V19C18 19.5523 18.4477 20 19 20C19.5523 20 20 19.5523 20 19V17H18ZM16 20V4H4V19C4 19.5523 4.44772 20 5 20H16ZM6 7H14V9H6V7ZM6 11H14V13H6V11ZM6 15H11V17H6V15Z"
                                                                                                         }, void 0, false, {
                                                                                                             fileName: "[project]/pages/index.tsx",
-                                                                                                            lineNumber: 486,
+                                                                                                            lineNumber: 642,
                                                                                                             columnNumber: 212
                                                                                                         }, this)
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 486,
+                                                                                                        lineNumber: 642,
                                                                                                         columnNumber: 103
                                                                                                     }, this),
                                                                                                     " "
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 486,
+                                                                                                lineNumber: 642,
                                                                                                 columnNumber: 96
                                                                                             }, this),
                                                                                             " Interests"
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 486,
+                                                                                        lineNumber: 642,
                                                                                         columnNumber: 53
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2746,20 +2875,20 @@ function TravelPlanner() {
                                                                                                         children: "Add interest..."
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 493,
+                                                                                                        lineNumber: 649,
                                                                                                         columnNumber: 59
                                                                                                     }, this),
                                                                                                     interestOptions.map((x)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                                                             children: x
                                                                                                         }, x, false, {
                                                                                                             fileName: "[project]/pages/index.tsx",
-                                                                                                            lineNumber: 495,
+                                                                                                            lineNumber: 651,
                                                                                                             columnNumber: 61
                                                                                                         }, this))
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 488,
+                                                                                                lineNumber: 644,
                                                                                                 columnNumber: 55
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2769,7 +2898,7 @@ function TravelPlanner() {
                                                                                                 onChange: (e)=>setCustomInterest(e.target.value)
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 498,
+                                                                                                lineNumber: 654,
                                                                                                 columnNumber: 56
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2778,13 +2907,13 @@ function TravelPlanner() {
                                                                                                 children: "+"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 504,
+                                                                                                lineNumber: 660,
                                                                                                 columnNumber: 55
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 487,
+                                                                                        lineNumber: 643,
                                                                                         columnNumber: 53
                                                                                     }, this),
                                                                                     interests.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2795,13 +2924,13 @@ function TravelPlanner() {
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 512,
+                                                                                        lineNumber: 668,
                                                                                         columnNumber: 57
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 485,
+                                                                                lineNumber: 641,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2812,7 +2941,7 @@ function TravelPlanner() {
                                                                                         children: "Trip Mood"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 520,
+                                                                                        lineNumber: 676,
                                                                                         columnNumber: 55
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2825,19 +2954,19 @@ function TravelPlanner() {
                                                                                                 children: mood
                                                                                             }, mood, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 525,
+                                                                                                lineNumber: 681,
                                                                                                 columnNumber: 61
                                                                                             }, this);
                                                                                         })
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 521,
+                                                                                        lineNumber: 677,
                                                                                         columnNumber: 55
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 519,
+                                                                                lineNumber: 675,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2853,13 +2982,13 @@ function TravelPlanner() {
                                                                                                 children: travelStyle <= 3 ? "Very Relaxed" : travelStyle >= 8 ? "Adventure-heavy" : "Balanced"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 545,
+                                                                                                lineNumber: 701,
                                                                                                 columnNumber: 57
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 543,
+                                                                                        lineNumber: 699,
                                                                                         columnNumber: 55
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2870,7 +2999,7 @@ function TravelPlanner() {
                                                                                                 children: "Relaxation"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 554,
+                                                                                                lineNumber: 710,
                                                                                                 columnNumber: 57
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2882,7 +3011,7 @@ function TravelPlanner() {
                                                                                                 className: "flex-1"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 555,
+                                                                                                lineNumber: 711,
                                                                                                 columnNumber: 57
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2890,19 +3019,19 @@ function TravelPlanner() {
                                                                                                 children: "Adventure"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 563,
+                                                                                                lineNumber: 719,
                                                                                                 columnNumber: 57
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 553,
+                                                                                        lineNumber: 709,
                                                                                         columnNumber: 55
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 541,
+                                                                                lineNumber: 697,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2918,13 +3047,13 @@ function TravelPlanner() {
                                                                                                 children: budgetLevel === 1 ? "Budget" : budgetLevel === 2 ? "Mid-range" : "Luxury"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 572,
+                                                                                                lineNumber: 728,
                                                                                                 columnNumber: 57
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 570,
+                                                                                        lineNumber: 726,
                                                                                         columnNumber: 55
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2935,7 +3064,7 @@ function TravelPlanner() {
                                                                                                 children: "Budget"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 581,
+                                                                                                lineNumber: 737,
                                                                                                 columnNumber: 57
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2947,7 +3076,7 @@ function TravelPlanner() {
                                                                                                 className: "flex-1"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 582,
+                                                                                                lineNumber: 738,
                                                                                                 columnNumber: 57
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2955,19 +3084,19 @@ function TravelPlanner() {
                                                                                                 children: "Luxury"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 590,
+                                                                                                lineNumber: 746,
                                                                                                 columnNumber: 57
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 580,
+                                                                                        lineNumber: 736,
                                                                                         columnNumber: 55
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 568,
+                                                                                lineNumber: 724,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2990,19 +3119,19 @@ function TravelPlanner() {
                                                                                                             d: "M19 22H5C3.34315 22 2 20.6569 2 19V3C2 2.44772 2.44772 2 3 2H17C17.5523 2 18 2.44772 18 3V15H22V19C22 20.6569 20.6569 22 19 22ZM18 17V19C18 19.5523 18.4477 20 19 20C19.5523 20 20 19.5523 20 19V17H18ZM16 20V4H4V19C4 19.5523 4.44772 20 5 20H16ZM6 7H14V9H6V7ZM6 11H14V13H6V11ZM6 15H11V17H6V15Z"
                                                                                                         }, void 0, false, {
                                                                                                             fileName: "[project]/pages/index.tsx",
-                                                                                                            lineNumber: 596,
+                                                                                                            lineNumber: 752,
                                                                                                             columnNumber: 212
                                                                                                         }, this)
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                                        lineNumber: 596,
+                                                                                                        lineNumber: 752,
                                                                                                         columnNumber: 103
                                                                                                     }, this),
                                                                                                     " "
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 596,
+                                                                                                lineNumber: 752,
                                                                                                 columnNumber: 96
                                                                                             }, this),
                                                                                             " Additional Notes ",
@@ -3010,14 +3139,14 @@ function TravelPlanner() {
                                                                                                 children: " (Optional) "
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                                lineNumber: 596,
+                                                                                                lineNumber: 752,
                                                                                                 columnNumber: 552
                                                                                             }, this),
                                                                                             " "
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 596,
+                                                                                        lineNumber: 752,
                                                                                         columnNumber: 53
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -3028,13 +3157,13 @@ function TravelPlanner() {
                                                                                         rows: 3
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 597,
+                                                                                        lineNumber: 753,
                                                                                         columnNumber: 53
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 595,
+                                                                                lineNumber: 751,
                                                                                 columnNumber: 51
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3045,7 +3174,7 @@ function TravelPlanner() {
                                                                                         children: "Must-Visit Spots"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 612,
+                                                                                        lineNumber: 768,
                                                                                         columnNumber: 55
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -3056,35 +3185,35 @@ function TravelPlanner() {
                                                                                         onChange: (e)=>setMustVisit(e.target.value)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 613,
+                                                                                        lineNumber: 769,
                                                                                         columnNumber: 55
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 608,
+                                                                                lineNumber: 764,
                                                                                 columnNumber: 51
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 364,
+                                                                        lineNumber: 520,
                                                                         columnNumber: 47
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 363,
+                                                                    lineNumber: 519,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 328,
+                                                            lineNumber: 484,
                                                             columnNumber: 42
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 327,
+                                                        lineNumber: 483,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3104,28 +3233,28 @@ function TravelPlanner() {
                                                                         d: "M16.895 3A4.86 4.86 0 0 0 21 7.105a4.86 4.86 0 0 0-4.105 4.106 4.86 4.86 0 0 0-4.105-4.106A4.86 4.86 0 0 0 16.895 3M9.947 7.105a8.22 8.22 0 0 0 6.947 6.947A8.22 8.22 0 0 0 9.947 21 8.22 8.22 0 0 0 3 14.052a8.22 8.22 0 0 0 6.947-6.947"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 635,
+                                                                        lineNumber: 791,
                                                                         columnNumber: 141
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 635,
+                                                                    lineNumber: 791,
                                                                     columnNumber: 47
                                                                 }, this),
                                                                 loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Spinner, {}, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 636,
+                                                                    lineNumber: 792,
                                                                     columnNumber: 58
                                                                 }, this) : "Generate Itinerary"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 630,
+                                                            lineNumber: 786,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 629,
+                                                        lineNumber: 785,
                                                         columnNumber: 38
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3141,18 +3270,18 @@ function TravelPlanner() {
                                                                     d: "M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 643,
+                                                                    lineNumber: 799,
                                                                     columnNumber: 149
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 643,
+                                                                lineNumber: 799,
                                                                 columnNumber: 69
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 642,
+                                                        lineNumber: 798,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3164,7 +3293,7 @@ function TravelPlanner() {
                                                                     children: " Free Plan: "
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 648,
+                                                                    lineNumber: 804,
                                                                     columnNumber: 43
                                                                 }, this),
                                                                 "  ",
@@ -3173,44 +3302,44 @@ function TravelPlanner() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 647,
+                                                            lineNumber: 803,
                                                             columnNumber: 43
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 645,
+                                                        lineNumber: 801,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 325,
+                                                lineNumber: 481,
                                                 columnNumber: 36
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 324,
+                                            lineNumber: 480,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 323,
+                                        lineNumber: 479,
                                         columnNumber: 31
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 322,
+                                    lineNumber: 478,
                                     columnNumber: 28
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 312,
+                            lineNumber: 468,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 311,
+                        lineNumber: 467,
                         columnNumber: 17
                     }, this),
                     loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -3226,17 +3355,17 @@ function TravelPlanner() {
                                     className: "animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 670,
+                                    lineNumber: 826,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 669,
+                                lineNumber: 825,
                                 columnNumber: 23
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 668,
+                            lineNumber: 824,
                             columnNumber: 21
                         }, this)
                     }, void 0, false) : !result ? // Show Homepage
@@ -3264,17 +3393,17 @@ function TravelPlanner() {
                                                                 alt: "ms"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 691,
+                                                                lineNumber: 847,
                                                                 columnNumber: 51
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 690,
+                                                            lineNumber: 846,
                                                             columnNumber: 47
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 688,
+                                                        lineNumber: 844,
                                                         columnNumber: 43
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3284,7 +3413,7 @@ function TravelPlanner() {
                                                                 children: " Brand Story  "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 696,
+                                                                lineNumber: 852,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3292,7 +3421,7 @@ function TravelPlanner() {
                                                                 children: " NicheTrips was created for travelers who don’t fit the “one size fits all” mold. Whether you’re a digital nomad, a foodie, a couple seeking romantic getaways, or someone with specific dietary needs — your trip should adapt to you, not the other way around. With AI-driven personalization, NicheTrips crafts itineraries that match your lifestyle, preferences, and energy. Travel isn’t generic. Your plan shouldn’t be either. "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 698,
+                                                                lineNumber: 854,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3310,12 +3439,12 @@ function TravelPlanner() {
                                                                                     alt: "user"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 705,
+                                                                                    lineNumber: 861,
                                                                                     columnNumber: 51
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 704,
+                                                                                lineNumber: 860,
                                                                                 columnNumber: 49
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("figure", {
@@ -3327,12 +3456,12 @@ function TravelPlanner() {
                                                                                     alt: "user"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 708,
+                                                                                    lineNumber: 864,
                                                                                     columnNumber: 51
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 707,
+                                                                                lineNumber: 863,
                                                                                 columnNumber: 49
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("figure", {
@@ -3344,18 +3473,18 @@ function TravelPlanner() {
                                                                                     alt: "user"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 711,
+                                                                                    lineNumber: 867,
                                                                                     columnNumber: 51
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 710,
+                                                                                lineNumber: 866,
                                                                                 columnNumber: 49
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 703,
+                                                                        lineNumber: 859,
                                                                         columnNumber: 47
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -3369,7 +3498,7 @@ function TravelPlanner() {
                                                                                 alt: "sm"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 714,
+                                                                                lineNumber: 870,
                                                                                 columnNumber: 71
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3377,51 +3506,51 @@ function TravelPlanner() {
                                                                                 children: " 5k+ Reviews "
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 715,
+                                                                                lineNumber: 871,
                                                                                 columnNumber: 51
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 714,
+                                                                        lineNumber: 870,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 702,
+                                                                lineNumber: 858,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 695,
+                                                        lineNumber: 851,
                                                         columnNumber: 43
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 687,
+                                                lineNumber: 843,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 686,
+                                            lineNumber: 842,
                                             columnNumber: 39
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 685,
+                                        lineNumber: 841,
                                         columnNumber: 35
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 684,
+                                    lineNumber: 840,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 683,
+                                lineNumber: 839,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3446,17 +3575,17 @@ function TravelPlanner() {
                                                                 d: "M21.7267 2.95694L16.2734 22.0432C16.1225 22.5716 15.7979 22.5956 15.5563 22.1126L11 13L1.9229 9.36919C1.41322 9.16532 1.41953 8.86022 1.95695 8.68108L21.0432 2.31901C21.5716 2.14285 21.8747 2.43866 21.7267 2.95694ZM19.0353 5.09647L6.81221 9.17085L12.4488 11.4255L15.4895 17.5068L19.0353 5.09647Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 730,
+                                                                lineNumber: 886,
                                                                 columnNumber: 152
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 730,
+                                                            lineNumber: 886,
                                                             columnNumber: 43
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 729,
+                                                        lineNumber: 885,
                                                         columnNumber: 39
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3467,19 +3596,19 @@ function TravelPlanner() {
                                                                 children: " Trips Planned "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 734,
+                                                                lineNumber: 890,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 732,
+                                                        lineNumber: 888,
                                                         columnNumber: 39
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 728,
+                                                lineNumber: 884,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3497,17 +3626,17 @@ function TravelPlanner() {
                                                                 d: "M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 739,
+                                                                lineNumber: 895,
                                                                 columnNumber: 154
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 739,
+                                                            lineNumber: 895,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 738,
+                                                        lineNumber: 894,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3519,19 +3648,19 @@ function TravelPlanner() {
                                                                 children: " Messages Processed "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 743,
+                                                                lineNumber: 899,
                                                                 columnNumber: 43
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 741,
+                                                        lineNumber: 897,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 737,
+                                                lineNumber: 893,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3549,17 +3678,17 @@ function TravelPlanner() {
                                                                 d: "M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 748,
+                                                                lineNumber: 904,
                                                                 columnNumber: 154
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 748,
+                                                            lineNumber: 904,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 747,
+                                                        lineNumber: 903,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3571,35 +3700,35 @@ function TravelPlanner() {
                                                                 children: " Client Globally "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 752,
+                                                                lineNumber: 908,
                                                                 columnNumber: 43
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 750,
+                                                        lineNumber: 906,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 746,
+                                                lineNumber: 902,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 727,
+                                        lineNumber: 883,
                                         columnNumber: 31
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 726,
+                                    lineNumber: 882,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 725,
+                                lineNumber: 881,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3617,7 +3746,7 @@ function TravelPlanner() {
                                                         children: " Your Most Trusted Guides "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 764,
+                                                        lineNumber: 920,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3625,7 +3754,7 @@ function TravelPlanner() {
                                                         children: " People Who Make Travel Enchanting "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 765,
+                                                        lineNumber: 921,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3633,7 +3762,7 @@ function TravelPlanner() {
                                                         children: " The Niche Group connects people to experiences worth sharing, and aims to be the worlds most trusted source for travel and experiences. "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 766,
+                                                        lineNumber: 922,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3642,13 +3771,13 @@ function TravelPlanner() {
                                                         children: " Plan My Trip "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 768,
+                                                        lineNumber: 924,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 763,
+                                                lineNumber: 919,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3666,12 +3795,12 @@ function TravelPlanner() {
                                                                     alt: "nam"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 773,
+                                                                    lineNumber: 929,
                                                                     columnNumber: 47
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 772,
+                                                                lineNumber: 928,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3681,26 +3810,26 @@ function TravelPlanner() {
                                                                         children: " Go for Restaurants "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 776,
+                                                                        lineNumber: 932,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         children: " our experiences decided by travelers "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 777,
+                                                                        lineNumber: 933,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 775,
+                                                                lineNumber: 931,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 771,
+                                                        lineNumber: 927,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3715,12 +3844,12 @@ function TravelPlanner() {
                                                                     alt: "nam"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 783,
+                                                                    lineNumber: 939,
                                                                     columnNumber: 47
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 782,
+                                                                lineNumber: 938,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3730,26 +3859,26 @@ function TravelPlanner() {
                                                                         children: " Go for Accommodations "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 786,
+                                                                        lineNumber: 942,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         children: " our experiences decided by travelers "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 787,
+                                                                        lineNumber: 943,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 785,
+                                                                lineNumber: 941,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 781,
+                                                        lineNumber: 937,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3764,12 +3893,12 @@ function TravelPlanner() {
                                                                     alt: "nam"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 793,
+                                                                    lineNumber: 949,
                                                                     columnNumber: 47
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 792,
+                                                                lineNumber: 948,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3779,48 +3908,48 @@ function TravelPlanner() {
                                                                         children: " Go for Attractions "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 796,
+                                                                        lineNumber: 952,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         children: " our experiences decided by travelers "
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 797,
+                                                                        lineNumber: 953,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 795,
+                                                                lineNumber: 951,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 791,
+                                                        lineNumber: 947,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 770,
+                                                lineNumber: 926,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 762,
+                                        lineNumber: 918,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 761,
+                                    lineNumber: 917,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 760,
+                                lineNumber: 916,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3839,7 +3968,7 @@ function TravelPlanner() {
                                                             children: " Where to go next "
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 808,
+                                                            lineNumber: 964,
                                                             columnNumber: 39
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3847,13 +3976,13 @@ function TravelPlanner() {
                                                             children: " Weve updated our Trips product to help. "
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 809,
+                                                            lineNumber: 965,
                                                             columnNumber: 39
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 807,
+                                                    lineNumber: 963,
                                                     columnNumber: 35
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3871,41 +4000,41 @@ function TravelPlanner() {
                                                                 d: "M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 812,
+                                                                lineNumber: 968,
                                                                 columnNumber: 238
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 812,
+                                                            lineNumber: 968,
                                                             columnNumber: 128
                                                         }, this),
                                                         " "
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 812,
+                                                    lineNumber: 968,
                                                     columnNumber: 35
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 806,
+                                            lineNumber: 962,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ExploreSlider$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 815,
+                                            lineNumber: 971,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 805,
+                                    lineNumber: 961,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 804,
+                                lineNumber: 960,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3919,7 +4048,7 @@ function TravelPlanner() {
                                         alt: "nam"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 820,
+                                        lineNumber: 976,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3930,7 +4059,7 @@ function TravelPlanner() {
                                                 children: " Testimonials "
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 822,
+                                                lineNumber: 978,
                                                 columnNumber: 39
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3938,24 +4067,24 @@ function TravelPlanner() {
                                                 children: " Regards From Travelers "
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 823,
+                                                lineNumber: 979,
                                                 columnNumber: 39
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TestmoliasSlider$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 825,
+                                                lineNumber: 981,
                                                 columnNumber: 39
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 821,
+                                        lineNumber: 977,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 819,
+                                lineNumber: 975,
                                 columnNumber: 25
                             }, this)
                         ]
@@ -3981,17 +4110,17 @@ function TravelPlanner() {
                                                         d: "M13.1202 17.0228L8.92129 14.7324C8.19135 15.5125 7.15261 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8C7.15255 8 8.19125 8.48746 8.92118 9.26746L13.1202 6.97713C13.0417 6.66441 13 6.33707 13 6C13 3.79086 14.7909 2 17 2C19.2091 2 21 3.79086 21 6C21 8.20914 19.2091 10 17 10C15.8474 10 14.8087 9.51251 14.0787 8.73246L9.87977 11.0228C9.9583 11.3355 10 11.6629 10 12C10 12.3371 9.95831 12.6644 9.87981 12.9771L14.0788 15.2675C14.8087 14.4875 15.8474 14 17 14C19.2091 14 21 15.7909 21 18C21 20.2091 19.2091 22 17 22C14.7909 22 13 20.2091 13 18C13 17.6629 13.0417 17.3355 13.1202 17.0228ZM6 14C7.10457 14 8 13.1046 8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14ZM17 8C18.1046 8 19 7.10457 19 6C19 4.89543 18.1046 4 17 4C15.8954 4 15 4.89543 15 6C15 7.10457 15.8954 8 17 8ZM17 20C18.1046 20 19 19.1046 19 18C19 16.8954 18.1046 16 17 16C15.8954 16 15 16.8954 15 18C15 19.1046 15.8954 20 17 20Z"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 840,
+                                                        lineNumber: 996,
                                                         columnNumber: 137
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 840,
+                                                    lineNumber: 996,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 837,
+                                                lineNumber: 993,
                                                 columnNumber: 31
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4000,13 +4129,13 @@ function TravelPlanner() {
                                                 children: "Download as PDF"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 844,
+                                                lineNumber: 1000,
                                                 columnNumber: 31
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 835,
+                                        lineNumber: 991,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -4024,19 +4153,19 @@ function TravelPlanner() {
                                                     d: "M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 852,
+                                                    lineNumber: 1008,
                                                     columnNumber: 205
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 852,
+                                                lineNumber: 1008,
                                                 columnNumber: 79
                                             }, this),
                                             "  Heres what NicheTrips Creates for You "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 852,
+                                        lineNumber: 1008,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4054,17 +4183,17 @@ function TravelPlanner() {
                                                         children: result
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 860,
+                                                        lineNumber: 1016,
                                                         columnNumber: 39
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 855,
+                                                    lineNumber: 1011,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 854,
+                                                lineNumber: 1010,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4074,26 +4203,26 @@ function TravelPlanner() {
                                                         children: '  Niche Trips was created for travelers who don\'t tit the "one size fits all" mold. '
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 864,
+                                                        lineNumber: 1020,
                                                         columnNumber: 38
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "  Whether you're a digital nomad. a feodle: a souple seeking fomantic getaways, or someone with specific distary iteeds your frip-eirould adapt to you, nof the other ionound. With Ar shiven personalization Niche Trips cratts liltheraries that match your lifestyle, preferences, and exergy. Trevel fan't genenc. Your plan-shouldn't be either. "
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 866,
+                                                        lineNumber: 1022,
                                                         columnNumber: 38
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 863,
+                                                lineNumber: 1019,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 853,
+                                        lineNumber: 1009,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4104,7 +4233,7 @@ function TravelPlanner() {
                                                 children: " Disclaimers "
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 875,
+                                                lineNumber: 1031,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4112,37 +4241,41 @@ function TravelPlanner() {
                                                 children: " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 876,
+                                                lineNumber: 1032,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 874,
+                                        lineNumber: 1030,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 834,
+                                lineNumber: 990,
                                 columnNumber: 27
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/index.tsx",
-                            lineNumber: 833,
+                            lineNumber: 989,
                             columnNumber: 25
                         }, this)
                     }, void 0, false)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.tsx",
-                lineNumber: 306,
+                lineNumber: 462,
                 columnNumber: 10
             }, this)
         ]
     }, void 0, true);
 }
-_s(TravelPlanner, "fDG9Hn/S1glZuEf4obD+7zVBSRM=");
+_s(TravelPlanner, "7VXhqpSjmg3VXOhX18g289m+m4M=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"]
+    ];
+});
 _c = TravelPlanner;
 var _c;
 __turbopack_context__.k.register(_c, "TravelPlanner");

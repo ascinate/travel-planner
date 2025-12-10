@@ -1,6 +1,7 @@
-
+"use client";
 import { Inter, Big_Shoulders, Satisfy, Archivo } from 'next/font/google';
 import React, { useState, useRef, useEffect } from "react";
+import { useRouter } from "next/router";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import Navbar from "@/components/Navbar";
@@ -10,6 +11,23 @@ import Image from 'next/image';
 import Link from 'next/link';
 import TestmoliasSlider from '@/components/TestmoliasSlider';
 import remarkGfm from "remark-gfm";
+
+
+import {
+  saveTripRequest,
+  logEvent,
+  saveItinerary,
+  saveUserProfile,
+} from "@/lib/firestore";
+
+const tripMoodOptions = [
+  "Romance",
+  "Spiritual",
+  "Nature",
+  "Party",
+  "Photography",
+  "Local Culture",
+];
 
 
 const inter = Inter({
@@ -46,47 +64,54 @@ const tripMoodOptions = [
 ];
 
 export default function TravelPlanner() {
+
   const [isActive, setIsActive] = useState(false);
 
   const toggleClass = () => {
     setIsActive(!isActive); // Invert the current state
   };
   
+
+  const [user, setUser] = useState<User | null>(null);
+  const router = useRouter();
+
+  // Core form state
   const [destination, setDestination] = useState("");
-  const [travelPersona, setTravelPersona] = useState("Single Woman");
+  const [travelPersona, setTravelPersona] = useState("Solo Traveller");
   const [foodPersona, setFoodPersona] = useState("Vegan");
 
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  const [wakeUpTime, setWakeUpTime] = useState("08:00");
+  const [wakeUpTime, setWakeUpTime] = useState("");
   const [sleepTime, setSleepTime] = useState("");
   const [workStartTime, setWorkStartTime] = useState("");
   const [workEndTime, setWorkEndTime] = useState("");
   const [arrivalTime, setArrivalTime] = useState("");
   const [departureTime, setDepartureTime] = useState("");
+
   const [interests, setInterests] = useState<string[]>([]);
   const [selectedInterest, setSelectedInterest] = useState("");
   const [customInterest, setCustomInterest] = useState("");
-  const [additionalNotes, setAdditionalNotes] = useState("");
 
+  const [additionalNotes, setAdditionalNotes] = useState("");
   const [result, setResult] = useState("");
+
   const [loading, setLoading] = useState(false);
+  const [checkoutLoading, setCheckoutLoading] = useState(false);
   const [remaining, setRemaining] = useState<number | null>(null);
+
+  // Hyper-personalization fields
+  const [travelStyle, setTravelStyle] = useState<number>(5);
+  const [budgetLevel, setBudgetLevel] = useState<number>(2);
+  const [foodAllergies, setFoodAllergies] = useState("");
+  const [mustVisit, setMustVisit] = useState("");
+  const [tripMood, setTripMood] = useState<string[]>([]);
+  const [lastRequestId, setLastRequestId] = useState<string | null>(null);
 
   const resultRef = useRef<HTMLDivElement>(null);
 
-
-  
-  // New hyper-personalization fields
-  const [travelStyle, setTravelStyle] = useState<number>(5); // 1=Relaxation, 10=Adventure
-  const [budgetLevel, setBudgetLevel] = useState<number>(2); // 1=Budget, 2=Mid, 3=Luxury
-  const [foodAllergies, setFoodAllergies] = useState("");
-  const [mustVisit, setMustVisit] = useState("");
-   const [tripMood, setTripMood] = useState("");
-
   const travelPersonaOptions = [
-    "Single Woman",
-    "Single Man",
+    "Solo Traveller",
     "Couple",
     "Elderly-Friendly",
     "Family-Friendly",
@@ -108,25 +133,24 @@ export default function TravelPlanner() {
 
   const interestOptions = ["Sightseeing", "Adventure", "Relaxation", "Food"];
 
+  // === Interests ===
   const addInterest = () => {
     const newInterest = customInterest || selectedInterest;
     if (newInterest && !interests.includes(newInterest)) {
-      setInterests([...interests, newInterest]);
+      setInterests((prev) => [...prev, newInterest]);
       setCustomInterest("");
       setSelectedInterest("");
     }
   };
 
-
-   // === Trip Mood Toggle ===
+  // === Trip Mood Toggle ===
   const toggleMood = (mood: string) => {
     setTripMood((prev) =>
       prev.includes(mood) ? prev.filter((m) => m !== mood) : [...prev, mood]
     );
   };
 
-
-    // === Free tier logic ===
+  // === Free tier logic ===
   const limitCheck = () => {
     const FREE_LIMIT = 3;
     const month = new Date().toISOString().slice(0, 7);
@@ -147,142 +171,274 @@ export default function TravelPlanner() {
     return true;
   };
 
-
-  // --- Monthly usage logic ---
-  const checkUsageLimit = () => {
-    if (typeof window === "undefined") return true;
-    const limit = 3;
-    const now = new Date();
-    const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
-    const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
-
-    if (!stored.month || stored.month !== monthKey) {
-      localStorage.setItem(
-        "generationUsage",
-        JSON.stringify({ month: monthKey, count: 1 })
-      );
-      setRemaining(limit - 1);
-      return true;
-    }
-
-    if (stored.count >= limit) {
-      alert(
-        "You've reached the free usage limit for this month. Come back next month!"
-      );
-      return false;
-    }
-
-    stored.count += 1;
-    stored.month = monthKey;
-    localStorage.setItem("generationUsage", JSON.stringify(stored));
-    setRemaining(limit - stored.count);
-    return true;
-  };
-
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const limit = 3;
-    const now = new Date();
-    const monthKey = `${now.getFullYear()}-${now.getMonth() + 1}`;
-    const stored = JSON.parse(localStorage.getItem("generationUsage") || "{}");
-    if (stored.month !== monthKey) {
-      setRemaining(limit);
-    } else {
-      setRemaining(Math.max(limit - stored.count, 0));
-    }
+    const FREE_LIMIT = 3;
+    const month = new Date().toISOString().slice(0, 7);
+    const usage = JSON.parse(localStorage.getItem("usage-limit") || "{}");
+
+    setRemaining(
+      !usage.month || usage.month !== month
+        ? FREE_LIMIT
+        : FREE_LIMIT - usage.count
+    );
+
+    const unsub = onAuthStateChanged(auth!, async (u) => {
+      setUser(u);
+      if (u) {
+        try {
+          await saveUserProfile(u);
+        } catch {}
+      }
+    });
+
+    return () => unsub();
   }, []);
 
-  const Spinner = () => (
-    <svg
-      className="animate-spin h-5 w-5 text-white inline-block mr-2"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-    >
-      <circle
-        className="opacity-25"
-        cx="12"
-        cy="12"
-        r="10"
-        stroke="currentColor"
-        strokeWidth="4"
-      />
-      <path
-        className="opacity-75"
-        fill="currentColor"
-        d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
-      ></path>
-    </svg>
-  );
+  // === Payment feedback ===
+  useEffect(() => {
+    if (!router.isReady) return;
 
-  const cleanText = (text: string) =>
-    text
-      .replace(/(\w)\n(\w)/g, "$1 $2") // join broken words
-      .replace(/\n{2,}/g, "\n\n") // collapse multiple newlines
-      .replace(/[ ]{2,}/g, " ") // collapse multiple spaces
-      .trim();
+    const { success, canceled } = router.query;
 
-const generatePlan = async () => {
-  if (!checkUsageLimit()) return;
+    if (success) {
+      alert("Payment successful!");
+      router.replace("/", undefined, { shallow: true });
+    } else if (canceled) {
+      alert("Checkout canceled.");
+      router.replace("/", undefined, { shallow: true });
+    }
+  }, [router]);
 
-  setLoading(true);
-  setResult(""); // clears old result
+  const clean = (t: string) =>
+    t.replace(/(\w)\n(\w)/g, "$1 $2").replace(/\n{2,}/g, "\n\n").trim();
 
-  try {
-    const response = await fetch("/api/ai", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        destination,
-        travelPersona,
-        foodPersona,
-        startDate,
-        endDate,
-        wakeUpTime,
-        sleepTime,
-        workStartTime,
-        workEndTime,
-        arrivalTime,
-        departureTime,
-        interests,
-        additionalNotes,
-         travelStyle,
+  // ============================================================
+  //            GENERATE PLAN
+  // ============================================================
+  const generatePlan = async () => {
+    if (!limitCheck()) return;
+
+    let requestId: string | null = null;
+
+    setLoading(true);
+    setResult("");
+    setLastRequestId(null);
+
+    // save request if logged in
+    if (user) {
+      try {
+        requestId = await saveTripRequest({
+          destination,
+          travelPersona,
+          foodPersona,
+          startDate,
+          endDate,
+          wakeUpTime,
+          sleepTime,
+          workStartTime,
+          workEndTime,
+          arrivalTime,
+          departureTime,
+          interests,
+          additionalNotes,
+          travelStyle,
           budgetLevel,
           foodAllergies,
           mustVisit,
           tripMood,
-      }),
+        });
+
+        setLastRequestId(requestId);
+
+        await logEvent("generate_plan_start", {
+          requestId,
+          destination,
+        });
+      } catch {}
+    }
+
+    // Call backend AI
+    try {
+      const res = await fetch("/api/ai", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          destination,
+          travelPersona,
+          foodPersona,
+          startDate,
+          endDate,
+          wakeUpTime,
+          sleepTime,
+          workStartTime,
+          workEndTime,
+          arrivalTime,
+          departureTime,
+          interests,
+          additionalNotes,
+          travelStyle,
+          budgetLevel,
+          foodAllergies,
+          mustVisit,
+          tripMood,
+        }),
+      });
+
+      const data = await res.json();
+      setResult(clean(data.text));
+
+      if (user && requestId) {
+        logEvent("generate_plan_success", { requestId });
+      }
+    } catch (err) {
+      console.error(err);
+      setResult("Error generating itinerary.");
+      logEvent("generate_plan_error", { destination });
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // ============================================================
+  //           SAVE PLAN
+  // ============================================================
+  const savePlan = async () => {
+    if (!user) return alert("Sign in to save itineraries.");
+    if (!result) return alert("Generate an itinerary first.");
+
+    const itinerary = {
+      created: new Date().toISOString(),
+      destination,
+      travelPersona,
+      foodPersona,
+      travelStyle,
+      budgetLevel,
+      tripMood,
+      result,
+    };
+
+    try {
+      await saveItinerary(lastRequestId ?? "manual-save", itinerary);
+    } catch {}
+
+    await updateDoc(doc(db, "users", user.uid), {
+      savedPlans: arrayUnion(itinerary),
     });
 
-    if (!response.ok) throw new Error(`API Error: ${response.status}`);
+    alert("Itinerary saved!");
+  };
 
-    const data = await response.json();
-    const cleaned = cleanText(data.text);
-    setResult(cleaned);       // 👈 result now appears
-  } catch (err) {
-    console.error(err);
-    setResult("There was an error generating your itinerary.");
-  } finally {
-    setLoading(false);       // 👈 loader stops, Answer appears
-  }
-};
+  // ============================================================
+  //              LOGIN / LOGOUT
+  // ============================================================
+  const login = async () => {
+    try {
+      const res = await signInWithPopup(auth!, googleProvider);
 
+      await setDoc(
+        doc(db, "users", res.user.uid),
+        { savedPlans: [], plan: "free", usage: 0 },
+        { merge: true }
+      );
+    } catch {
+      alert("Google login failed.");
+    }
+  };
 
-  const downloadPDF = async () => {
+  const logout = async () => {
+    try {
+      await signOut(auth!);
+      setUser(null);
+    } catch {}
+  };
+
+  // ============================================================
+  //                   CHECKOUT
+  // ============================================================
+  const startCheckout = async () => {
+    if (!user) return alert("Sign in to upgrade.");
+
+    setCheckoutLoading(true);
+
+    try {
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ uid: user.uid }),
+      });
+
+      const data = await res.json();
+      window.location.href = data.url;
+    } catch {
+      alert("Checkout failed.");
+    } finally {
+      setCheckoutLoading(false);
+    }
+  };
+
+  // ============================================================
+  //                     PDF EXPORT
+  // ============================================================
+  const pdf = async () => {
     if (!resultRef.current) return;
     const html2pdf = (await import("html2pdf.js")).default;
-
-    html2pdf()
-      .set({
-        margin: 0.5,
-        filename: `${destination || "travel-itinerary"}.pdf`,
-        image: { type: "jpeg", quality: 0.98 },
-        html2canvas: { scale: 2 },
-        jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
-      })
-      .from(resultRef.current)
-      .save();
+    html2pdf().from(resultRef.current).save("itinerary.pdf");
   };
+
+  // ============================================================
+  //      PARSER: Image detection + Day splitting
+  // ============================================================
+  type DayCard = { title: string; image?: string; content: string };
+
+  function parseItinerary(markdown: string): DayCard[] {
+    const lines = markdown.split("\n");
+
+    const days: DayCard[] = [];
+    let currentDay: DayCard | null = null;
+    let buffer: string[] = [];
+    let pendingImage: string | undefined = undefined;
+
+    const flush = () => {
+      if (currentDay) {
+        currentDay = {
+          ...currentDay,
+          content: buffer.join("\n").trim(),
+          image: pendingImage,
+        };
+        days.push(currentDay);
+      }
+      buffer = [];
+      pendingImage = undefined;
+    };
+
+    for (const line of lines) {
+      // Day Header
+      if (/^##\s*Day/i.test(line)) {
+        flush();
+        currentDay = { title: line.replace(/^##\s*/, ""), content: "" };
+      }
+
+      // IMAGE tag
+      const imgMatch = line.match(/^!IMAGE:\s*(.*)/i);
+      if (imgMatch) {
+        pendingImage = `https://source.unsplash.com/1200x800/?${encodeURIComponent(
+          imgMatch[1].trim()
+        )}`;
+        continue;
+      }
+
+      buffer.push(line);
+    }
+
+    flush();
+    return days;
+  }
+
+  const dayCards = result ? parseItinerary(result) : [];
+
+  // ============================================================
+  //                        UI RENDER
+  // ============================================================
 
   return (
     <>

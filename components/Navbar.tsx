@@ -9,6 +9,13 @@ import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
 import type { User } from "firebase/auth";
 import ReactMarkdown from "react-markdown";
 
+import {
+  saveTripRequest,
+  logEvent,
+  saveItinerary,
+  saveUserProfile,
+} from "@/lib/firestore";
+
 export default function Navbar() {
    const [user, setUser] = useState<User | null>(null);
     const menulist = [{ id: 1, title: 'Discover' , link: '/'}, { id: 2, title: 'Trips' , link: '/'}]; 

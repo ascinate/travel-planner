@@ -7,17 +7,6 @@ import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 
-import {
-  saveTripRequest,
-  logEvent,
-  saveItinerary,
-  saveUserProfile,
-} from "@/lib/firestore";
-
-import { auth, db, googleProvider } from "@/lib/firebase";
-import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
-import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
-import type { User } from "firebase/auth";
 
 const tripMoodOptions = [
   "Romance",
@@ -396,6 +385,8 @@ export default function TravelPlanner() {
   // ============================================================
   //                        UI RENDER
   // ============================================================
+
+
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
 
