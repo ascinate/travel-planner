@@ -520,3 +520,1191 @@ Failed to find font override values for font `Big Shoulders`
 Skipping generating a fallback font.
 
 
+[02:20:16.484] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[02:25:12.962] Server  LOG      ✓ Compiled in 655ms
+[02:25:13.631] Server  LOG      ✓ Compiled in 109ms
+[02:25:14.627] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:25:18.091] Server  LOG      ✓ Compiled in 124ms
+[02:25:18.631] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:25:20.298] Server  LOG      ✓ Compiled in 120ms
+[02:25:20.627] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:25:46.961] Server  LOG      ✓ Compiled in 85ms
+[02:25:47.626] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:25:56.434] Server  LOG      ✓ Compiled in 115ms
+[02:25:57.630] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:26:13.394] Server  LOG      ✓ Compiled in 273ms
+[02:26:13.667] Browser ERROR   ./components/Navbar.tsx:140:15
+Parsing ecmascript source code failed
+  138 |                 Sign up
+  139 |             </Link>
+> 140 |         </nav>
+      |               ^
+> 141 |       </div>
+      | ^^^^^^^
+  142 |
+  143 |        </>
+  144 |   );
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+[02:26:15.326] Server  LOG      ✓ Compiled in 109ms
+[02:26:15.633] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:26:17.686] Server  LOG      ✓ Compiled in 97ms
+[02:26:18.618] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:26:25.138] Server  LOG      ✓ Compiled in 110ms
+[02:26:25.635] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:26:26.681] Server  LOG      ✓ Compiled in 115ms
+[02:26:27.624] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:26:40.870] Server  LOG      ✓ Compiled in 290ms
+[02:26:47.407] Server  LOG      ✓ Compiled in 88ms
+[02:26:47.621] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:27:18.484] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[02:27:35.898] Server  LOG      ✓ Compiled in 116ms
+[02:27:36.618] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:27:53.363] Server  LOG      ✓ Compiled in 121ms
+[02:27:53.627] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:28:24.385] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[02:28:38.909] Server  LOG      ✓ Compiled in 113ms
+[02:28:39.620] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:29:09.947] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[02:29:26.386] Server  LOG      ✓ Compiled in 392ms
+[02:29:26.621] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Navbar> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[02:29:57.459] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[02:32:22.975] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:22.983] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:22.987] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:22.991] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:22.996] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.000] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.003] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.010] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.015] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.021] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.027] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.032] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.036] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.039] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.046] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.050] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.053] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.058] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.061] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.070] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.081] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.087] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.095] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.104] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.107] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.113] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.115] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.119] Server  ERROR    ⨯ ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.122] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.127] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.132] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.136] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.139] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.144] Server  ERROR    ⨯ ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.147] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.152] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.155] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.161] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.164] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.169] Server  ERROR    ⨯ ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:32:23.176] Server  LOG      ✓ Compiled in 167ms
+[02:32:23.625] Browser ERROR   ./components/Navbar.tsx:6:1
+Module not found: Can't resolve '@/lib/firebase'
+  4 | import Image from "next/image";
+  5 | import { usePathname } from "next/navigation";
+> 6 | import { auth, db, googleProvider } from "@/lib/firebase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+  9 | import type { User } from "firebase/auth";
+
+Import map: aliased to relative './lib/firebase' inside of [project]/
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[02:32:23.625] Browser ERROR   ./components/Navbar.tsx:7:1
+Module not found: Can't resolve 'firebase/auth'
+   5 | import { usePathname } from "next/navigation";
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+>  7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[02:32:23.625] Browser ERROR   ./components/Navbar.tsx:8:1
+Module not found: Can't resolve 'firebase/firestore'
+   6 | import { auth, db, googleProvider } from "@/lib/firebase";
+   7 | import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+>  8 | import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import type { User } from "firebase/auth";
+  10 | import ReactMarkdown from "react-markdown";
+  11 |
+
+Import traces:
+  Browser:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+  SSR:
+    ./components/Navbar.tsx
+    ./pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found

@@ -15,6 +15,7 @@ self.__BUILD_MANIFEST = {
     "/_app",
     "/_error",
     "/api/ai",
-    "/api/hello"
+    "/api/hello",
+    "/signin"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

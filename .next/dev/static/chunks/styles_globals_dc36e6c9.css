@@ -38,6 +38,8 @@
 
 @layer theme {
   :root, :host {
+    --color-red-500: #fb2c36;
+    --color-red-600: #e40014;
     --color-green-600: #00a544;
     --color-green-700: #008138;
     --color-blue-600: #155dfc;
@@ -79,6 +81,8 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-red-500: lab(55.4814% 75.0732 48.8528);
+      --color-red-600: lab(48.4493% 77.4328 61.5452);
       --color-green-600: lab(59.0978% -58.6621 41.2579);
       --color-green-700: lab(47.0329% -47.0239 31.4788);
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
@@ -633,6 +637,10 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .flex-col {
+    flex-direction: column;
+  }
+
   .flex-wrap {
     flex-wrap: wrap;
   }
@@ -783,6 +791,10 @@
     background-color: var(--color-purple-600);
   }
 
+  .bg-red-500 {
+    background-color: var(--color-red-500);
+  }
+
   .bg-transparent {
     background-color: #0000;
   }
@@ -811,6 +823,10 @@
 
   .p-2 {
     padding: calc(var(--spacing) * 2);
+  }
+
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
   }
 
   .p-4 {
@@ -939,6 +955,10 @@
 
   .text-gray-900 {
     color: var(--color-gray-900);
+  }
+
+  .text-red-600 {
+    color: var(--color-red-600);
   }
 
   .text-white {

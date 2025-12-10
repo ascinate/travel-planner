@@ -1,11 +1,19 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState,useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { auth, db, googleProvider } from "@/lib/firebase";
+import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+import { doc, setDoc, updateDoc, arrayUnion } from "firebase/firestore";
+import type { User } from "firebase/auth";
+import ReactMarkdown from "react-markdown";
+
 export default function Navbar() {
+   const [user, setUser] = useState<User | null>(null);
     const menulist = [{ id: 1, title: 'Discover' , link: '/'}, { id: 2, title: 'Trips' , link: '/'}]; 
     const pathname = usePathname();
+    const resultRef = useRef<HTMLDivElement>(null);
 
 
   const [isSticky, setIsSticky] = useState(false);
@@ -23,6 +31,32 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+
+
+    const login = async () => {
+      try {
+        const res = await signInWithPopup(auth!, googleProvider);
+        await setDoc(
+          doc(db, "users", res.user.uid),
+          { savedPlans: [] },
+          { merge: true }
+        );
+      } catch (e) {
+        console.error("Google login failed:", e);
+        alert("Google sign-in failed. Please try again.");
+      }
+    };
+  
+    const logout = async () => {
+      try {
+        await signOut(auth!);
+        setUser(null);
+      } catch (e) {
+        console.error("Logout failed:", e);
+        alert("Logout failed. Please try again.");
+      }
+    };
 
 
   return (
@@ -114,11 +148,25 @@ export default function Navbar() {
                 </Link>
             ))}
 
-            <Link href="/" className="signup-btn2 block p-0 flex items-center">Login <span className="ml-1"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="rgba(255,255,255,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg> </span></Link>
+              
 
-            <Link href="/" className="block signut-bg text-white py-2 px-4 rounded mt-2 text-center">
-                Sign up
-            </Link>
+               <Link href="/signin" className="signup-btn2 block p-0 flex items-center">Login <span className="ml-1"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="rgba(255,255,255,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg> </span></Link>
+                {!user ? (
+                  <button
+                    onClick={login}
+                    className="block signut-bg text-white py-2 px-4 rounded mt-2 text-center"
+                  >
+                    Sign in with Google
+                  </button>
+                ) : (
+                  <button
+                    onClick={logout}
+                    className="block signut-bg text-white py-2 px-4 rounded mt-2 text-center"
+                  >
+                    Logout ({user.email})
+                  </button>
+                )}
+           
         </nav>
       </div>
 
