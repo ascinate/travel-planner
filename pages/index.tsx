@@ -36,7 +36,11 @@ const Archivos = Archivo({
 
 
 export default function TravelPlanner() {
-  const [open, setOpen] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleClass = () => {
+    setIsActive(!isActive); // Invert the current state
+  };
   
   const [destination, setDestination] = useState("");
   const [travelPersona, setTravelPersona] = useState("Single Woman");
@@ -270,6 +274,7 @@ const generatePlan = async () => {
                               </div>
                            <div className="grid grid-cols-1 gap-4 gap-x-5 grid-forms">
                               <div className="left-coloms">
+                                <div className={isActive ? 'show-my-div' : 'mains-d-hidden'}>
                                    <div className='mains-forms014 bg-white'>
                                     
                                         <div className='inside-scrolls-div grid grid-cols-2 gap-5  items-center'>
@@ -308,8 +313,8 @@ const generatePlan = async () => {
 
                                             {/* advanced */}
 
-                                            {open && (
-                                            <div className="mt-4 col-span-4 xl:col-span-2 off-scrolls grid grid-cols-2 gap-x-5 items-end">
+                                            <div className="d-hidden">
+                                              <div className="mt-4 col-span-4 xl:col-span-2 off-scrolls grid grid-cols-2 gap-x-5 items-end">
                                                 
 
                                                   <div className="crm-groups">
@@ -545,7 +550,8 @@ const generatePlan = async () => {
                                                   </div>
 
                                               </div>
-                                            )}
+                                            </div>
+                                        
 
                                           </div>
                                         </div>
@@ -563,9 +569,7 @@ const generatePlan = async () => {
 
                                             
                                         </div>
-                                        <button onClick={() => setOpen(!open)}
-                                                    className="advance-btn flex items-center md:ml-auto"
-                                                  >
+                                        <button onClick={toggleClass} className="advance-btn flex items-center md:ml-auto" >
                                                     Advanced Search <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path></svg>
                                           </button>
                                         <div className="crm-groups col-span-4 mt-5 md:text-right">
@@ -580,6 +584,7 @@ const generatePlan = async () => {
                                         
 
                                       
+                                   </div>
                                 </div>
                               </div>
                               

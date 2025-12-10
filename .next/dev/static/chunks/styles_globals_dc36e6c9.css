@@ -1125,10 +1125,10 @@ p {
 .mains-forms014 {
   background: var(--bg-background);
   border-radius: 20px;
-  width: 49%;
   height: 320px;
   margin-top: 0;
   padding: 28px 28px 0;
+  transition: width .1s;
   position: relative;
   overflow: hidden auto;
 }
@@ -1727,6 +1727,14 @@ footer p {
   font-weight: 400;
 }
 
+.d-hidden {
+  display: none;
+}
+
+.show-my-div .d-hidden {
+  display: block !important;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1100px;
@@ -1745,6 +1753,15 @@ footer p {
 
   .left-contents015-res {
     width: 70%;
+  }
+
+  .mains-d-hidden .mains-forms014 {
+    width: 49%;
+    transition: width .1s;
+  }
+
+  .show-my-div .mains-forms014 {
+    width: 100%;
   }
 }
 

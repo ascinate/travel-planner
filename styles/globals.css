@@ -96,13 +96,13 @@ p{
 .mains-forms014{
   border-radius: 20px;
   padding: 28px 28px 0 28px;
-  width: 49%;
   margin-top: 0;
   background: var(--bg-background);
-    position: relative;
+  position: relative;
   height: 320px;
   overflow: hidden;
   overflow-y: auto;
+  transition: width 0.1s;
 }
 .forms-seraclist{
   margin-top: -460px;
@@ -633,6 +633,12 @@ footer p{
 .scrollbard-main{
 
 }
+.d-hidden{
+  display: none;
+}
+.show-my-div .d-hidden{
+  display: block !important;
+}
 @media(min-width:1200px){
   .container{
     max-width: 1100px;
@@ -648,6 +654,13 @@ footer p{
   }
   .left-contents015-res{
     width: 70% ;
+  }
+  .mains-d-hidden .mains-forms014{
+     width: 49%;
+    transition: width 0.1s;
+  }
+  .show-my-div .mains-forms014{
+     width: 100%;
   }
 
 }
