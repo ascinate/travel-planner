@@ -9,6 +9,7 @@ import ExploreSlider from '@/components/ExploreSlider';
 import Image from 'next/image';
 import Link from 'next/link';
 import TestmoliasSlider from '@/components/TestmoliasSlider';
+import remarkGfm from "remark-gfm";
 
 
 const inter = Inter({
@@ -34,6 +35,15 @@ const Archivos = Archivo({
   subsets: ['latin'],
 });
 
+
+const tripMoodOptions = [
+  "Romance",
+  "Spiritual",
+  "Nature",
+  "Party",
+  "Photography",
+  "Local Culture",
+];
 
 export default function TravelPlanner() {
   const [isActive, setIsActive] = useState(false);
@@ -72,6 +82,7 @@ export default function TravelPlanner() {
   const [budgetLevel, setBudgetLevel] = useState<number>(2); // 1=Budget, 2=Mid, 3=Luxury
   const [foodAllergies, setFoodAllergies] = useState("");
   const [mustVisit, setMustVisit] = useState("");
+   const [tripMood, setTripMood] = useState("");
 
   const travelPersonaOptions = [
     "Single Woman",
@@ -105,6 +116,37 @@ export default function TravelPlanner() {
       setSelectedInterest("");
     }
   };
+
+
+   // === Trip Mood Toggle ===
+  const toggleMood = (mood: string) => {
+    setTripMood((prev) =>
+      prev.includes(mood) ? prev.filter((m) => m !== mood) : [...prev, mood]
+    );
+  };
+
+
+    // === Free tier logic ===
+  const limitCheck = () => {
+    const FREE_LIMIT = 3;
+    const month = new Date().toISOString().slice(0, 7);
+
+    let usage = JSON.parse(localStorage.getItem("usage-limit") || "{}");
+
+    if (!usage.month || usage.month !== month) {
+      usage = { month, count: 1 };
+    } else if (usage.count >= FREE_LIMIT) {
+      alert("You've used all 3 free itineraries for this month.");
+      return false;
+    } else {
+      usage.count += 1;
+    }
+
+    localStorage.setItem("usage-limit", JSON.stringify(usage));
+    setRemaining(FREE_LIMIT - usage.count);
+    return true;
+  };
+
 
   // --- Monthly usage logic ---
   const checkUsageLimit = () => {
@@ -204,6 +246,11 @@ const generatePlan = async () => {
         departureTime,
         interests,
         additionalNotes,
+         travelStyle,
+          budgetLevel,
+          foodAllergies,
+          mustVisit,
+          tripMood,
       }),
     });
 
@@ -439,33 +486,56 @@ const generatePlan = async () => {
                                                     <label className="block font-medium mb-1"> <span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="rgba(194,157,89,1)"><path d="M19 22H5C3.34315 22 2 20.6569 2 19V3C2 2.44772 2.44772 2 3 2H17C17.5523 2 18 2.44772 18 3V15H22V19C22 20.6569 20.6569 22 19 22ZM18 17V19C18 19.5523 18.4477 20 19 20C19.5523 20 20 19.5523 20 19V17H18ZM16 20V4H4V19C4 19.5523 4.44772 20 5 20H16ZM6 7H14V9H6V7ZM6 11H14V13H6V11ZM6 15H11V17H6V15Z"></path></svg> </span> Interests</label>
                                                     <div className="flex gap-2 mb-2">
                                                       <select
-                                                        className="border p-2 rounded msp015"
-                                                        value={selectedInterest}
-                                                        onChange={(e) => setSelectedInterest(e.target.value)}
-                                                      >
-                                                        <option value="">Select interest</option>
-                                                        {interestOptions.map((opt) => (
-                                                          <option key={opt} value={opt}>
-                                                            {opt}
-                                                          </option>
-                                                        ))}
-                                                      </select>
-                                                      <input
-                                                        type="text"
-                                                        placeholder="Custom interest"
-                                                        value={customInterest}
-                                                        onChange={(e) => setCustomInterest(e.target.value)}
-                                                        className="border p-2 rounded flex-1"
-                                                      />
+                                                          className="border p-2 rounded"
+                                                          value={selectedInterest}
+                                                          onChange={(e) => setSelectedInterest(e.target.value)}
+                                                        >
+                                                          <option value="">Add interest...</option>
+                                                          {interestOptions.map((x) => (
+                                                            <option key={x}>{x}</option>
+                                                          ))}
+                                                        </select>
+                                                       <input
+                                                          className="border p-2 rounded w-full"
+                                                          placeholder="Custom interest"
+                                                          value={customInterest}
+                                                          onChange={(e) => setCustomInterest(e.target.value)}
+                                                        />
                                                       <button
-                                                        type="button"
-                                                        onClick={addInterest}
-                                                        className="bg-purple-600 text-white px-3 rounded"
-                                                      >
-                                                        Add
-                                                      </button>
+                                                          onClick={addInterest}
+                                                          className="bg-purple-600 px-3 text-white rounded"
+                                                        >
+                                                          +
+                                                        </button>
                                                     </div>
-                                                    {interests.length > 0 && <p>Selected: {interests.join(", ")}</p>}
+                                                     {interests.length > 0 && (
+                                                        <p className="text-xs text-gray-600">
+                                                          Interests: {interests.join(", ")}
+                                                        </p>
+                                                      )}
+                                                  </div>
+
+                                                  {/* Trip Mood */}
+                                                  <div className="crm-groups">
+                                                      <label className="text-sm text-gray-600">Trip Mood</label>
+                                                      <div className="flex flex-wrap gap-2">
+                                                        {tripMoodOptions.map((mood) => {
+                                                          const active = tripMood.includes(mood);
+                                                          return (
+                                                            <button
+                                                              key={mood}
+                                                              onClick={() => toggleMood(mood)}
+                                                              className={`px-3 py-1 rounded-full text-xs border ${
+                                                                active
+                                                                  ? "bg-blue-600 text-white border-blue-600"
+                                                                  : "bg-white text-gray-700 border-gray-300"
+                                                              }`}
+                                                            >
+                                                              {mood}
+                                                            </button>
+                                                          );
+                                                        })}
+                                                      </div>
                                                   </div>
 
                                                   <div className="crm-groups">

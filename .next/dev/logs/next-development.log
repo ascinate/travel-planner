@@ -432,3 +432,91 @@ Failed to find font override values for font `Big Shoulders`
 Skipping generating a fallback font.
 
 
+[00:48:28.327] Server  LOG      ✓ Compiled in 183ms
+[00:48:59.405] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[00:51:54.660] Server  LOG      ✓ Compiled in 193ms
+[00:51:55.638] Browser LOG     Refreshing page data due to server-side change
+[00:55:39.067] Server  LOG      ✓ Compiled in 126ms
+[00:56:02.946] Server  LOG      ✓ Compiled in 178ms
+[00:56:19.477] Server  LOG      ✓ Compiled in 123ms
+[00:56:28.332] Server  LOG      ✓ Compiled in 171ms
+[00:56:45.307] Server  LOG      ✓ Compiled in 128ms
+[00:57:09.524] Server  LOG      ✓ Compiled in 120ms
+[00:57:29.859] Server  LOG      ✓ Compiled in 167ms
+[00:57:37.293] Server  LOG      ✓ Compiled in 114ms
+[00:58:12.251] Server  LOG      ✓ Compiled in 195ms
+[00:58:15.369] Server  LOG      ✓ Compiled in 200ms
+[00:58:18.737] Server  LOG      ✓ Compiled in 111ms
+[00:59:29.048] Server  LOG      ✓ Compiled in 139ms
+[01:00:28.937] Server  LOG      ✓ Compiled in 103ms
+[01:00:49.843] Server  LOG      ✓ Compiled in 145ms
+[01:00:50.631] Browser LOG     Refreshing page data due to server-side change
+[01:00:50.631] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <TravelPlanner> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:00:59.415] Server  LOG      ✓ Compiled in 138ms
+[01:00:59.620] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <TravelPlanner> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:01:53.953] Server  LOG      ✓ Compiled in 504ms
+[01:01:54.628] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <TravelPlanner> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:07:42.713] Server  LOG      ✓ Compiled in 172ms
+[01:07:43.618] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <TravelPlanner> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:11:30.829] Server  LOG      ✓ Compiled in 192ms
+[01:11:35.513] Server  LOG      ✓ Compiled in 122ms
+[01:11:36.627] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <TravelPlanner> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:11:37.180] Server  LOG      ✓ Compiled in 105ms
+[01:11:37.628] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <TravelPlanner> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[01:11:38.663] Server  LOG      ✓ Compiled in 160ms
+[01:12:54.899] Server  LOG      ✓ Compiled in 107ms
+[01:16:06.530] Server  LOG      ✓ Compiled in 173ms
+[01:33:41.370] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:33:42.590] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:33:44.830] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
+[01:34:14.224] Server  WARN     ⚠ ./
+Failed to find font override values for font `Big Shoulders`
+Skipping generating a fallback font.
+
+
